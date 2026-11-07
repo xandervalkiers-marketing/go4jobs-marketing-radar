@@ -22,18 +22,55 @@ QUERIES = [
     ('sector', 'Uitzendmarkt', 'Federgon', 'site:federgon.be/nl/nieuws uitzendarbeid arbeidsmarkt', 'werkgevers en kandidaten'),
     ('sector', 'Regelgeving', 'FOD Werkgelegenheid', 'site:werk.belgie.be studentenarbeid flexi jobs arbeidsrecht', 'kandidaten en werkgevers'),
     ('sector', 'Werk & economie', 'Statbel', 'site:statbel.fgov.be arbeidsmarkt werkgelegenheid België', 'werkgevers en kandidaten'),
-    ('concurrent', 'Concurrentiecontent', 'AGO', 'site:ago.jobs interim rekrutering vacatures flexi-jobs', 'kandidaten en werkgevers'),
-    ('concurrent', 'Concurrentiecontent', 'Vivaldis', 'site:vivaldisinterim.be/nl interim vacature sollicitatie uitzend', 'kandidaten en werkgevers'),
-    ('concurrent', 'Concurrentiecontent', 'Adecco', 'site:adecco.be/nl-be interim arbeidsmarkt sollicitatie', 'kandidaten en werkgevers'),
-    ('concurrent', 'Concurrentiecontent', 'Start People', 'site:startpeople.be/nl/over-start-people/nieuws interim flexi jobs sollicitatie', 'kandidaten en werkgevers'),
-    ('concurrent', 'Concurrentiecontent', 'Accent', 'site:accentjobs.be/nl/blog jobs cv rekrutering', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'AGO', 'site:ago.jobs (blog OR nieuws OR advies OR arbeidsmarkt OR flexi-jobs) -vacatures -vacature -jobs', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'Vivaldis', 'site:vivaldisinterim.be/nl (blog OR nieuws OR advies OR sollicitatie OR arbeidsmarkt) -vacatures -vacature -jobs', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'Adecco', 'site:adecco.be/nl-be (blog OR nieuws OR arbeidsmarkt OR sollicitatietips) -vacatures -vacature', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'Start People', 'site:startpeople.be/nl/over-start-people/nieuws interim flexi sollicitatie', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'Accent', 'site:accentjobs.be/nl/blog cv rekrutering sollicitatie', 'kandidaten en werkgevers'),
     ('concurrent', 'Concurrentiecontent', 'Tempo-Team', 'site:tempo-team.be/nl/blog werk interim flexi', 'kandidaten en werkgevers'),
-    ('concurrent', 'Concurrentiecontent', 'Randstad', 'site:randstad.be werknemers werkgevers blog arbeidsmarkt', 'kandidaten en werkgevers'),
+    ('concurrent', 'Concurrentiecontent', 'Randstad', 'site:randstad.be (workforce360 OR blog OR nieuws) arbeidsmarkt', 'kandidaten en werkgevers'),
     ('concurrent', 'Concurrentiecontent', 'Unique', 'site:unique.be/nl/blog sollicitatie werk', 'kandidaten en werkgevers'),
 ]
 
 KEYWORDS = ('werk', 'job', 'interim', 'uitzend', 'rekrut', 'sollicit', 'arbeids', 'vacatur',
             'kandidat', 'student', 'flexi', 'loon', 'werkgever', 'talent', 'logist', 'productie', 'hr')
+
+# Concurrentie-overzicht: redactionele content, géén individuele jobadvertenties.
+# Een artikel over het AANTAL vacatures blijft wél relevant (vooral in sectornieuws).
+JOB_URL_RE = re.compile(
+    r"/(?:vacatures?|jobs?|joboffers?|job-openings?|jobdetail|job-details|"
+    r"vacature-detail|vacaturedetails|werken-bij|apply|solliciteer)(?:/|\?|$)", re.I)
+JOB_TITLE_RE = re.compile(
+    r"(?:^|[\s|:–-])(?:vacature|vacatures|jobaanbieding|jobopening|"
+    r"openstaande vacature)(?:[\s|:–-]|$)|"
+    r"\b(?:solliciteer (?:nu|vandaag)|we zoeken een|wij zoeken een|"
+    r"gezocht:|jobs in [a-z]+|vacature voor|job als|aan de slag als|"
+    r"werken als [a-z].*\b(?:bij|in)\b)\b", re.I)
+# Bij 'vacatures dalen met 14%' gaat het duidelijk om marktnieuws.
+MARKET_CONTEXT_RE = re.compile(
+    r"\b(?:aantal vacatures|vacaturemarkt|vacaturecijfers|vacaturegraad|"
+    r"vacatures (?:stijgen|dalen|nemen|groeien)|knelpuntvacatures|"
+    r"arbeidsmarkt|trend|onderzoek|rapport|barometer)\b", re.I)
+
+def is_individual_job(category, title, url=''):
+    if category != 'concurrent':
+        return False
+    if JOB_URL_RE.search(urllib.parse.urlparse(url).path):
+        return True
+    clean = re.sub(r'\s*[-–|]\s*[^-–|]{2,35}$', '', title).strip()
+    if MARKET_CONTEXT_RE.search(clean):
+        return False
+    if JOB_TITLE_RE.search(clean):
+        return True
+    # Vooral Vivaldis/AGO leveren vacaturetitels als 'Heftruckchauffeur regio Gent | Vivaldis'.
+    if re.match(r"^(?:operator|heftruckchauffeur|reachtruckchauffeur|magazijnier|"
+                r"productiemedewerker|orderpicker|chauffeur|technieker|elektricien|"
+                r"boekhouder|administratief medewerker|lasser|monteur|verkoper|"
+                r"poetshulp|student|flexi(?:jobber)?|bediende)\b", clean, re.I):
+        if not re.search(r"\b(?:tips|gids|waarom|hoe|wat|onderzoek|opleiding|"
+                         r"voorwaarden|toekomst|evolutie)\b", clean, re.I):
+            return True
+    return False
 
 def fetch_news(query):
     rss_url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({
@@ -71,7 +108,9 @@ def discover():
         except Exception as exc:
             print('Bron tijdelijk niet beschikbaar:', source, str(exc)[:170], file=sys.stderr)
             continue
-        for title, link, date in results[:5]:
+        for title, link, date in results:
+            if is_individual_job(category, title, link):
+                continue
             canonical=re.sub(r'\s*[-–|]\s*(?:VDAB|Federgon|AGO|Vivaldis|Adecco|Accent|Randstad|Start People|Tempo.Team|Unique)\s*$', '', title, flags=re.I).strip()
             key=(source, canonical.casefold())
             if key in seen: continue
