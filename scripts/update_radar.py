@@ -257,6 +257,8 @@ def enrich_with_ai(items, previous_live, limit=None):
         previous = cached.get(item['id'], {})
         if previous.get('ai_version') == ANALYSIS_VERSION and previous.get('ai_analysis'):
             item['ai_analysis'] = previous['ai_analysis']
+            if previous.get('article_url'):
+                item['article_url'] = previous['article_url']
             item['ai_version'] = ANALYSIS_VERSION
             item['ai_status'] = 'geanalyseerd'
             continue
