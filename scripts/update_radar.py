@@ -13,6 +13,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import requests
+from content_score import enrich_scores
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'radar-data.json'
@@ -244,11 +245,13 @@ def ai_analyse(item, article_text, api_key):
              ('marketingactie', 240), ('kanttekening', 180)]}
 
 
-def enrich_with_ai(items, previous_live):
+def enrich_with_ai(items, previous_live, limit=None):
     """Gebruik eerdere analyse opnieuw en beperk nieuwe API-aanroepen per run."""
     cached = {item.get('id'): item for item in previous_live if item.get('id')}
     key = os.getenv('OPENAI_API_KEY', '').strip()
     processed = 0
+    if limit is None:
+        limit = MAX_AI_PER_RUN
     api_unavailable = False
     for item in items:
         previous = cached.get(item['id'], {})
@@ -260,7 +263,7 @@ def enrich_with_ai(items, previous_live):
         if not key:
             item['ai_status'] = 'niet ingesteld'
             continue
-        if api_unavailable or processed >= MAX_AI_PER_RUN:
+        if api_unavailable or processed >= limit:
             item['ai_status'] = 'in wachtrij'
             continue
         original_link = item.get('url', '')
@@ -297,7 +300,7 @@ def enrich_with_ai(items, previous_live):
                       file=sys.stderr)
     print('AI-analyse:', processed, 'nieuwe API-aanroepen;', sum(
         1 for item in items if item.get('ai_status') == 'geanalyseerd'), 'totaal geanalyseerd')
-    return items
+    return items, processed
 
 
 def main():
@@ -321,8 +324,19 @@ def main():
         item['first_seen'] = first_seen[item['id']]
     # Bewaar bij een lege RSS-dag de vorige artikels, maar update de controledatum.
     live = discovered if discovered else [dict(i) for i in previous_live]
-    live = enrich_with_ai(live, previous_live)
+    # Eenmalige inhaalronde voor alle bestaande nieuwsartikels en blogsignalen.
+    first_backfill = not previous.get('content_score_backfill_ran', False)
+    total_budget = 50 if first_backfill else MAX_AI_PER_RUN
+    live, used = enrich_with_ai(live, previous_live, limit=total_budget)
     live = [i for i in live if i.get('ai_status') != 'vacatureadvertentie' and not is_individual_job(i.get('category'), i.get('title', ''), i.get('article_url') or i.get('url', ''))]
+    api_key = os.getenv('OPENAI_API_KEY', '').strip()
+    remaining = max(0, total_budget - used)
+    used_scoring = enrich_scores(live, previous_live, api_key, AI_MODEL, remaining)
+    remaining = max(0, remaining - used_scoring)
+    baseline_items = base.get('items', []) + base.get('alerts', [])
+    old_baseline = previous.get('baseline', {})
+    old_baseline_items = old_baseline.get('items', []) + old_baseline.get('alerts', [])
+    enrich_scores(baseline_items, old_baseline_items, api_key, AI_MODEL, remaining)
     # Maximaal 180 dagen historie, zodat de JSON niet onbeperkt groeit.
     cutoff = TODAY - dt.timedelta(days=180)
     first_seen = {k: v for k, v in first_seen.items()
@@ -338,6 +352,7 @@ def main():
         'baseline': base, 'live': live,
         'first_seen_ids': first_seen,
         'new_count': sum(1 for i in discovered if i['first_seen'] == now_iso),
+        'content_score_backfill_ran': True if api_key else previous.get('content_score_backfill_ran', False),
     }
     DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Broncontrole voltooid:', len(discovered), 'kandidaatartikels;', payload['new_count'], 'voor het eerst gezien.')
