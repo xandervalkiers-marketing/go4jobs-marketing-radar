@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:54:31Z",
+  "updated_at": "2026-11-09T14:01:05Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -28,11 +28,13 @@
         "ai_version": 2,
         "ai_status": "geanalyseerd",
         "content_score": {
-          "score": 76,
-          "motivatie": "Relevante VDAB-cijfers en nieuwe Arvastat-filters bieden een concrete lokale invalshoek voor recruiters; de categorieverschuiving zegt niet hoeveel kandidaten beschikbaar zijn.",
-          "basis": "geanalyseerde brontekst"
+          "score": 72,
+          "motivatie": "Relevante Vlaamse arbeidsmarktdata met een bruikbare lokale toepassing voor recruiters. De verschuiving tussen categorieën vraagt nuance: de cijfers zeggen niet hoeveel mensen besc",
+          "basis": "geanalyseerde brontekst",
+          "platform": "linkedin",
+          "platformreden": "De cijfers en Arvastat-tip bieden een concreet marktinzicht voor recruiters en werkgevers."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       },
       {
         "id": "news-federgon-sep",
@@ -88,11 +90,13 @@
         "ai_version": 2,
         "ai_status": "geanalyseerd",
         "content_score": {
-          "score": 85,
-          "motivatie": "Sterke link met productie, transport en uitzendarbeid; concrete studiecijfers geven een bruikbare werkgeversinvalshoek. Actualiteit is onbekend; verband niet als oorzaak voorstelle",
-          "basis": "geanalyseerde brontekst"
+          "score": 86,
+          "motivatie": "Sterke match met productie- en transportbedrijven, met concrete cijfers en een bruikbare werkgeversinvalshoek. De studie biedt onderbouwde informatie, maar actualiteit is niet duid",
+          "basis": "geanalyseerde brontekst",
+          "platform": "linkedin",
+          "platformreden": "De cijfers en insteek rond aanwerving via interim zijn relevant voor werkgevers in productie en transport."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       }
     ],
     "alerts": [
@@ -114,10 +118,12 @@
         "priority": "Hoog",
         "content_score": {
           "score": 84,
-          "motivatie": "Concrete update over toegelaten lichte studentenarbeid voor sommige 15-jarigen; relevant voor jongeren en werkgevers, met nuttige controle van loon- en urencijfers.",
-          "basis": "redactionele samenvatting"
+          "motivatie": "Rechtstreeks relevant voor jonge kandidaten en werkgevers. De uitbreiding voor bepaalde 15-jarigen vraagt om heldere uitleg over leeftijdsvoorwaarden en toegelaten lichte arbeid; c",
+          "basis": "redactionele samenvatting",
+          "platform": "blog",
+          "platformreden": "Een actuele, genuanceerde uitleg beantwoordt blijvende zoekvragen van jongeren en werkgevers over studentenarbeid."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       },
       {
         "id": "alert-flexi",
@@ -136,11 +142,13 @@
         "audience": "flexi-jobbers en werkgevers",
         "priority": "Middel",
         "content_score": {
-          "score": 78,
-          "motivatie": "Flexi-jobs zijn relevant voor kandidaten en werkgevers; de concrete 2025-bedragen vragen om actualisering of duidelijke historische duiding met link naar actuele info.",
-          "basis": "redactionele samenvatting"
+          "score": 62,
+          "motivatie": "Flexi-jobs zijn relevant voor kandidaten, maar de genoemde bedragen slaan op 2025 en kunnen misleiden als actueel advies. Een duidelijke actualisering of historische duiding is een",
+          "basis": "redactionele samenvatting",
+          "platform": "blog",
+          "platformreden": "Een bijgewerkt hoofdartikel kan actuele zoekvragen over flexi-jobbedragen beantwoorden en de historische informatie correct kaderen."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       },
       {
         "id": "alert-interim",
@@ -160,10 +168,12 @@
         "priority": "Laag",
         "content_score": {
           "score": 62,
-          "motivatie": "Relevant voor interimkandidaten; recente onderzoekscontext kan de blog versterken, maar concrete cijfers ontbreken en een beperkte update volstaat. Benoem dat interim geen garantie",
-          "basis": "redactionele samenvatting"
+          "motivatie": "Doorstroom van interim naar vast is relevant voor kandidaten en werkgevers. De onderzoekscontext kan de bestaande blog aanvullen, maar zonder concrete cijfers is de meerwaarde bepe",
+          "basis": "redactionele samenvatting",
+          "platform": "blog",
+          "platformreden": "Een genuanceerde aanvulling past bij de bestaande, blijvende uitleg over de stap van interim naar vast werk."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       }
     ]
   },
@@ -193,11 +203,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 63,
-        "motivatie": "Relevante Vlaamse arbeidsmarktverschuiving en lokale Arvastat-invalshoek, maar de cijfers zeggen niets over vacaturebeschikbaarheid en moeten op actualiteit worden gecontroleerd.",
-        "basis": "geanalyseerde brontekst"
+        "score": 52,
+        "motivatie": "De verschuiving in VDAB-cijfers is relevant voor de Vlaamse arbeidsmarkt, maar zegt niets over beschikbare kandidaten voor vacatures. De cijfers bieden een concrete invalshoek, al ",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een korte post met arbeidsmarktcijfers past bij werkgevers en HR; verwijs naar Arvastat voor lokale details."
       }
     },
     {
@@ -225,11 +237,13 @@
       "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "Sterke match met productie- en logistieke kandidaten; een post over snel starten en leren op de werkvloer is concreet, maar vereist bevestiging per Go4Jobs-vacature.",
-        "basis": "geanalyseerde brontekst"
+        "score": 69,
+        "motivatie": "Sterke fit voor kandidaten in productie en logistiek; de drempelverlagende boodschap is bruikbaar. De informatie is algemeen en niet Go4Jobs-specifiek, dus publiceer pas na control",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een visuele post met geverifieerde vacatures en startdata spreekt kandidaten aan die snel werk zoeken."
       }
     },
     {
@@ -257,11 +271,13 @@
       "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 17,
-        "motivatie": "Wereldwijde groei van IT- en AI-teams sluit weinig aan bij Vlaamse productie, logistiek en kmo’s; lokale toepasbaarheid ontbreekt.",
-        "basis": "geanalyseerde brontekst"
+        "score": 15,
+        "motivatie": "De cijfers gaan over IT- en AI-talent wereldwijd en bieden weinig bruikbare aanknopingspunten voor Vlaamse kandidaten, productie, logistiek of lokale kmo’s.",
+        "basis": "geanalyseerde brontekst",
+        "platform": "geen",
+        "platformreden": "Zonder bewijs dat de trends ook Vlaamse werkgevers buiten IT raken, levert eigen Go4Jobs-content weinig relevante waarde op."
       }
     },
     {
@@ -289,11 +305,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 67,
-        "motivatie": "Relevante Oostendse beurs met productie en directe werkgeverscontacten; Go4Jobs kan deelname verkennen, maar een volgende editie is niet bevestigd.",
-        "basis": "geanalyseerde brontekst"
+        "score": 58,
+        "motivatie": "Lokale beurs met productieaanbod en rechtstreeks contact tussen werkgevers en werkzoekenden biedt een concrete Go4Jobs-invalshoek. De volgende editie en deelnamekansen zijn nog onz",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Geschikt om werkgeverscontact en mogelijke deelname aan een volgende editie te bespreken; check eerst of die editie gepland is."
       }
     },
     {
@@ -321,11 +339,13 @@
       "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 76,
-        "motivatie": "Zes herkenbare signalen en een praktische carrousel passen bij kandidaten; het onderwerp is wel algemeen en tijdloos, dus koppel de oproep aan passende actuele vacatures.",
-        "basis": "geanalyseerde brontekst"
+        "score": 72,
+        "motivatie": "Herkenbaar en bruikbaar voor kandidaten: de zes signalen geven houvast om jobbehoeften te verwoorden. Het onderwerp is wel vrij algemeen en tijdloos; een carrousel kan het concreet",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een korte carrousel met herkenbare signalen past bij kandidaten op Facebook en Instagram; koppel de afsluitende vacatureverwijzing aan passend aanbod."
       }
     },
     {
@@ -353,11 +373,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/limburg/sollicitatietraining-voor-leefloongerechtigden-als-voorbereiding-op",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 67,
-        "motivatie": "Sterke lokale invalshoek rond inclusieve matching en concrete voorbereiding van 30 kandidaten; 532 vacatures zijn relevant, maar de datum en vervolgkansen zijn onzeker.",
-        "basis": "geanalyseerde brontekst"
+        "score": 64,
+        "motivatie": "Sterke regionale link met kandidaten en inclusieve matching, plus een concreet voorbeeld van voorbereiding op werkgeverscontact. De actualiteitswaarde is onzeker: controleer eerst ",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een post over inclusieve matching en voorbereiding van recruiters sluit aan bij lokale werkgevers en HR."
       }
     },
     {
@@ -385,11 +407,13 @@
       "article_url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "De terugval in arbeidersuren raakt productie en logistiek; een korte klantbevraging biedt een concrete invalshoek, maar nationale cijfers tonen geen regionale of klantnoden.",
-        "basis": "geanalyseerde brontekst"
+        "score": 76,
+        "motivatie": "De terugval in arbeidersuren is relevant voor productie en logistiek en biedt een concrete aanleiding om klanten naar hun personeelsnoden te vragen. De cijfers zijn nationaal en to",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De nationale markttrend is relevant voor werkgevers; deel ze met de kanttekening dat regionale en klantgegevens ontbreken."
       }
     },
     {
@@ -417,11 +441,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/antwerpen/succesvolle-tweede-editie-van-jobstart",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 76,
-        "motivatie": "Sterke match met Vlaamse kandidaten en industrie/logistiek; concrete beursresultaten bieden een invalshoek, maar timing en volgende editie ontbreken.",
-        "basis": "geanalyseerde brontekst"
+        "score": 61,
+        "motivatie": "JobStart sluit goed aan bij Go4Jobs’ focus op industrie en logistiek. De cijfers over 1.500 werkzoekenden, 37 werkgevers en 217 vervolgafspraken bieden een concrete invalshoek. De ",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De werkgeversdeelname en vervolgafspraken bieden een concrete invalshoek voor een LinkedIn-post over rechtstreeks contact tussen werkgevers en kandida"
       }
     },
     {
@@ -449,11 +475,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/biotechbad-laat-werkzoekenden-kennismaken-met-oost-vlaamse",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 82,
-        "motivatie": "Concrete Oost-Vlaamse instroomroute naar biotechproductie zonder diploma; 5 van 7 kandidaten aangenomen. Check wel of de edities in november 2026 doorgaan.",
-        "basis": "geanalyseerde brontekst"
+        "score": 78,
+        "motivatie": "Sterke match voor werkzoekenden in Oost-Vlaanderen: een concrete instroomroute naar biotechproductie zonder vereist diploma. De eerste aanwervingsresultaten maken het tastbaar. Act",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een visuele post kan kandidaten in Oost-Vlaanderen laagdrempelig wijzen op de instroomroute en VDAB-link."
       }
     },
     {
@@ -481,11 +509,13 @@
       "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/gewerkte-uren",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 62,
-        "motivatie": "De daling van 0,9% raakt de industriesector, maar zegt niet rechtstreeks iets over uitzendvraag; voorlopige cijfers en betaalde niet-gewerkte uren vragen nuance.",
-        "basis": "geanalyseerde brontekst"
+        "score": 54,
+        "motivatie": "De industriële urenindex sluit aan bij Go4Jobs’ productiepubliek en biedt een concreet cijfer. De voorlopige daling zegt echter niet rechtstreeks iets over de vraag naar uitzendkra",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De index biedt werkgevers een beperkte marktindicator; benoem de voorlopige status en interpretatiebeperkingen."
       }
     },
     {
@@ -513,11 +543,13 @@
       "article_url": "https://www.randstad.be/over-ons/nieuws/gecorrigeerde-loonkloof-stijgt/",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 71,
-        "motivatie": "Relevant voor kmo-klanten en loontransparantie: de kloof stijgt naar 2,21%, vooral bij management. Concrete invalshoek; surveyperiode en 2026-vermelding eerst controleren.",
-        "basis": "geanalyseerde brontekst"
+        "score": 76,
+        "motivatie": "Relevant voor Go4Jobs’ kmo-klanten en HR: de cijfers bieden een concrete aanleiding om loontransparantie en doorgroei naar management te bespreken. De invalshoek is bruikbaar, maar",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een gerichte vraag over loontransparantie en doorgroei sluit aan bij kmo-werkgevers en HR-professionals."
       }
     },
     {
@@ -545,11 +577,13 @@
       "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/werknemers",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 54,
-        "motivatie": "Relevant voor productie en industriële kmo’s; de voorlopige daling van 1,2% biedt een concrete klantenvraag, maar zegt weinig over vacatures en vraagt verificatie.",
-        "basis": "geanalyseerde brontekst"
+        "score": 58,
+        "motivatie": "De voorlopige daling van 1,2% is relevant voor industriële werkgevers en kan een concreet gesprek over personeelsnoden openen. De index toont echter niet rechtstreeks de vraag naar",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De sectortrend biedt een bruikbare aanleiding voor gesprek met industriële werkgevers, mits de beperkingen van de voorlopige index duidelijk zijn."
       }
     },
     {
@@ -577,11 +611,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobbeurs-berlare-hamme-zele-slaat-de-brug-tussen-lokaal-talent",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 74,
-        "motivatie": "Sterke lokale match: kandidaten kunnen op 20 oktober rechtstreeks met circa 30 werkgevers spreken. Deelbaar via regiokanalen, maar werkgevers en vacatures ontbreken.",
-        "basis": "geanalyseerde brontekst"
+        "score": 78,
+        "motivatie": "Sterke lokale kans voor kandidaten: de beurs biedt rechtstreeks contact met circa 30 werkgevers op 20 oktober 2026. De vacaturelijst ontbreekt, dus aansluiting op Go4Jobs blijft on",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een lokale, visuele Facebook- of Instagram-post kan kandidaten praktisch informeren en naar de beurs uitnodigen."
       }
     },
     {
@@ -609,11 +645,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobdate-bouw-en-detentie-bij-vdab-hamme-bouwen-aan-kansen",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "Concrete lokale matchingscase met 60 kandidaten en 10 bedrijven, bruikbaar voor kmo’s; jaar en regionale toepasbaarheid moeten eerst worden gecontroleerd.",
-        "basis": "geanalyseerde brontekst"
+        "score": 76,
+        "motivatie": "Sterke match met lokale kmo’s en werkgevers die moeilijk kandidaten vinden. De concrete jobdate biedt een bruikbare case rond directe matching en opleiding, maar de actualiteit is ",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een concrete lokale werkgeverscase kan HR en kmo’s aanspreken; bevestig eerst het jaar en de regionale mogelijkheden van Go4Jobs."
       }
     },
     {
@@ -641,11 +679,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/arbeidsmarktflits-oost-vlaanderen-0",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "Sterk relevant voor Oost-Vlaamse kandidaten en kmo’s; cijfers bieden een lokale invalshoek, maar ontbreken specifieke beroepen of sectoren en moeten worden gecontroleerd.",
-        "basis": "geanalyseerde brontekst"
+        "score": 76,
+        "motivatie": "Relevante Oost-Vlaamse cijfers bieden een concrete invalshoek voor werkgeverscontent over moeilijk invulbare vacatures. De regionale vacatureconcentratie is bruikbaar, maar specifi",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Regionale arbeidsmarktinzichten en knelpuntvacatures zijn vooral relevant voor werkgevers en HR in Oost-Vlaanderen."
       }
     },
     {
@@ -673,11 +713,13 @@
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/arbeidsmarkflits-west-vlaanderen",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "Relevante West-Vlaamse cijfers en blijvende knelpuntvacatures bieden een invalshoek voor werkgevers en kandidaten; concrete beroepen ontbreken, dus lokale vacaturedata is nodig.",
-        "basis": "geanalyseerde brontekst"
+        "score": 82,
+        "motivatie": "Sterk relevant voor West-Vlaamse werkgevers en kandidaten: minder vacatures, maar blijvende knelpuntberoepen en grote afstand tot werk bieden een concrete invalshoek rond matching.",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De regionale cijfers en aanwervingsuitdagingen bieden een relevante marktinzichtenpost voor West-Vlaamse werkgevers en HR."
       }
     },
     {
@@ -705,11 +747,13 @@
       "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/productie-de-industrie",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 48,
-        "motivatie": "Relevant voor industriële klanten, maar de voorlopige productiedaling zegt niets over vacatures; de bruikbare invalshoek is beperkt tot een voorzichtig gesprek over personeelsplann",
-        "basis": "geanalyseerde brontekst"
+        "score": 56,
+        "motivatie": "Relevant voor industriële werkgevers, maar de voorlopige productiedaling zegt niets over personeelsvraag. De voorzichtige invalshoek is bruikbaar, al is de informatie beperkt en mo",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De industriële marktindicator kan werkgeversgesprekken ondersteunen, mits de post duidelijk maakt dat de index geen vacaturetrend aantoont."
       }
     },
     {
@@ -737,11 +781,13 @@
       "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/totale-productie-de-marktgeorienteerde-sectoren",
       "ai_version": 2,
       "ai_status": "geanalyseerd",
-      "content_score_version": 1,
+      "content_score_version": 2,
       "content_score": {
-        "score": 72,
-        "motivatie": "De industriële productiedaling van 5,6% sluit aan bij Go4Jobs; bruikbaar als aanleiding om klanten naar personeelsbehoefte te vragen, maar zegt daar zelf niets over.",
-        "basis": "geanalyseerde brontekst"
+        "score": 68,
+        "motivatie": "De industriële productiedaling sluit goed aan bij Go4Jobs en biedt accountmanagers een concrete aanleiding om personeelsbehoeften bij klanten te peilen. Het cijfer zegt op zichzelf",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "LinkedIn past bij een beknopt marktinzicht voor werkgevers; benoem dat de cijfers voorlopig zijn en koppel ze aan een vraag over personeelsbehoeften."
       }
     }
   ],
@@ -766,5 +812,6 @@
     "live-sector-88b4c5aefb365": "2026-11-09T10:23:11Z"
   },
   "new_count": 0,
-  "content_score_backfill_ran": true
+  "content_score_backfill_ran": true,
+  "platform_backfill_ran": false
 }
