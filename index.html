@@ -95,7 +95,7 @@ function articleVisible(item){
  if(item.category==='blog')return !isHandledExpired(item);
  // Nieuwsretentie is gebaseerd op publicatiedatum, niet op ontdekking.
  const raw=String(item.sort||'');
- if(!/^\\d{8}$/.test(raw))return false;
+ if(!/^\d{8}$/.test(raw))return false;
  const published=Date.UTC(Number(raw.slice(0,4)),Number(raw.slice(4,6)),Number(raw.slice(6,8)));
  if(!Number.isFinite(published))return false;
  const score=Number(item.content_score?.score);
