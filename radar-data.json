@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:06:49Z",
+  "updated_at": "2026-11-09T11:12:45Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -196,7 +196,8 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
+      "ai_status": "analyse mislukt"
     },
     {
       "id": "live-concurrent-af5637bd3e1d6",
@@ -214,7 +215,8 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
+      "ai_status": "analyse mislukt"
     },
     {
       "id": "live-concurrent-d481cad09d00e",
@@ -232,7 +234,8 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
+      "ai_status": "analyse mislukt"
     },
     {
       "id": "live-sector-5b668dd6692e7",
@@ -250,7 +253,8 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
+      "ai_status": "analyse mislukt"
     },
     {
       "id": "live-concurrent-72cedc63fb526",
@@ -268,7 +272,8 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
+      "ai_status": "analyse mislukt"
     },
     {
       "id": "live-sector-eb43e36baa60c",
@@ -286,7 +291,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-f33171d084d8c",
@@ -304,7 +309,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-1afd8bb349ac9",
@@ -322,7 +327,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-5425ec5600947",
@@ -340,7 +345,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-a620172ab25a1",
@@ -358,7 +363,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-concurrent-a90ceae1bf3c1",
@@ -376,7 +381,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-38e30305a6920",
@@ -394,7 +399,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-345530688d0ae",
@@ -412,7 +417,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-bda1fbcf9e7f3",
@@ -430,7 +435,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-c9e1558503291",
@@ -448,7 +453,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-ee996d5fb2972",
@@ -466,7 +471,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-2d6628ba076b6",
@@ -484,7 +489,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-88b4c5aefb365",
@@ -502,7 +507,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "brontekst niet bereikbaar"
+      "ai_status": "in wachtrij"
     }
   ],
   "first_seen_ids": {
