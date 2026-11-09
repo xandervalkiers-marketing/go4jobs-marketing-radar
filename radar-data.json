@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T14:01:05Z",
+  "updated_at": "2026-11-09T14:21:28Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -60,11 +60,13 @@
         "ai_version": 2,
         "ai_status": "geanalyseerd",
         "content_score": {
-          "score": 68,
-          "motivatie": "De daling bij arbeiders raakt productie en logistiek; Federgon-cijfers bieden een bruikbare lokale werkgeversinvalshoek, maar zeggen niets over Go4Jobs-klanten.",
-          "basis": "geanalyseerde brontekst"
+          "score": 72,
+          "motivatie": "De daling bij arbeiders sluit goed aan bij productie en logistiek en biedt concrete sectorcijfers. De cijfers zeggen niets over Go4Jobs of lokale kmo’s, dus toets ze eerst aan eige",
+          "basis": "geanalyseerde brontekst",
+          "platform": "linkedin",
+          "platformreden": "De Federgon-cijfers bieden een concrete marktinsteek voor werkgevers; nodig lokale kmo’s uit om hun personeelsnoden te bespreken."
         },
-        "content_score_version": 1
+        "content_score_version": 2
       },
       {
         "id": "comp-startpeople",
@@ -813,5 +815,5 @@
   },
   "new_count": 0,
   "content_score_backfill_ran": true,
-  "platform_backfill_ran": false
+  "platform_backfill_ran": true
 }
