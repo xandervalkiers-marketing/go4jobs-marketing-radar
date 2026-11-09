@@ -166,7 +166,7 @@ def main():
         'first_seen_ids': first_seen,
         'new_count': sum(1 for i in discovered if i['first_seen'] == now_iso),
     }
-    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Broncontrole voltooid:', len(discovered), 'kandidaatartikels;', payload['new_count'], 'voor het eerst gezien.')
     if not discovered:
         print('Geen RSS-resultaten; vorige artikels behouden en controledatum vernieuwd.')
