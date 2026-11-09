@@ -305,6 +305,54 @@ def enrich_with_ai(items, previous_live, limit=None):
     return items, processed
 
 
+# Retentie voor nieuwsartikels. Blogupdates blijven in de aparte alerts-lijst.
+NEWS_DAYS = 30
+HIGH_SCORE_DAYS = 60
+HIGH_SCORE_THRESHOLD = 80
+MAX_ACTIVE_NEWS = 30
+
+
+def news_published_at(item):
+    """De publicatiedatum is leidend, niet de ontdekking door de radar."""
+    value = str(item.get('sort', ''))
+    if len(value) == 8 and value.isdigit():
+        try:
+            return dt.datetime.strptime(value, '%Y%m%d').replace(tzinfo=dt.timezone.utc)
+        except ValueError:
+            pass
+    return None
+
+
+def news_is_current(item):
+    published = news_published_at(item)
+    if published is None:
+        # Zonder betrouwbare publicatiedatum geen oneindige retentie.
+        return False
+    score = item.get('content_score') or {}
+    high_priority = isinstance(score, dict) and 80 <= (score.get('score') if isinstance(score.get('score'), (int, float)) else -1)
+    allowed_days = HIGH_SCORE_DAYS if high_priority else NEWS_DAYS
+    days_old = (TODAY.date() - published.date()).days
+    return -1 <= days_old <= allowed_days
+
+
+def news_rank(item):
+    score = item.get('content_score') or {}
+    points = score.get('score', -1) if isinstance(score, dict) else -1
+    return (points if isinstance(points, (int, float)) else -1, int(item.get('sort') or 0))
+
+
+def retain_news(live, base):
+    """Maximaal 30 nieuwsartikels, ongeacht of ze automatisch of handmatig gestart zijn."""
+    combined = [*live, *base.get('items', [])]
+    retained = [item for item in combined if news_is_current(item)]
+    retained.sort(key=news_rank, reverse=True)
+    ids = {item.get('id') for item in retained[:MAX_ACTIVE_NEWS]}
+    live = [item for item in live if item.get('id') in ids]
+    base['items'] = [item for item in base.get('items', []) if item.get('id') in ids]
+    print('Nieuwsretentie:', len(ids), 'actieve nieuwsartikels op max.', MAX_ACTIVE_NEWS)
+    return live
+
+
 def main():
     previous = json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {}
     base = json.loads(json.dumps(previous.get('baseline', {})))
@@ -324,8 +372,14 @@ def main():
     for item in discovered:
         first_seen.setdefault(item['id'], now_iso)
         item['first_seen'] = first_seen[item['id']]
-    # Bewaar bij een lege RSS-dag de vorige artikels, maar update de controledatum.
-    live = discovered if discovered else [dict(i) for i in previous_live]
+    # Houd de eerder geanalyseerde nieuwsartikels bij tot hun retentietermijn voorbij is.
+    # Zo verdwijnen hoog scorende items niet al na de Google News-zoekperiode van 30 dagen.
+    by_id = {i.get('id'): dict(i) for i in previous_live if i.get('id')}
+    for fresh in discovered:
+        old = by_id.get(fresh['id'], {})
+        by_id[fresh['id']] = {**old, **fresh}
+    live = list(by_id.values())
+    live = retain_news(live, base)
     # Eenmalige inhaalronde voor alle bestaande nieuwsartikels en blogsignalen.
     first_backfill = not previous.get('content_score_backfill_ran', False)
     total_budget = 50 if first_backfill else MAX_AI_PER_RUN
@@ -345,6 +399,9 @@ def main():
     baseline_items = base.get('items', []) + base.get('alerts', [])
     old_baseline_items = old_baseline.get('items', []) + old_baseline.get('alerts', [])
     enrich_scores(baseline_items, old_baseline_items, api_key, AI_MODEL, remaining)
+    # Een artikel dat net een score >=80 kreeg, mag 60 in plaats van 30 dagen blijven.
+    # Na AI-scoring opnieuw de globale limiet van 30 controleren.
+    live = retain_news(live, base)
     # Maximaal 180 dagen historie, zodat de JSON niet onbeperkt groeit.
     cutoff = TODAY - dt.timedelta(days=180)
     first_seen = {k: v for k, v in first_seen.items()
