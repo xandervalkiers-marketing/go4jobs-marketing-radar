@@ -360,7 +360,9 @@ def main():
         'baseline': base, 'live': live,
         'first_seen_ids': first_seen,
         'new_count': sum(1 for i in discovered if i['first_seen'] == now_iso),
-        'content_score_backfill_ran': True if api_key else previous.get('content_score_backfill_ran', False),
+        'content_score_backfill_ran': bool(api_key and all(
+            isinstance(i.get('content_score'), dict)
+            for i in live + base.get('items', []) + base.get('alerts', []))),
     }
     DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Broncontrole voltooid:', len(discovered), 'kandidaatartikels;', payload['new_count'], 'voor het eerst gezien.')
