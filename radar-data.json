@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T10:23:11Z",
+  "updated_at": "2026-11-09T11:06:49Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -195,7 +195,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-concurrent-af5637bd3e1d6",
@@ -212,7 +213,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-concurrent-d481cad09d00e",
@@ -229,7 +231,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-5b668dd6692e7",
@@ -246,7 +249,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-concurrent-72cedc63fb526",
@@ -263,7 +267,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-eb43e36baa60c",
@@ -280,7 +285,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-f33171d084d8c",
@@ -297,7 +303,8 @@
       "audience": "werkgevers en kandidaten",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-1afd8bb349ac9",
@@ -314,7 +321,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-5425ec5600947",
@@ -331,7 +339,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-a620172ab25a1",
@@ -348,7 +357,8 @@
       "audience": "werkgevers en kandidaten",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-concurrent-a90ceae1bf3c1",
@@ -365,7 +375,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-38e30305a6920",
@@ -382,7 +393,8 @@
       "audience": "werkgevers en kandidaten",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-345530688d0ae",
@@ -399,7 +411,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-bda1fbcf9e7f3",
@@ -416,7 +429,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-c9e1558503291",
@@ -433,7 +447,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-ee996d5fb2972",
@@ -450,7 +465,8 @@
       "audience": "kandidaten en werkgevers",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-2d6628ba076b6",
@@ -467,7 +483,8 @@
       "audience": "werkgevers en kandidaten",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     },
     {
       "id": "live-sector-88b4c5aefb365",
@@ -484,7 +501,8 @@
       "audience": "werkgevers en kandidaten",
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z"
+      "first_seen": "2026-11-09T10:23:11Z",
+      "ai_status": "brontekst niet bereikbaar"
     }
   ],
   "first_seen_ids": {
@@ -507,5 +525,5 @@
     "live-sector-2d6628ba076b6": "2026-11-09T10:23:11Z",
     "live-sector-88b4c5aefb365": "2026-11-09T10:23:11Z"
   },
-  "new_count": 18
+  "new_count": 0
 }
