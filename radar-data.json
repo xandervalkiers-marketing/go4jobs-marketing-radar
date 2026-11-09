@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:17:36Z",
+  "updated_at": "2026-11-09T11:21:29Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -215,8 +215,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
-      "ai_status": "analyse mislukt"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-concurrent-d481cad09d00e",
@@ -234,8 +233,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
-      "ai_status": "analyse mislukt"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-5b668dd6692e7",
@@ -253,8 +251,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
-      "ai_status": "analyse mislukt"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-concurrent-72cedc63fb526",
@@ -272,8 +269,7 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
-      "ai_status": "analyse mislukt"
+      "ai_status": "in wachtrij"
     },
     {
       "id": "live-sector-eb43e36baa60c",
