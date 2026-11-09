@@ -269,12 +269,12 @@ def enrich_with_ai(items, previous_live, limit=None):
         original_link = item.get('url', '')
         # Hergebruik eerder gevonden bronlinks en voorkom dagelijks opnieuw decoderen.
         resolved_link = previous.get('article_url') or resolve_google_news_url(original_link)
-        if resolved_link != original_link:
-            item['article_url'] = resolved_link
-            print('Originele bronlink gevonden:', item['source'], urllib.parse.urlparse(resolved_link).hostname)
-        else:
+        if urllib.parse.urlparse(resolved_link).hostname == 'news.google.com':
             item['ai_status'] = 'originele bronlink niet gevonden'
             continue
+        item['article_url'] = resolved_link
+        if resolved_link != original_link:
+            print('Originele bronlink gevonden:', item['source'], urllib.parse.urlparse(resolved_link).hostname)
         # Door Google News ingepakte vacaturelinks worden ook na decoderen gefilterd.
         if is_individual_job(item.get('category'), item.get('title', ''), resolved_link):
             item['ai_status'] = 'vacatureadvertentie'
@@ -305,7 +305,7 @@ def enrich_with_ai(items, previous_live, limit=None):
 
 def main():
     previous = json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {}
-    base = previous.get('baseline', {})
+    base = json.loads(json.dumps(previous.get('baseline', {})))
     if not base:
         raise RuntimeError('baseline ontbreekt; verwijder de gecontroleerde startsignalen niet.')
 
@@ -331,10 +331,16 @@ def main():
     live = [i for i in live if i.get('ai_status') != 'vacatureadvertentie' and not is_individual_job(i.get('category'), i.get('title', ''), i.get('article_url') or i.get('url', ''))]
     api_key = os.getenv('OPENAI_API_KEY', '').strip()
     remaining = max(0, total_budget - used)
+    # Startartikels krijgen eveneens een volledige bronanalyse indien de pagina beschikbaar is.
+    old_baseline = previous.get('baseline', {})
+    baseline_news = base.get('items', [])
+    baseline_news, used_baseline = enrich_with_ai(
+        baseline_news, old_baseline.get('items', []), limit=remaining)
+    base['items'] = baseline_news
+    remaining = max(0, remaining - used_baseline)
     used_scoring = enrich_scores(live, previous_live, api_key, AI_MODEL, remaining)
     remaining = max(0, remaining - used_scoring)
     baseline_items = base.get('items', []) + base.get('alerts', [])
-    old_baseline = previous.get('baseline', {})
     old_baseline_items = old_baseline.get('items', []) + old_baseline.get('alerts', [])
     enrich_scores(baseline_items, old_baseline_items, api_key, AI_MODEL, remaining)
     # Maximaal 180 dagen historie, zodat de JSON niet onbeperkt groeit.
