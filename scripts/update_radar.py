@@ -53,8 +53,7 @@ MARKET_CONTEXT_RE = re.compile(
     r"arbeidsmarkt|trend|onderzoek|rapport|barometer)\b", re.I)
 
 def is_individual_job(category, title, url=''):
-    if category != 'concurrent':
-        return False
+    # Vacatureadvertenties horen nergens thuis in de Marketing Radar.
     if JOB_URL_RE.search(urllib.parse.urlparse(url).path):
         return True
     clean = re.sub(r'\s*[-–|]\s*[^-–|]{2,35}$', '', title).strip()
@@ -130,23 +129,56 @@ def discover():
 
 
 def main():
-    previous=json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {}
-    new=discover()
-    # Preserve existing results when upstream is unavailable; don't publish blank content.
-    if not new:
-        print('Geen nieuwe RSS-resultaten. Bestaande data behouden.')
-        return 0 if previous else 1
-    # Historical, reviewed news stays in the baseline; fresh auto-discovery takes priority.
-    base=previous.get('baseline',{})
+    previous = json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {}
+    base = previous.get('baseline', {})
     if not base:
         raise RuntimeError('baseline ontbreekt; verwijder de gecontroleerde startsignalen niet.')
-    payload={'updated_at':TODAY.strftime('%Y-%m-%dT%H:%M:%SZ'),
-             'update_mode':'automatische bronontdekking (niet inhoudelijk geverifieerd)',
-             'sources_ok':len(set(i['source'] for i in new)),
-             'baseline':base, 'live':new}
-    DATA.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Radar bijgewerkt:', len(new), 'nieuwe kandidaatartikels')
+
+    discovered = discover()
+    now_iso = TODAY.strftime('%Y-%m-%dT%H:%M:%SZ')
+    previous_live = previous.get('live', [])
+    first_seen = previous.get('first_seen_ids', {})
+    if not isinstance(first_seen, dict):
+        first_seen = {}
+    # Bewaar de originele eerste ontdekking, ook als een artikel tijdelijk uit de feed valt.
+    for item in previous_live:
+        if item.get('id') and item.get('first_seen'):
+            first_seen.setdefault(item['id'], item['first_seen'])
+    for item in discovered:
+        first_seen.setdefault(item['id'], now_iso)
+        item['first_seen'] = first_seen[item['id']]
+    # Bewaar bij een lege RSS-dag de vorige artikels, maar update de controledatum.
+    live = discovered if discovered else previous_live
+    live = [i for i in live if not is_individual_job(i.get('category'), i.get('title', ''), i.get('url', ''))]
+    # Maximaal 180 dagen historie, zodat de JSON niet onbeperkt groeit.
+    cutoff = TODAY - dt.timedelta(days=180)
+    first_seen = {k: v for k, v in first_seen.items()
+                  if isinstance(v, str) and _valid_recent_date(v, cutoff)}
+    for item in live:
+        if item.get('id') in first_seen:
+            item['first_seen'] = first_seen[item['id']]
+
+    payload = {
+        'updated_at': now_iso,
+        'update_mode': 'automatische bronontdekking (niet inhoudelijk geverifieerd)',
+        'sources_ok': len(set(i['source'] for i in discovered)) if discovered else 0,
+        'baseline': base, 'live': live,
+        'first_seen_ids': first_seen,
+        'new_count': sum(1 for i in discovered if i['first_seen'] == now_iso),
+    }
+    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print('Broncontrole voltooid:', len(discovered), 'kandidaatartikels;', payload['new_count'], 'voor het eerst gezien.')
+    if not discovered:
+        print('Geen RSS-resultaten; vorige artikels behouden en controledatum vernieuwd.')
     return 0
 
-if __name__=='__main__':
+
+def _valid_recent_date(value, cutoff):
+    try:
+        return dt.datetime.fromisoformat(value.replace('Z', '+00:00')) >= cutoff
+    except (TypeError, ValueError):
+        return False
+
+
+if __name__ == '__main__':
     raise SystemExit(main())
