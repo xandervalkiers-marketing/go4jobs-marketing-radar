@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T12:07:04Z",
+  "updated_at": "2026-11-09T12:20:28Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -17,7 +17,22 @@
         "url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
         "topic": "Wat betekenen de nieuwste VDAB-cijfers voor wie werk zoekt in Vlaanderen?",
         "audience": "kandidaten en werkgevers",
-        "priority": "Hoog"
+        "priority": "Hoog",
+        "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
+        "ai_analysis": {
+          "samenvatting": "Eind oktober 2026 telde Vlaanderen 214.804 werkzoekenden zonder werk, 4% minder dan een jaar eerder. Het aantal met een uitkeringsaanvraag daalde 23%, terwijl voormalig niet-beroepsactieve werkzoekenden met 23% stegen.",
+          "betekenis": "De cijfers tonen een verschuiving tussen categorieën werkzoekenden, maar zeggen op zichzelf niet hoeveel mensen beschikbaar zijn voor vacatures. Arvastat toont voortaan ook de maand en het kwartaal van uitkeringseindes.",
+          "marketingactie": "Laat een recruiter gemeentecijfers en uitkeringseinddatums in Arvastat controleren vóór lokale jobinformatiecampagnes, en baseer de timing op de actuele cijfers.",
+          "kanttekening": "Controleer de actuele gemeentecijfers en definities. Uitkeringseinddatums zijn momentopnames en kunnen na tewerkstelling of moederschapsrust opschuiven."
+        },
+        "ai_version": 2,
+        "ai_status": "geanalyseerd",
+        "content_score": {
+          "score": 76,
+          "motivatie": "Relevante VDAB-cijfers en nieuwe Arvastat-filters bieden een concrete lokale invalshoek voor recruiters; de categorieverschuiving zegt niet hoeveel kandidaten beschikbaar zijn.",
+          "basis": "geanalyseerde brontekst"
+        },
+        "content_score_version": 1
       },
       {
         "id": "news-federgon-sep",
@@ -32,7 +47,22 @@
         "url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
         "topic": "Wat leert de dalende uitzendactiviteit ons over de arbeidsmarkt?",
         "audience": "bedrijven en kandidaten",
-        "priority": "Hoog"
+        "priority": "Hoog",
+        "article_url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
+        "ai_analysis": {
+          "samenvatting": "In september 2026 daalden de gepresteerde uitzenduren met 0,82% tegenover augustus. Op jaarbasis was de daling 3,91%; bij arbeiders bedroeg die 4,83%.",
+          "betekenis": "De sterkere daling bij arbeiders is relevant voor Go4Jobs’ focus op productie en logistiek. Het artikel toont een sectortrend, maar zegt niet hoe die evolueert bij Go4Jobs of lokale kmo’s.",
+          "marketingactie": "Maak een korte LinkedIn-post met de Federgon-cijfers, benadruk de jaar-op-jaardaling van 4,83% bij arbeiders en nodig lokale werkgevers uit om hun personeelsnoden te bespreken.",
+          "kanttekening": "Controleer de cijfers en publicatiedatum bij Federgon vóór publicatie, en toets of de trend aansluit bij Go4Jobs’ eigen klanten."
+        },
+        "ai_version": 2,
+        "ai_status": "geanalyseerd",
+        "content_score": {
+          "score": 68,
+          "motivatie": "De daling bij arbeiders raakt productie en logistiek; Federgon-cijfers bieden een bruikbare lokale werkgeversinvalshoek, maar zeggen niets over Go4Jobs-klanten.",
+          "basis": "geanalyseerde brontekst"
+        },
+        "content_score_version": 1
       },
       {
         "id": "news-vdab-vacancies",
@@ -47,7 +77,15 @@
         "url": "https://www.vdab.be/nieuws-voor-de-pers/algemeen/vacaturebericht-september-2026",
         "topic": "Waarom gerichte rekrutering belangrijker wordt als de vacaturemarkt afkoelt",
         "audience": "lokale kmo's en werkgevers",
-        "priority": "Middel"
+        "priority": "Middel",
+        "article_url": "https://www.vdab.be/nieuws-voor-de-pers/algemeen/vacaturebericht-september-2026",
+        "ai_status": "vacatureadvertentie",
+        "content_score": {
+          "score": 57,
+          "motivatie": "De daling is relevant voor lokale kmo’s en rekrutering, maar zegt niets rechtstreeks over uitzendvacatures; de cijfers bieden weinig concrete sector- of regiocontent.",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       },
       {
         "id": "news-student-law",
@@ -62,7 +100,22 @@
         "url": "https://werk.belgie.be/nl/news/bepaling-van-het-begrip-lichte-arbeid-het-kader-van-de-tewerkstelling-van-studenten-van-15",
         "topic": "Vanaf welke leeftijd mag je als jobstudent werken in België?",
         "audience": "studenten en ouders",
-        "priority": "Hoog"
+        "priority": "Hoog",
+        "article_url": "https://werk.belgie.be/nl/news/bepaling-van-het-begrip-lichte-arbeid-het-kader-van-de-tewerkstelling-van-studenten-van-15",
+        "ai_analysis": {
+          "samenvatting": "Sinds de publicatie van het koninklijk besluit kunnen 15-jarigen die nog voltijds leerplichtig zijn een studentenovereenkomst sluiten voor bepaalde lichte arbeid. Toegelaten taken omvatten onder meer logistieke activiteiten zonder mechanische arbeidsmiddelen; werken tijdens lesuren mag niet.",
+          "betekenis": "De lijst noemt logistieke taken zoals verpakken, etiketteren en bestellingen voorbereiden, maar sluit werk met mechanische arbeidsmiddelen uit. Dat biedt mogelijke opties voor studentenjobs, binnen de vermelde beperkingen.",
+          "marketingactie": "Maak voor klanten een korte checklist met de genoemde logistieke taken en beperkingen, en laat die vóór gebruik controleren door de juridische verantwoordelijke.",
+          "kanttekening": "Controleer de actuele regelgeving en de volledige voorwaarden bij de bevoegde instanties voordat Go4Jobs of klanten deze jongeren aanwerven."
+        },
+        "ai_version": 2,
+        "ai_status": "geanalyseerd",
+        "content_score": {
+          "score": 78,
+          "motivatie": "Relevante, concrete info voor werkgevers en jonge kandidaten: toegestane logistieke taken en grenzen. Checklist is bruikbaar, maar regelgeving moet actueel juridisch worden geverif",
+          "basis": "geanalyseerde brontekst"
+        },
+        "content_score_version": 1
       },
       {
         "id": "comp-startpeople",
@@ -77,7 +130,22 @@
         "url": "https://www.startpeople.be/nl/over-start-people/nieuws/post/interim-opent-de-deur-naar-vast-werk-4-op-de-10-uitzendkrachten-worden-aangeworven",
         "topic": "Van interim naar vast: wat zegt recent onderzoek?",
         "audience": "kandidaten",
-        "priority": "Hoog"
+        "priority": "Hoog",
+        "article_url": "https://www.startpeople.be/nl/over-start-people/nieuws/post/interim-opent-de-deur-naar-vast-werk-4-op-de-10-uitzendkrachten-worden-aangeworven",
+        "ai_analysis": {
+          "samenvatting": "Een HIVA–KU Leuven-studie meldt dat bijna 40% van ruim 144.000 uitzendkrachten binnen het jaar rechtstreeks in dienst kwam bij een eerder werkbedrijf. Na één jaar was 73,9% van hen daar nog aan het werk, tegenover 57,2% bij andere aanwervingen.",
+          "betekenis": "De studie noemt industrie en transport als sectoren waar uitzendarbeid geregeld een aanwervingskanaal is. Dat biedt Go4Jobs een onderbouwd aanknopingspunt om klanten te tonen hoe een uitzendopdracht beide partijen de match kan laten beoordelen.",
+          "marketingactie": "Publiceer een LinkedIn-post voor productie- en transportbedrijven met de cijfers 40% en 73,9%, en nodig werkgevers uit om met Go4Jobs te bespreken hoe ze kandidaten tijdens een uitzendopdracht kunnen leren kennen.",
+          "kanttekening": "De studie toont een verband, geen bewezen oorzaak. Controleer vóór publicatie de oorspronkelijke studie en de precieze cijfers; ze zijn niet specifiek voor Go4Jobs-klanten."
+        },
+        "ai_version": 2,
+        "ai_status": "geanalyseerd",
+        "content_score": {
+          "score": 85,
+          "motivatie": "Sterke link met productie, transport en uitzendarbeid; concrete studiecijfers geven een bruikbare werkgeversinvalshoek. Actualiteit is onbekend; verband niet als oorzaak voorstelle",
+          "basis": "geanalyseerde brontekst"
+        },
+        "content_score_version": 1
       },
       {
         "id": "comp-accent-cv",
@@ -92,7 +160,15 @@
         "url": "https://accentjobs.be/nl/blog",
         "topic": "Een sterk cv voor een job in productie of logistiek: waarop letten recruiters?",
         "audience": "kandidaten",
-        "priority": "Middel"
+        "priority": "Middel",
+        "article_url": "https://accentjobs.be/nl/blog",
+        "ai_status": "brontekst niet bereikbaar",
+        "content_score": {
+          "score": 70,
+          "motivatie": "Cv-hulp past breed bij kandidaten; Go4Jobs kan ze concreet maken voor productie, logistiek en techniek. De gids zelf lijkt weinig nieuwe informatie te bieden.",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       },
       {
         "id": "comp-accent-technics",
@@ -107,7 +183,15 @@
         "url": "https://accentjobs.be/nl/blog",
         "topic": "Technische jobs die ook in de winter onmisbaar blijven",
         "audience": "technische kandidaten",
-        "priority": "Middel"
+        "priority": "Middel",
+        "article_url": "https://accentjobs.be/nl/blog",
+        "ai_status": "brontekst niet bereikbaar",
+        "content_score": {
+          "score": 57,
+          "motivatie": "Technische knelpuntjobs passen bij kandidaten en lokale kmo’s; zonder concrete functies of werkcontext blijft de invalshoek weinig onderscheidend.",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       },
       {
         "id": "comp-start-flexi",
@@ -122,7 +206,22 @@
         "url": "https://www.startpeople.be/nl/over-start-people/nieuws/",
         "topic": "Flexi-jobs in 2026: wat moet je vandaag weten?",
         "audience": "kandidaten en werkgevers",
-        "priority": "Middel"
+        "priority": "Middel",
+        "article_url": "https://www.startpeople.be/nl/over-start-people/nieuws/",
+        "ai_analysis": {
+          "samenvatting": "De titel meldt dat Start People flexi-jobwijzigingen vanaf juli 2026 behandelt. De aangeleverde artikeltekst bevat geen uitleg over die wijzigingen.",
+          "betekenis": "Zonder details over de flexi-jobwijzigingen is niet vast te stellen wat dit betekent voor werkgevers of kandidaten van Go4Jobs.",
+          "marketingactie": "Geen directe actie: de artikeltekst bevat onvoldoende informatie over de aangekondigde flexi-jobwijzigingen.",
+          "kanttekening": "Controleer de volledige artikeltekst en welke flexi-jobregels vanaf juli 2026 wijzigen."
+        },
+        "ai_version": 2,
+        "ai_status": "geanalyseerd",
+        "content_score": {
+          "score": 24,
+          "motivatie": "Flexi-jobs zijn relevant voor kandidaten en werkgevers, maar de tekst noemt geen concrete wijzigingen of gevolgen; een bruikbare Go4Jobs-invalshoek ontbreekt.",
+          "basis": "geanalyseerde brontekst"
+        },
+        "content_score_version": 1
       }
     ],
     "alerts": [
@@ -141,7 +240,13 @@
         "sourceurl": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/bijzondere-arbeidsovereenkomsten/overeenkomst-voor-tewerkstelling-van",
         "topic": "Actualiseer de Go4Jobs-blog 'Hoeveel uren mag je werken als jobstudent?'",
         "audience": "studenten en ouders",
-        "priority": "Hoog"
+        "priority": "Hoog",
+        "content_score": {
+          "score": 84,
+          "motivatie": "Concrete update over toegelaten lichte studentenarbeid voor sommige 15-jarigen; relevant voor jongeren en werkgevers, met nuttige controle van loon- en urencijfers.",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       },
       {
         "id": "alert-flexi",
@@ -158,7 +263,13 @@
         "sourceurl": "https://go4jobs.be/blog/wat-je-echt-moet-weten-over-flexi-jobs-in-2025",
         "topic": "Controleer en actualiseer onze flexi-jobinformatie voor 2026",
         "audience": "flexi-jobbers en werkgevers",
-        "priority": "Middel"
+        "priority": "Middel",
+        "content_score": {
+          "score": 78,
+          "motivatie": "Flexi-jobs zijn relevant voor kandidaten en werkgevers; de concrete 2025-bedragen vragen om actualisering of duidelijke historische duiding met link naar actuele info.",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       },
       {
         "id": "alert-interim",
@@ -175,7 +286,13 @@
         "sourceurl": "https://federgon.be/nl/nieuws",
         "topic": "Optimaliseer de blog 'Van interim naar vast' met recent onderzoek",
         "audience": "kandidaten",
-        "priority": "Laag"
+        "priority": "Laag",
+        "content_score": {
+          "score": 62,
+          "motivatie": "Relevant voor interimkandidaten; recente onderzoekscontext kan de blog versterken, maar concrete cijfers ontbreken en een beperkte update volstaat. Benoem dat interim geen garantie",
+          "basis": "redactionele samenvatting"
+        },
+        "content_score_version": 1
       }
     ]
   },
@@ -196,15 +313,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
       "ai_analysis": {
         "samenvatting": "Eind oktober 2026 telde VDAB 23% minder werkzoekenden met een uitkeringsaanvraag dan een jaar eerder. Het aantal voormalig niet-beroepsactieve werkzoekenden steeg in die periode met 23%.",
         "betekenis": "De verschuiving tussen deze twee groepen is relevant voor hoe de Vlaamse werkzoekendenpopulatie wordt beschreven. De cijfers tonen niet hoeveel kandidaten beschikbaar zijn voor vacatures bij Go4Jobs.",
         "marketingactie": "Deel een korte post met beide VDAB-cijfers en verwijs naar Arvastat voor gedetailleerde cijfers per gemeente; suggereer niet dat er daardoor meer kandidaten beschikbaar zijn.",
         "kanttekening": "Controleer vóór publicatie of de cijfers over oktober 2026 nog actueel zijn. VDAB vermeldt dat einddatums van uitkeringen in Arvastat momentopnames zijn."
       },
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 63,
+        "motivatie": "Relevante Vlaamse arbeidsmarktverschuiving en lokale Arvastat-invalshoek, maar de cijfers zeggen niets over vacaturebeschikbaarheid en moeten op actualiteit worden gecontroleerd.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-concurrent-af5637bd3e1d6",
@@ -222,15 +345,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
       "ai_analysis": {
         "samenvatting": "Randstad stelt dat je in onder meer logistiek en productie soms binnen enkele dagen kan starten, ook zonder ervaring of diploma. Voor technische jobs vermelden ze dat bedrijven vaak opleiding op de werkvloer aanbieden.",
         "betekenis": "De nadruk op snelle opstart en leren op de werkvloer kan helpen om drempels voor kandidaten in productie en logistiek te verlagen. Het artikel zegt niet dat dit voor Go4Jobs-vacatures geldt.",
         "marketingactie": "Controleer de huidige productie- en logistieke vacatures en maak een post met enkel functies waarvoor de snelle start of opleiding op de werkvloer bevestigd is.",
         "kanttekening": "Verifieer per vacature de startdatum, vereiste ervaring en beschikbaarheid van opleiding; de claims in het artikel slaan op Randstad-vacatures."
       },
+      "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "Sterke match met productie- en logistieke kandidaten; een post over snel starten en leren op de werkvloer is concreet, maar vereist bevestiging per Go4Jobs-vacature.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-concurrent-d481cad09d00e",
@@ -248,15 +377,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
       "ai_analysis": {
         "samenvatting": "Volgens een internationale Randstad-studie breidt 86% van de werkgevers hun IT-team uit. De vraag naar AI-vaardigheden is in een jaar meer dan vervijfvoudigd; 63% zet flexibel talent in om tekorten op te vangen.",
         "betekenis": "De cijfers gaan over IT- en AI-talent wereldwijd. Ze tonen geen directe vraag of beleidswijziging bij Vlaamse productiebedrijven, logistieke werkgevers of kmo’s aan.",
         "marketingactie": "Geen directe Go4Jobs-actie: het artikel biedt onvoldoende concrete aanknopingspunten voor de focus op productie, logistiek en lokale kmo’s.",
         "kanttekening": "Controleer de oorspronkelijke studie en of de bevindingen ook gelden voor Vlaamse werkgevers buiten de IT-sector."
       },
+      "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 17,
+        "motivatie": "Wereldwijde groei van IT- en AI-teams sluit weinig aan bij Vlaamse productie, logistiek en kmo’s; lokale toepasbaarheid ontbreekt.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-5b668dd6692e7",
@@ -274,15 +409,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
       "ai_analysis": {
         "samenvatting": "De vijfde Job- en Opleidingsbeurs in Oostende bracht 964 bezoekers en 39 werkgevers samen. Bezoekers konden vacatures ontdekken, solliciteren en informatie over opleidingen en begeleiding krijgen.",
         "betekenis": "De beurs omvatte ook productie en bood werkgevers rechtstreeks contact met werkzoekenden. Volgens het artikel vonden er sollicitatiegesprekken en vervolgafspraken plaats.",
         "marketingactie": "Neem contact op met VDAB en het Economisch Huis Oostende om te vragen of Go4Jobs met vacatures in productie of logistiek kan deelnemen aan een volgende editie.",
         "kanttekening": "Controleer of er een volgende editie gepland is en of Go4Jobs er als uitzendbedrijf kan deelnemen."
       },
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 67,
+        "motivatie": "Relevante Oostendse beurs met productie en directe werkgeverscontacten; Go4Jobs kan deelname verkennen, maar een volgende editie is niet bevestigd.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-concurrent-72cedc63fb526",
@@ -300,15 +441,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
       "ai_analysis": {
         "samenvatting": "Het artikel noemt zes signalen om een jobwissel te overwegen, zoals aanhoudende verveling, gebrek aan waardering en stress die ook buiten het werk speelt. Het raadt aan eerst na te denken over gewenste loopbaanstappen.",
         "betekenis": "De zes signalen bieden Go4Jobs een concreet vertrekpunt om werknemers te helpen hun jobbehoeften te verwoorden. Het artikel stelt onder meer voor om bij langdurige verveling eerst meer verantwoordelijkheid, uitdagingen of opleiding te bespreken.",
         "marketingactie": "Maak een korte socialmediacarrousel met de zes signalen uit het artikel en sluit af met een uitnodiging om het Go4Jobs-jobaanbod te bekijken.",
         "kanttekening": "Controleer vóór publicatie welke vacatures in het Go4Jobs-aanbod passen bij de boodschap; de signalen zijn geen diagnose of bewijs dat iemand van job moet veranderen."
       },
+      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 76,
+        "motivatie": "Zes herkenbare signalen en een praktische carrousel passen bij kandidaten; het onderwerp is wel algemeen en tijdloos, dus koppel de oproep aan passende actuele vacatures.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-eb43e36baa60c",
@@ -326,7 +473,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/limburg/sollicitatietraining-voor-leefloongerechtigden-als-voorbereiding-op",
+      "ai_analysis": {
+        "samenvatting": "VDAB, Travi en vier lokale besturen organiseren op 27 oktober een jobbeurs in Zuid-Oost Limburg met 532 vacatures. Voor 30 inwoners met een leefloon zijn vooraf sollicitatietrainingen georganiseerd.",
+        "betekenis": "De training bereidt leefloongerechtigden concreet voor op contact met werkgevers; bedrijven kregen vooraf informatie over de aanwezige profielen. Dat biedt Go4Jobs een aanknopingspunt om inclusieve matching bij regionale jobbeurzen te ondersteunen.",
+        "marketingactie": "Neem contact op met VDAB of Travi en peil naar deelname aan een volgende jobbeurs, met vacatures en een korte briefing voor recruiters over de aanwezige profielen.",
+        "kanttekening": "Controleer bij VDAB of de beurs op 27 oktober nog moet plaatsvinden en of er een volgende editie of deelnamekans is."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 67,
+        "motivatie": "Sterke lokale invalshoek rond inclusieve matching en concrete voorbereiding van 30 kandidaten; 532 vacatures zijn relevant, maar de datum en vervolgkansen zijn onzeker.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-f33171d084d8c",
@@ -344,7 +505,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
+      "ai_analysis": {
+        "samenvatting": "In september 2026 daalden de gepresteerde uitzenduren met 0,82% tegenover augustus. Het arbeiderssegment kromp 2,09% op maandbasis en 4,83% tegenover september 2025.",
+        "betekenis": "De cijfers tonen een terugval in het arbeiderssegment, maar zeggen niet hoe de vraag evolueert bij Go4Jobs-klanten of in specifieke regio’s.",
+        "marketingactie": "Vraag productie- en logistieke klanten in een korte mail of de terugval in arbeidersuren ook bij hen speelt en welke personeelsnoden ze verwachten.",
+        "kanttekening": "Controleer regionale en sectorspecifieke cijfers en de actuele personeelsnoden bij klanten; het artikel geeft alleen nationale cijfers."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "De terugval in arbeidersuren raakt productie en logistiek; een korte klantbevraging biedt een concrete invalshoek, maar nationale cijfers tonen geen regionale of klantnoden.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-1afd8bb349ac9",
@@ -362,7 +537,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/antwerpen/succesvolle-tweede-editie-van-jobstart",
+      "ai_analysis": {
+        "samenvatting": "Stad Antwerpen, VDAB en Atlas organiseerden de tweede JobStart met meer dan 1.500 werkzoekenden en 37 werkgevers. De beurs omvatte onder meer technische jobs in industrie en logistiek en leverde minstens 217 vervolgafspraken op.",
+        "betekenis": "De beurs bracht werkzoekenden rechtstreeks in contact met werkgevers voor technische profielen in industrie en logistiek. Dat sluit aan bij Go4Jobs’ focus op die sectoren.",
+        "marketingactie": "Informeer bij VDAB of er een volgende JobStart komt en onderzoek deelname met concrete vacatures in industrie of logistiek.",
+        "kanttekening": "Het artikel vermeldt geen volgende editie, datum, deelnamevoorwaarden of kosten; controleer die eerst bij VDAB."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 76,
+        "motivatie": "Sterke match met Vlaamse kandidaten en industrie/logistiek; concrete beursresultaten bieden een invalshoek, maar timing en volgende editie ontbreken.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-5425ec5600947",
@@ -380,7 +569,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/biotechbad-laat-werkzoekenden-kennismaken-met-oost-vlaamse",
+      "ai_analysis": {
+        "samenvatting": "BioTechBad bereidt werkzoekenden voor op productiejobs bij Gentse biotechbedrijven; een diploma of voorkennis is niet vereist. Bij de eerste editie nam Legend Biotech 5 van de 7 kandidaten aan.",
+        "betekenis": "Het traject toont een concrete instroomroute naar biotechproductie voor kandidaten zonder technische achtergrond. Dat kan interessant zijn voor Go4Jobs-kandidaten die een nieuwe sector willen verkennen.",
+        "marketingactie": "Deel via Go4Jobs-kanalen de VDAB-link met kandidaten in Oost-Vlaanderen en vermeld dat BioTechBad geen specifiek diploma vereist.",
+        "kanttekening": "Controleer bij VDAB of de edities van november 2026 nog doorgaan en hoe kandidaten zich kunnen aanmelden."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 82,
+        "motivatie": "Concrete Oost-Vlaamse instroomroute naar biotechproductie zonder diploma; 5 van 7 kandidaten aangenomen. Check wel of de edities in november 2026 doorgaan.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-a620172ab25a1",
@@ -398,7 +601,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/gewerkte-uren",
+      "ai_analysis": {
+        "samenvatting": "In het tweede kwartaal van 2026 daalde de index van gewerkte uren in de industrie met 0,9% tegenover een jaar eerder. In de bouw steeg die met 0,8%; de cijfers zijn voorlopig.",
+        "betekenis": "De industriële index kan relevant zijn voor Go4Jobs’ productiepubliek, maar toont geen rechtstreeks beeld van de vraag naar uitzendkrachten. De index omvat ook betaalde uren die niet gewerkt zijn.",
+        "marketingactie": "Deel een korte LinkedIn-post over de daling van 0,9% in de industrie, met de vermelding dat het voorlopige cijfers zijn en dat de index betaalde uren omvat.",
+        "kanttekening": "Controleer de definitieve cijfers en de interpretatie van de index bij Statbel vóór publicatie."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 62,
+        "motivatie": "De daling van 0,9% raakt de industriesector, maar zegt niet rechtstreeks iets over uitzendvraag; voorlopige cijfers en betaalde niet-gewerkte uren vragen nuance.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-concurrent-a90ceae1bf3c1",
@@ -416,7 +633,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.randstad.be/over-ons/nieuws/gecorrigeerde-loonkloof-stijgt/",
+      "ai_analysis": {
+        "samenvatting": "Volgens de aangehaalde Hudson Reward Survey steeg de gecorrigeerde loonkloof bij bedienden van 1,79% naar 2,21%. Het aandeel bedrijven binnen de marge van ±5% daalde van 80% naar 75%; kmo’s met 100 tot 250 werknemers zijn volgens het artikel een aandachtspunt.",
+        "betekenis": "De cijfers wijzen volgens het artikel op grotere loonverschillen binnen dezelfde functie en leeftijd, vooral bij de stap naar management. Dat maakt loontransparantie een concreet gespreksthema voor Go4Jobs’ kmo-klanten.",
+        "marketingactie": "Deel met kmo-klanten een korte post over de stijging van de kloof bij management en stel de vraag hoe zij loon en doorgroei naar leidinggevende functies helder bespreken.",
+        "kanttekening": "Controleer de surveyperiode, de vermelding van 2026 en of de cijfers over kmo’s specifiek slaan op bedrijven met 100 tot 250 werknemers."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 71,
+        "motivatie": "Relevant voor kmo-klanten en loontransparantie: de kloof stijgt naar 2,21%, vooral bij management. Concrete invalshoek; surveyperiode en 2026-vermelding eerst controleren.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-38e30305a6920",
@@ -434,7 +665,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/werknemers",
+      "ai_analysis": {
+        "samenvatting": "In het tweede kwartaal van 2026 daalde de werknemersindex in de industrie zonder bouw met 1,2% tegenover hetzelfde kwartaal in 2025. De cijfers zijn voorlopig.",
+        "betekenis": "De index wijst op minder werknemers in die industrietak, maar zegt niet rechtstreeks hoeveel vacatures of uitzendkrachten nodig zijn. Dit kan aanleiding zijn om personeelsnoden bij industriële klanten te toetsen.",
+        "marketingactie": "Stuur industriële klanten een korte mail met de Statbel-daling van 1,2% en vraag hoe hun personeelsbehoefte evolueert.",
+        "kanttekening": "Controleer de definitieve cijfers en de precieze sectorafbakening; de werknemersindex is gebaseerd op RSZ-gegevens."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 54,
+        "motivatie": "Relevant voor productie en industriële kmo’s; de voorlopige daling van 1,2% biedt een concrete klantenvraag, maar zegt weinig over vacatures en vraagt verificatie.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-345530688d0ae",
@@ -452,7 +697,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobbeurs-berlare-hamme-zele-slaat-de-brug-tussen-lokaal-talent",
+      "ai_analysis": {
+        "samenvatting": "Op dinsdag 20 oktober 2026 organiseren Berlare, Hamme, Zele, DDS Streekregisseurs en VDAB een jobbeurs in Berlare. Zo’n 30 werkgevers stellen vacatures voor en bezoekers kunnen rechtstreeks met hen spreken.",
+        "betekenis": "De beurs biedt lokaal talent rechtstreeks contact met werkgevers uit de regio. De vermelde vraag naar onder meer een torenkraanbestuurder kan aansluiten bij kandidaten voor technische functies.",
+        "marketingactie": "Deel de beursinfo via Go4Jobs’ lokale kanalen en wijs kandidaten op de kans om rechtstreeks met zo’n 30 werkgevers over vacatures te spreken.",
+        "kanttekening": "Controleer welke werkgevers en vacatures aansluiten bij Go4Jobs’ focus; het artikel noemt geen werkgeversnamen of volledige vacaturelijst."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 74,
+        "motivatie": "Sterke lokale match: kandidaten kunnen op 20 oktober rechtstreeks met circa 30 werkgevers spreken. Deelbaar via regiokanalen, maar werkgevers en vacatures ontbreken.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-bda1fbcf9e7f3",
@@ -470,7 +729,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobdate-bouw-en-detentie-bij-vdab-hamme-bouwen-aan-kansen",
+      "ai_analysis": {
+        "samenvatting": "VDAB en de Kansenfabriek organiseerden in Hamme een jobdate voor bouw- en houtbedrijven, met kandidaten uit detentie en andere werkzoekenden. Zestig werkzoekenden spraken met werkgevers van zo’n 10 regionale bedrijven.",
+        "betekenis": "De jobdate bracht werkgevers en kandidaten rechtstreeks samen en kon deelnemers met een opleidingsnood meteen doorverwijzen naar het aanbod van VDAB Hamme. Dat biedt een concreet voorbeeld van laagdrempelige matching voor lokale werkgevers.",
+        "marketingactie": "Deel op LinkedIn een korte case over de jobdate en nodig lokale kmo-klanten uit om met Go4Jobs te bespreken of een gelijkaardige ontmoetingsdag past bij hun vacatures.",
+        "kanttekening": "Controleer het jaar van de jobdate en of Go4Jobs in de betrokken regio en sectoren partners kan inzetten voor zo’n ontmoetingsdag."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "Concrete lokale matchingscase met 60 kandidaten en 10 bedrijven, bruikbaar voor kmo’s; jaar en regionale toepasbaarheid moeten eerst worden gecontroleerd.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-c9e1558503291",
@@ -488,7 +761,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/arbeidsmarktflits-oost-vlaanderen-0",
+      "ai_analysis": {
+        "samenvatting": "Eind september 2026 waren er 54.042 werkzoekenden zonder werk in Oost-Vlaanderen, 1,4% meer dan een jaar eerder. Het aantal ontvangen vacatures daalde met 19,9%, al blijven structurele knelpuntberoepen moeilijk in te vullen.",
+        "betekenis": "De arbeidsmarkt verruimt, maar de match blijft lastig: bijna zes op tien werkzoekenden heeft volgens het artikel een lange afstand tot de arbeidsmarkt. Vacatures zijn sterk geconcentreerd rond Gent en de driehoek Deinze-Aalst-Beveren.",
+        "marketingactie": "Benader werkgevers in Gent en de driehoek Deinze-Aalst-Beveren met een gerichte uitnodiging om hun moeilijk invulbare vacatures te bespreken.",
+        "kanttekening": "Controleer vóór publicatie de cijfers en de vacatureconcentratie; het artikel vermeldt geen specifieke knelpuntberoepen of sectoren."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "Sterk relevant voor Oost-Vlaamse kandidaten en kmo’s; cijfers bieden een lokale invalshoek, maar ontbreken specifieke beroepen of sectoren en moeten worden gecontroleerd.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-ee996d5fb2972",
@@ -506,7 +793,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/arbeidsmarkflits-west-vlaanderen",
+      "ai_analysis": {
+        "samenvatting": "Eind september 2026 telde West-Vlaanderen 35.346 werkzoekenden zonder werk, 0,7% minder dan een jaar eerder; het aantal gemelde vacatures daalde met 12,2%. Toch blijft de zoektocht naar personeel moeilijk voor structurele knelpuntberoepen.",
+        "betekenis": "Hoewel de arbeidsmarkt ontspant, heeft 54,1% van de werkzoekenden zonder werk volgens VDAB een grote afstand tot de arbeidsmarkt. De blijvende knelpuntberoepen wijzen op een mogelijke rol voor gerichte bemiddeling.",
+        "marketingactie": "Benader West-Vlaamse werkgevers met structurele knelpuntvacatures voor een intake over hun aanwervingsnoden en mogelijke kandidatenbemiddeling.",
+        "kanttekening": "Het artikel benoemt geen specifieke knelpuntberoepen of werkgevers; controleer lokale vacaturegegevens vóór gerichte communicatie."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "Relevante West-Vlaamse cijfers en blijvende knelpuntvacatures bieden een invalshoek voor werkgevers en kandidaten; concrete beroepen ontbreken, dus lokale vacaturedata is nodig.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-2d6628ba076b6",
@@ -524,7 +825,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/productie-de-industrie",
+      "ai_analysis": {
+        "samenvatting": "De seizoensgezuiverde industriële productie-index daalde in augustus 2026 met 5,1% tegenover juli. De cijfers voor augustus zijn voorlopig.",
+        "betekenis": "De index volgt de evolutie van het productievolume, maar zegt op zichzelf niets over de personeelsvraag. De daling is dus geen bewijs van minder of meer vacatures.",
+        "marketingactie": "Publiceer een LinkedIn-post met de voorlopige daling van 5,1% en nodig industriële klanten uit om hun personeelsplannen te bespreken, zonder een verband met vacatures te suggereren.",
+        "kanttekening": "Controleer vóór publicatie of de voorlopige cijfers van augustus 2026 nog actueel zijn."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 48,
+        "motivatie": "Relevant voor industriële klanten, maar de voorlopige productiedaling zegt niets over vacatures; de bruikbare invalshoek is beperkt tot een voorzichtig gesprek over personeelsplann",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     },
     {
       "id": "live-sector-88b4c5aefb365",
@@ -542,7 +857,21 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/totale-productie-de-marktgeorienteerde-sectoren",
+      "ai_analysis": {
+        "samenvatting": "De totale productie steeg in juli 2026 met 0,3% tegenover juli 2025. De industrie daalde met 5,6% op jaarbasis en met 0,2% tegenover juni; de cijfers voor juni en juli zijn voorlopig.",
+        "betekenis": "De productiedaling in de industrie is relevant voor Go4Jobs’ focus op productie, maar zegt op zichzelf niets over de personeelsvraag. Gebruik het cijfer als aanleiding om de situatie bij industriële klanten te bevragen.",
+        "marketingactie": "Maak een korte briefing voor accountmanagers met de industriële productiedaling van 5,6% en laat hen klanten vragen hoe hun personeelsbehoefte evolueert.",
+        "kanttekening": "De cijfers voor juni en juli 2026 zijn voorlopig; controleer de definitieve cijfers vóór publicatie of klantcommunicatie."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 72,
+        "motivatie": "De industriële productiedaling van 5,6% sluit aan bij Go4Jobs; bruikbaar als aanleiding om klanten naar personeelsbehoefte te vragen, maar zegt daar zelf niets over.",
+        "basis": "geanalyseerde brontekst"
+      },
+      "content_score_version": 1
     }
   ],
   "first_seen_ids": {
@@ -565,5 +894,6 @@
     "live-sector-2d6628ba076b6": "2026-11-09T10:23:11Z",
     "live-sector-88b4c5aefb365": "2026-11-09T10:23:11Z"
   },
-  "new_count": 0
+  "new_count": 0,
+  "content_score_backfill_ran": true
 }
