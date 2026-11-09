@@ -137,6 +137,29 @@ MAX_AI_PER_RUN = max(0, min(int(os.getenv('MAX_AI_PER_RUN', '5')), 12))
 AI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-6-luna')
 
 
+def resolve_google_news_url(url):
+    """Resolveer een Google News RSS-link vóór inhoudsanalyse; geef origineel terug bij fout."""
+    host = (urllib.parse.urlparse(url).hostname or '').lower()
+    if host != 'news.google.com':
+        return url
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        result = gnewsdecoder(url, interval=0.3)
+        resolved = result.get('decoded_url', '') if isinstance(result, dict) else ''
+        parsed = urllib.parse.urlparse(resolved)
+        target_host = (parsed.hostname or '').lower()
+        if (parsed.scheme in ('http', 'https')
+                and target_host and target_host != 'news.google.com'
+                and not target_host.endswith('.google.com')
+                and target_host not in ('localhost', '127.0.0.1')
+                and not target_host.endswith('.local')):
+            return resolved
+        print('Google News-link niet gedecodeerd:', str(result)[:130])
+    except Exception as exc:
+        print('Google News-decoder niet beschikbaar:', str(exc)[:150])
+    return url
+
+
 def fetch_article_text(url):
     """Haal echte redactionele tekst op; Google News-overzicht telt niet als brontekst."""
     from urllib.parse import urlparse
@@ -222,13 +245,27 @@ def enrich_with_ai(items, previous_live):
         if processed >= MAX_AI_PER_RUN:
             item['ai_status'] = 'in wachtrij'
             continue
-        article_text = fetch_article_text(item.get('url', ''))
+        original_link = item.get('url', '')
+        # Hergebruik eerder gevonden bronlinks en voorkom dagelijks opnieuw decoderen.
+        resolved_link = previous.get('article_url') or resolve_google_news_url(original_link)
+        if resolved_link != original_link:
+            item['article_url'] = resolved_link
+            print('Originele bronlink gevonden:', item['source'], urllib.parse.urlparse(resolved_link).hostname)
+        else:
+            item['ai_status'] = 'originele bronlink niet gevonden'
+            continue
+        # Door Google News ingepakte vacaturelinks worden ook na decoderen gefilterd.
+        if is_individual_job(item.get('category'), item.get('title', ''), resolved_link):
+            item['ai_status'] = 'vacatureadvertentie'
+            continue
+        article_text = fetch_article_text(resolved_link)
         if not article_text:
             item['ai_status'] = 'brontekst niet bereikbaar'
             continue
         processed += 1
         try:
-            item['ai_analysis'] = ai_analyse(item, article_text, key)
+            ai_item = dict(item, url=resolved_link)
+            item['ai_analysis'] = ai_analyse(ai_item, article_text, key)
             item['ai_version'] = ANALYSIS_VERSION
             item['ai_status'] = 'geanalyseerd'
         except Exception as exc:
@@ -261,7 +298,7 @@ def main():
     # Bewaar bij een lege RSS-dag de vorige artikels, maar update de controledatum.
     live = discovered if discovered else [dict(i) for i in previous_live]
     live = enrich_with_ai(live, previous_live)
-    live = [i for i in live if not is_individual_job(i.get('category'), i.get('title', ''), i.get('url', ''))]
+    live = [i for i in live if i.get('ai_status') != 'vacatureadvertentie' and not is_individual_job(i.get('category'), i.get('title', ''), i.get('article_url') or i.get('url', ''))]
     # Maximaal 180 dagen historie, zodat de JSON niet onbeperkt groeit.
     cutoff = TODAY - dt.timedelta(days=180)
     first_seen = {k: v for k, v in first_seen.items()
