@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: python -m pip install 'requests>=2.32,<3' 'trafilatura>=2,<3'
+        run: python -m pip install 'requests>=2.32,<3' 'trafilatura>=2,<3' 'googlenewsdecoder==0.1.7' 'selectolax==0.4.13'
       - name: Update nieuwsfeed en optionele AI-analyse
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
