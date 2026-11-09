@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:00:38Z",
+  "updated_at": "2026-11-09T13:04:50Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -65,59 +65,6 @@
         "content_score_version": 1
       },
       {
-        "id": "news-vdab-vacancies",
-        "category": "sector",
-        "kind": "Vacatures",
-        "date": "8 okt 2026",
-        "sort": 20261008,
-        "source": "VDAB",
-        "title": "Rechtstreeks gemelde vacatures: 14% lager over twaalf maanden",
-        "summary": "In de twaalf maanden tot en met september 2026 ontving VDAB 237.953 rechtstreeks gemelde vacatures binnen NECzU: 14% minder dan in de voorgaande twaalf maanden.",
-        "impact": "Interessant voor B2B-content over gericht en lokaal rekruteren. Let op: dit is niet hetzelfde als het aantal uitzendvacatures.",
-        "url": "https://www.vdab.be/nieuws-voor-de-pers/algemeen/vacaturebericht-september-2026",
-        "topic": "Waarom gerichte rekrutering belangrijker wordt als de vacaturemarkt afkoelt",
-        "audience": "lokale kmo's en werkgevers",
-        "priority": "Middel",
-        "article_url": "https://www.vdab.be/nieuws-voor-de-pers/algemeen/vacaturebericht-september-2026",
-        "ai_status": "vacatureadvertentie",
-        "content_score": {
-          "score": 57,
-          "motivatie": "De daling is relevant voor lokale kmo’s en rekrutering, maar zegt niets rechtstreeks over uitzendvacatures; de cijfers bieden weinig concrete sector- of regiocontent.",
-          "basis": "redactionele samenvatting"
-        },
-        "content_score_version": 1
-      },
-      {
-        "id": "news-student-law",
-        "category": "sector",
-        "kind": "Regelgeving",
-        "date": "7 mei 2026",
-        "sort": 20260507,
-        "source": "FOD Werkgelegenheid",
-        "title": "Bepaalde lichte studentenjobs mogelijk vanaf 15 jaar",
-        "summary": "Sinds 4 mei 2026 kunnen ook 15-jarigen die nog voltijds leerplichtig zijn onder strikte voorwaarden een studentenovereenkomst sluiten voor omschreven lichte, niet-industriële arbeid.",
-        "impact": "Een concrete aanleiding om de Go4Jobs-blog over studentenuren te actualiseren en de uitzonderingen begrijpelijk uit te leggen.",
-        "url": "https://werk.belgie.be/nl/news/bepaling-van-het-begrip-lichte-arbeid-het-kader-van-de-tewerkstelling-van-studenten-van-15",
-        "topic": "Vanaf welke leeftijd mag je als jobstudent werken in België?",
-        "audience": "studenten en ouders",
-        "priority": "Hoog",
-        "article_url": "https://werk.belgie.be/nl/news/bepaling-van-het-begrip-lichte-arbeid-het-kader-van-de-tewerkstelling-van-studenten-van-15",
-        "ai_analysis": {
-          "samenvatting": "Sinds de publicatie van het koninklijk besluit kunnen 15-jarigen die nog voltijds leerplichtig zijn een studentenovereenkomst sluiten voor bepaalde lichte arbeid. Toegelaten taken omvatten onder meer logistieke activiteiten zonder mechanische arbeidsmiddelen; werken tijdens lesuren mag niet.",
-          "betekenis": "De lijst noemt logistieke taken zoals verpakken, etiketteren en bestellingen voorbereiden, maar sluit werk met mechanische arbeidsmiddelen uit. Dat biedt mogelijke opties voor studentenjobs, binnen de vermelde beperkingen.",
-          "marketingactie": "Maak voor klanten een korte checklist met de genoemde logistieke taken en beperkingen, en laat die vóór gebruik controleren door de juridische verantwoordelijke.",
-          "kanttekening": "Controleer de actuele regelgeving en de volledige voorwaarden bij de bevoegde instanties voordat Go4Jobs of klanten deze jongeren aanwerven."
-        },
-        "ai_version": 2,
-        "ai_status": "geanalyseerd",
-        "content_score": {
-          "score": 78,
-          "motivatie": "Relevante, concrete info voor werkgevers en jonge kandidaten: toegestane logistieke taken en grenzen. Checklist is bruikbaar, maar regelgeving moet actueel juridisch worden geverif",
-          "basis": "geanalyseerde brontekst"
-        },
-        "content_score_version": 1
-      },
-      {
         "id": "comp-startpeople",
         "category": "concurrent",
         "kind": "Concurrentiecontent",
@@ -143,82 +90,6 @@
         "content_score": {
           "score": 85,
           "motivatie": "Sterke link met productie, transport en uitzendarbeid; concrete studiecijfers geven een bruikbare werkgeversinvalshoek. Actualiteit is onbekend; verband niet als oorzaak voorstelle",
-          "basis": "geanalyseerde brontekst"
-        },
-        "content_score_version": 1
-      },
-      {
-        "id": "comp-accent-cv",
-        "category": "concurrent",
-        "kind": "Concurrentiecontent",
-        "date": "6 okt 2026",
-        "sort": 20261006,
-        "source": "Accent",
-        "title": "Accent zet in op praktische cv-hulp",
-        "summary": "Accent publiceerde een stapsgewijze gids over een goed cv. Het is een concreet, breed inzetbaar kandidaatonderwerp.",
-        "impact": "Contentkans voor Go4Jobs: maak de hulp concreet voor productie-, logistieke en technische kandidaten, zonder het concurrentieartikel na te schrijven.",
-        "url": "https://accentjobs.be/nl/blog",
-        "topic": "Een sterk cv voor een job in productie of logistiek: waarop letten recruiters?",
-        "audience": "kandidaten",
-        "priority": "Middel",
-        "article_url": "https://accentjobs.be/nl/blog",
-        "ai_status": "brontekst niet bereikbaar",
-        "content_score": {
-          "score": 70,
-          "motivatie": "Cv-hulp past breed bij kandidaten; Go4Jobs kan ze concreet maken voor productie, logistiek en techniek. De gids zelf lijkt weinig nieuwe informatie te bieden.",
-          "basis": "redactionele samenvatting"
-        },
-        "content_score_version": 1
-      },
-      {
-        "id": "comp-accent-technics",
-        "category": "concurrent",
-        "kind": "Concurrentiecontent",
-        "date": "5 okt 2026",
-        "sort": 20261005,
-        "source": "Accent",
-        "title": "Accent licht vijf technische jobs uit voor koudere maanden",
-        "summary": "Een seizoensgebonden artikel toont hoe techniek en dagelijkse werksituaties met elkaar verbonden kunnen worden.",
-        "impact": "Mogelijke invalshoek voor Go4Jobs: technische knelpuntfuncties zichtbaar maken met echte werkcontexten en lokale vacatures.",
-        "url": "https://accentjobs.be/nl/blog",
-        "topic": "Technische jobs die ook in de winter onmisbaar blijven",
-        "audience": "technische kandidaten",
-        "priority": "Middel",
-        "article_url": "https://accentjobs.be/nl/blog",
-        "ai_status": "brontekst niet bereikbaar",
-        "content_score": {
-          "score": 57,
-          "motivatie": "Technische knelpuntjobs passen bij kandidaten en lokale kmo’s; zonder concrete functies of werkcontext blijft de invalshoek weinig onderscheidend.",
-          "basis": "redactionele samenvatting"
-        },
-        "content_score_version": 1
-      },
-      {
-        "id": "comp-start-flexi",
-        "category": "concurrent",
-        "kind": "Concurrentiecontent",
-        "date": "1 jul 2026",
-        "sort": 20260701,
-        "source": "Start People",
-        "title": "Start People behandelt flexi-jobwijzigingen vanaf juli 2026",
-        "summary": "Start People heeft een apart artikel over de verruimde inzetbaarheid van flexi-jobs vanaf juli 2026.",
-        "impact": "Vergelijk de structuur en volledigheid met onze bestaande flexi-jobartikels; gebruik officiële bronnen voor elke wetsclaim.",
-        "url": "https://www.startpeople.be/nl/over-start-people/nieuws/",
-        "topic": "Flexi-jobs in 2026: wat moet je vandaag weten?",
-        "audience": "kandidaten en werkgevers",
-        "priority": "Middel",
-        "article_url": "https://www.startpeople.be/nl/over-start-people/nieuws/",
-        "ai_analysis": {
-          "samenvatting": "De titel meldt dat Start People flexi-jobwijzigingen vanaf juli 2026 behandelt. De aangeleverde artikeltekst bevat geen uitleg over die wijzigingen.",
-          "betekenis": "Zonder details over de flexi-jobwijzigingen is niet vast te stellen wat dit betekent voor werkgevers of kandidaten van Go4Jobs.",
-          "marketingactie": "Geen directe actie: de artikeltekst bevat onvoldoende informatie over de aangekondigde flexi-jobwijzigingen.",
-          "kanttekening": "Controleer de volledige artikeltekst en welke flexi-jobregels vanaf juli 2026 wijzigen."
-        },
-        "ai_version": 2,
-        "ai_status": "geanalyseerd",
-        "content_score": {
-          "score": 24,
-          "motivatie": "Flexi-jobs zijn relevant voor kandidaten en werkgevers, maar de tekst noemt geen concrete wijzigingen of gevolgen; een bruikbare Go4Jobs-invalshoek ontbreekt.",
           "basis": "geanalyseerde brontekst"
         },
         "content_score_version": 1
