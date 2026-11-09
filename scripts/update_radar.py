@@ -381,7 +381,9 @@ def main():
     live = list(by_id.values())
     live = retain_news(live, base)
     # Eenmalige inhaalronde voor alle bestaande nieuwsartikels en blogsignalen.
-    first_backfill = not previous.get('content_score_backfill_ran', False)
+    first_backfill = (not previous.get('content_score_backfill_ran', False)
+                      or not previous.get('platform_backfill_ran', False))
+    # Eenmalig maximum 50 oproepen om platformadvies ook voor bestaande kaarten te vullen.
     total_budget = 50 if first_backfill else MAX_AI_PER_RUN
     live, used = enrich_with_ai(live, previous_live, limit=total_budget)
     live = [i for i in live if i.get('ai_status') != 'vacatureadvertentie' and not is_individual_job(i.get('category'), i.get('title', ''), i.get('article_url') or i.get('url', ''))]
@@ -419,6 +421,10 @@ def main():
         'new_count': sum(1 for i in discovered if i['first_seen'] == now_iso),
         'content_score_backfill_ran': bool(api_key and all(
             isinstance(i.get('content_score'), dict)
+            for i in live + base.get('items', []) + base.get('alerts', []))),
+        'platform_backfill_ran': bool(api_key and all(
+            isinstance(i.get('content_score'), dict)
+            and i['content_score'].get('platform') in ('blog', 'linkedin', 'meta', 'geen')
             for i in live + base.get('items', []) + base.get('alerts', []))),
     }
     DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
