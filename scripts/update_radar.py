@@ -213,16 +213,28 @@ def ai_analyse(item, article_text, api_key):
         'input': 'BRON: ' + item['source'] + '\nTITEL: ' + item['title']
                  + '\nURL: ' + item['url'] + '\nARTIKELTEKST:\n' + article_text,
         'text': {'format': {'type': 'json_object'}},
-        'max_output_tokens': 550,
+        'max_output_tokens': 1000,
     }
     response = requests.post('https://api.openai.com/v1/responses',
                              headers={'Authorization': 'Bearer ' + api_key,
                                       'Content-Type': 'application/json'},
                              json=payload, timeout=45)
-    response.raise_for_status()
+    if not response.ok:
+        # Toon een veilige, concrete API-fout in de GitHub-log; nooit de geheime API-key.
+        try:
+            err = response.json().get('error', {})
+            code = str(err.get('code') or err.get('type') or 'unknown')
+            message = str(err.get('message') or 'geen detail')
+        except (ValueError, AttributeError):
+            code, message = 'unknown', 'geen foutdetails'
+        safe_message = re.sub(r'sk-[A-Za-z0-9_-]+', '[VERBORGEN]', message)[:240]
+        raise RuntimeError('OpenAI HTTP ' + str(response.status_code) +
+                           ' [' + code + ']: ' + safe_message)
     data = response.json()
     raw = ''.join(part.get('text', '') for output in data.get('output', [])
                   for part in output.get('content', []) if part.get('type') == 'output_text')
+    if not raw.strip():
+        raise ValueError('Geen bruikbare modeltekst (status: ' + str(data.get('status', 'onbekend')) + ')')
     result = json.loads(raw)
     required = ('samenvatting', 'betekenis', 'marketingactie', 'kanttekening')
     if any(not isinstance(result.get(k), str) or not result[k].strip() for k in required):
@@ -237,6 +249,7 @@ def enrich_with_ai(items, previous_live):
     cached = {item.get('id'): item for item in previous_live if item.get('id')}
     key = os.getenv('OPENAI_API_KEY', '').strip()
     processed = 0
+    api_unavailable = False
     for item in items:
         previous = cached.get(item['id'], {})
         if previous.get('ai_version') == ANALYSIS_VERSION and previous.get('ai_analysis'):
@@ -247,7 +260,7 @@ def enrich_with_ai(items, previous_live):
         if not key:
             item['ai_status'] = 'niet ingesteld'
             continue
-        if processed >= MAX_AI_PER_RUN:
+        if api_unavailable or processed >= MAX_AI_PER_RUN:
             item['ai_status'] = 'in wachtrij'
             continue
         original_link = item.get('url', '')
@@ -275,7 +288,13 @@ def enrich_with_ai(items, previous_live):
             item['ai_status'] = 'geanalyseerd'
         except Exception as exc:
             item['ai_status'] = 'analyse mislukt'
-            print('AI-analyse mislukt:', item['source'], str(exc)[:150], file=sys.stderr)
+            message = str(exc)
+            print('AI-API fout bij', item['source'] + ':', message[:320], file=sys.stderr)
+            # Stop herhaalde pogingen bij authenticatie, quotum of modeltoegang.
+            if re.search(r'OpenAI HTTP (?:400|401|402|403|429)\b', message):
+                api_unavailable = True
+                print('OpenAI-aanroepen voor deze run gepauzeerd na configuratie-/quotumfout.',
+                      file=sys.stderr)
     print('AI-analyse:', processed, 'nieuwe API-aanroepen;', sum(
         1 for item in items if item.get('ai_status') == 'geanalyseerd'), 'totaal geanalyseerd')
     return items
