@@ -107,9 +107,17 @@ if(ai && item.category!=='blog'){
  card.appendChild(make('p','summary',item.summary));
  let imp=make('div','impact');
  let title=make('strong','',item.category==='blog'?'Aanbevolen actie: ':'Betekenis voor Go4Jobs: ');
- imp.appendChild(title);imp.appendChild(document.createTextNode(item.impact));card.appendChild(imp);
+ imp.appendChild(title);
+ const generic=/^(?:Mogelijke Go4Jobs-contentkans|Relevante context voor de focus van Go4Jobs)/i.test(String(item.impact||''));
+ if(generic&&item.category!=='blog'){
+  title.textContent='Bronanalyse: ';
+  imp.appendChild(document.createTextNode('Nog niet beschikbaar. We tonen pas een specifiek marketingadvies zodra de oorspronkelijke artikeltekst betrouwbaar geanalyseerd is.'));
+ }else{
+  imp.appendChild(document.createTextNode(item.impact));
+ }
+ card.appendChild(imp);
  if(item.category!=='blog' && item.ai_status && item.ai_status!=='niet ingesteld'){
-  card.appendChild(make('div','ai-note','AI-bronanalyse: '+item.ai_status+'. Artikelinhoud nog niet geverifieerd.'));
+  card.appendChild(make('div','ai-note','AI-bronanalyse: '+item.ai_status+'. Dit artikel heeft nog geen gecontroleerde inhoudelijke analyse.'));
  }
 }let actions=make('div','actions');let button=make('button','action',item.category==='blog'?'Maak updatebriefing':'Maak blogbriefing');button.type='button';button.onclick=()=>openBriefing(item);actions.appendChild(button);let link=make('a','source-link','Bekijk bron ↗');link.href=item.article_url||item.url;link.target='_blank';link.rel='noopener noreferrer';actions.appendChild(link);if(item.sourceurl){const second=make('a','source-link','Aanvullende bron ↗');second.href=item.sourceurl;second.target='_blank';second.rel='noopener noreferrer';actions.appendChild(second)}card.appendChild(actions);return card}
 function render(){cards.replaceChildren();const q=search.value.toLocaleLowerCase('nl-BE').trim();const display=all.filter(item=>(tab==='all'||item.category===tab)&&([item.title,item.summary,item.impact,item.source,item.topic,item.kind].join(' ').toLocaleLowerCase('nl-BE').includes(q))).sort((a,b)=>b.sort-a.sort);display.forEach(x=>cards.appendChild(buildCard(x)));document.getElementById('countline').textContent=display.length+' signalen';document.getElementById('empty').style.display=display.length?'none':'block';let cfg={all:['Alle relevante signalen','Sectorupdates, concurrentiecontent en blogbewaking in één overzicht.'],sector:['Sectorontwikkelingen','Geverifieerde nieuwsfeiten en een redactionele interpretatie voor Go4Jobs.'],concurrent:['Wat brengen andere spelers?','Concurrentieartikels als inspiratie, niet om over te nemen.'],blog:['Blogbewaking','Signalen voor inhoudelijke actualisatie, controle of verrijking.']}[tab];document.getElementById('section-title').textContent=cfg[0];document.getElementById('section-subtitle').textContent=cfg[1]}
