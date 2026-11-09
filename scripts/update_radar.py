@@ -210,7 +210,7 @@ def ai_analyse(item, article_text, api_key):
     payload = {
         'model': AI_MODEL, 'store': False,
         'instructions': instructions,
-        'input': 'BRON: ' + item['source'] + '\nTITEL: ' + item['title']
+        'input': 'Antwoord uitsluitend met een geldig JSON-object volgens de gevraagde sleutels.\nBRON: ' + item['source'] + '\nTITEL: ' + item['title']
                  + '\nURL: ' + item['url'] + '\nARTIKELTEKST:\n' + article_text,
         'text': {'format': {'type': 'json_object'}},
         'max_output_tokens': 1000,
