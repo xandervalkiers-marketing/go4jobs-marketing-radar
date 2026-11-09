@@ -48,7 +48,7 @@ function setData(feed){
  items=[...live,...(baseline.items||[])].filter(x=>!isVacatureAdvertentie(x));
  alerts=(baseline.alerts||[]).slice();
  // Nieuwsheadline-matches zijn geen bewezen verouderde blogs en leveren dus geen urgent-signalen op.
- all=[...alerts,...items];
+ all=visibleItems([...alerts,...items]);
  ['sector','concurrent','blog'].forEach(cat=>{
    const n=document.getElementById('num-'+cat);
    if(n)n.textContent=all.filter(x=>x.category===cat).length;
@@ -82,10 +82,40 @@ function loadHandled(){
  try{const stored=JSON.parse(localStorage.getItem(HANDLED_STORAGE_KEY)||'{}');return stored&&typeof stored==='object'&&!Array.isArray(stored)?stored:{};}catch(e){return {};}
 }
 let handledArticles=loadHandled();
+const HANDLED_VISIBLE_DAYS=7;
+const DAY_MS=86400000;
+function isHandledExpired(item){
+ const stamp=handledArticles[item.id];if(!stamp)return false;
+ const at=Date.parse(stamp);
+ // Ongeldige oude opslag: verberg niet automatisch, zodat er niets onbedoeld verdwijnt.
+ return Number.isFinite(at)&&Date.now()-at>=HANDLED_VISIBLE_DAYS*DAY_MS;
+}
+function articleVisible(item){
+ // Blogupdates blijven openstaan zolang ze niet als behandeld zijn gemarkeerd.
+ if(item.category==='blog')return !isHandledExpired(item);
+ // Nieuwsretentie is gebaseerd op publicatiedatum, niet op ontdekking.
+ const raw=String(item.sort||'');
+ if(!/^\\d{8}$/.test(raw))return false;
+ const published=Date.UTC(Number(raw.slice(0,4)),Number(raw.slice(4,6)),Number(raw.slice(6,8)));
+ if(!Number.isFinite(published))return false;
+ const score=Number(item.content_score?.score);
+ const maxDays=Number.isFinite(score)&&score>=80?60:30;
+ const ageDays=Math.floor((Date.now()-published)/DAY_MS);
+ return ageDays>=-1&&ageDays<=maxDays&&!isHandledExpired(item);
+}
+function visibleItems(items){
+ // Een globale limiet voor alle nieuwsbronnen, zowel live als startartikels.
+ const news=items.filter(item=>item.category!=='blog'&&articleVisible(item));
+ const alerts=items.filter(item=>item.category==='blog'&&articleVisible(item));
+ news.sort((a,b)=>(Number(b.content_score?.score??-1)-Number(a.content_score?.score??-1))||(Number(b.sort||0)-Number(a.sort||0)));
+ return [...news.slice(0,30),...alerts];
+}
+
 function markHandled(item,done){
  if(done)handledArticles[item.id]=new Date().toISOString();else delete handledArticles[item.id];
  try{localStorage.setItem(HANDLED_STORAGE_KEY,JSON.stringify(handledArticles));}
  catch(e){console.warn('Behandelde status kon niet blijvend worden opgeslagen.',e);}
+ all=visibleItems([...alerts,...items]); // Herbereken meteen de 7-dagenregeling.
  render();
 }
 const hideHandled=document.getElementById('hide-handled');
