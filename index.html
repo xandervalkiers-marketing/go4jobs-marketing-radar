@@ -91,23 +91,15 @@ function isHandledExpired(item){
  return Number.isFinite(at)&&Date.now()-at>=HANDLED_VISIBLE_DAYS*DAY_MS;
 }
 function articleVisible(item){
- // Blogupdates blijven openstaan zolang ze niet als behandeld zijn gemarkeerd.
- if(item.category==='blog')return !isHandledExpired(item);
- // Nieuwsretentie is gebaseerd op publicatiedatum, niet op ontdekking.
- const raw=String(item.sort||'');
- if(!/^\d{8}$/.test(raw))return false;
- const published=Date.UTC(Number(raw.slice(0,4)),Number(raw.slice(4,6)),Number(raw.slice(6,8)));
- if(!Number.isFinite(published))return false;
- const score=Number(item.content_score?.score);
- const maxDays=Number.isFinite(score)&&score>=80?60:30;
- const ageDays=Math.floor((Date.now()-published)/DAY_MS);
- return ageDays>=-1&&ageDays<=maxDays&&!isHandledExpired(item);
+ // Geen vaste 30/60-dagenvervaldatum: nieuws blijft tot de voorraad wordt vernieuwd.
+ // Behandelde kaarten verdwijnen na zeven dagen in deze browser.
+ return !isHandledExpired(item);
 }
 function visibleItems(items){
  // Een globale limiet voor alle nieuwsbronnen, zowel live als startartikels.
  const news=items.filter(item=>item.category!=='blog'&&articleVisible(item));
  const alerts=items.filter(item=>item.category==='blog'&&articleVisible(item));
- news.sort((a,b)=>(Number(b.content_score?.score??-1)-Number(a.content_score?.score??-1))||(Number(b.sort||0)-Number(a.sort||0)));
+ news.sort((a,b)=>(Number(b.sort||0)-Number(a.sort||0))||(Number(b.content_score?.score??-1)-Number(a.content_score?.score??-1)));
  return [...news.slice(0,30),...alerts];
 }
 
