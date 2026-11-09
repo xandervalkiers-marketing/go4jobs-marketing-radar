@@ -173,39 +173,34 @@ if(ai && item.category!=='blog'){
     item.ai_status==='niet ingesteld'?'AI-analyse niet geactiveerd':'Nog geen AI-analyse';
   card.appendChild(make('div','ai-note',status+' · Bekijk voorlopig de oorspronkelijke bron.'));
  }
-}let actions=make('div','actions');let button=make('button',item.category==='blog'?'action updatebriefing':'action',item.category==='blog'?'Maak updatebriefing':'Maak blogbriefing');button.type='button';button.onclick=()=>openBriefing(item);actions.appendChild(button);let handledButton=make('button',isHandled?'handled-btn done':'handled-btn',isHandled?'✓ Behandeld':'Markeer als behandeld');handledButton.type='button';handledButton.setAttribute('aria-pressed',String(isHandled));handledButton.setAttribute('aria-label',isHandled?'Markeer artikel opnieuw als open':'Markeer artikel als behandeld');handledButton.onclick=()=>markHandled(item,!isHandled);actions.appendChild(handledButton);let link=make('a','source-link','Bekijk bron ↗');link.href=item.article_url||item.url;link.target='_blank';link.rel='noopener noreferrer';actions.appendChild(link);if(item.sourceurl){const second=make('a','source-link','Aanvullende bron ↗');second.href=item.sourceurl;second.target='_blank';second.rel='noopener noreferrer';actions.appendChild(second)}card.appendChild(actions);return card}
+}let actions=make('div','actions');let button=make('button',item.category==='blog'?'action updatebriefing':'action',item.category==='blog'?'Werk blog bij':'Schrijf blogartikel');button.type='button';button.onclick=()=>openBriefing(item);actions.appendChild(button);let handledButton=make('button',isHandled?'handled-btn done':'handled-btn',isHandled?'✓ Behandeld':'Markeer als behandeld');handledButton.type='button';handledButton.setAttribute('aria-pressed',String(isHandled));handledButton.setAttribute('aria-label',isHandled?'Markeer artikel opnieuw als open':'Markeer artikel als behandeld');handledButton.onclick=()=>markHandled(item,!isHandled);actions.appendChild(handledButton);let link=make('a','source-link','Bekijk bron ↗');link.href=item.article_url||item.url;link.target='_blank';link.rel='noopener noreferrer';actions.appendChild(link);if(item.sourceurl){const second=make('a','source-link','Aanvullende bron ↗');second.href=item.sourceurl;second.target='_blank';second.rel='noopener noreferrer';actions.appendChild(second)}card.appendChild(actions);return card}
 function render(){cards.replaceChildren();const q=search.value.toLocaleLowerCase('nl-BE').trim();const display=all.filter(item=>(tab==='all'||item.category===tab)&&(!hideHandled.checked||!handledArticles[item.id])&&([item.title,item.summary,item.impact,item.source,item.topic,item.kind].join(' ').toLocaleLowerCase('nl-BE').includes(q))).sort((a,b)=>sortOrder.value==='score'?(Number(b.content_score?.score??-1)-Number(a.content_score?.score??-1))||(Number(b.sort||0)-Number(a.sort||0)):(Number(b.sort||0)-Number(a.sort||0))||(Number(b.content_score?.score??-1)-Number(a.content_score?.score??-1)));display.forEach(x=>cards.appendChild(buildCard(x)));document.getElementById('countline').textContent=display.length+' signalen · '+all.filter(item=>handledArticles[item.id]).length+' behandeld';document.getElementById('empty').style.display=display.length?'none':'block';let cfg={all:['Alle relevante signalen','Sectorupdates, concurrentiecontent en blogbewaking in één overzicht.'],sector:['Sectorontwikkelingen','Geverifieerde nieuwsfeiten en een redactionele interpretatie voor Go4Jobs.'],concurrent:['Wat brengen andere spelers?','Concurrentieartikels als inspiratie, niet om over te nemen.'],blog:['Blogbewaking','Signalen voor inhoudelijke actualisatie, controle of verrijking.']}[tab];document.getElementById('section-title').textContent=cfg[0];document.getElementById('section-subtitle').textContent=cfg[1]}
 document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{tab=b.dataset.tab;document.querySelectorAll('[data-tab]').forEach(t=>t.setAttribute('aria-selected',String(t===b)));render()}));search.addEventListener('input',render);sortOrder.addEventListener('change',render);hideHandled.addEventListener('change',render);
-function buildPrompt(item){const isUpdate=item.category==='blog';const sourceText=item.url?'Bron om na te lezen: '+(item.article_url||item.url):'';const context=item.ai_analysis?'\\nAI-BRONANALYSE (nog redactioneel te controleren): '+item.ai_analysis.samenvatting+'\\nGo4Jobs-betekenis: '+item.ai_analysis.betekenis+'\\nActie: '+item.ai_analysis.marketingactie+'\\nAandachtspunt: '+item.ai_analysis.kanttekening:'';let extra=item.sourceurl?'Aanvullende bron: '+item.sourceurl+'\n':'';return `Schrijf ${isUpdate?'een zorgvuldig wijzigingsvoorstel voor een bestaande Go4Jobs-blog':'een nieuw Go4Jobs-blogconcept'} op basis van deze briefing.
+function buildPrompt(item){
+ const isUpdate=item.category==='blog';
+ const primaryUrl=item.article_url||item.url||'';
+ const summary=item.ai_analysis?.samenvatting||item.summary||'';
+ const angle=item.ai_analysis?.marketingactie||item.impact||'';
+ const caveat=item.ai_analysis?.kanttekening||'';
+ return `Schrijf meteen de VOLLEDIGE, publicatieklare CONCEPTTEKST voor ${isUpdate?'een geactualiseerde bestaande':'een nieuwe'} Go4Jobs-blog. Geen briefing, stappenplan, wijzigingstabel of vragen vooraf.
 
-ONDERWERP
-${item.topic}
+ONDERWERP: ${item.topic||item.title}
+DOELGROEP: ${item.audience||'kandidaten of werkgevers, passend bij dit onderwerp'}
+AANLEIDING: ${summary}
+INVALSHOEK: ${angle}
+${primaryUrl?'BRON / BESTAAND ARTIKEL: '+primaryUrl:''}
+${item.sourceurl?'AANVULLENDE BRON: '+item.sourceurl:''}
+${caveat?'TE CONTROLEREN: '+caveat:''}
 
-DOELGROEP
-${item.audience}
+${isUpdate?`Dit is een UPDATE van een bestaande Go4Jobs-blog. Lees de VOLLEDIGE bestaande blog via de opgegeven URL, controleer de relevante actuele primaire bronnen en herschrijf meteen het VOLLEDIGE bijgewerkte artikel. Behoud waar mogelijk de oorspronkelijke opbouw, relevante passages, echte citaten, bedoeling en bestaande URL. Corrigeer aantoonbaar verouderde passages zonder historische getuigenissen of quotes te verzinnen of stilzwijgend te veranderen. Start je antwoord met 'Wat is aangepast?' en maximaal 3 korte, concrete punten. Toon daarna het volledige nieuwe artikel onder 'Bijgewerkt blogartikel'. Geen losse wijzigingsvoorstellen en geen fragmenten.`:`Dit is een NIEUW artikel. Bepaal de beste invalshoek vanuit de concrete vraag van de doelgroep en verifieer actuele feiten via betrouwbare primaire bronnen. Start je antwoord met 'Waarom dit artikel?' en maximaal 2 korte zinnen. Toon daarna direct het volledige artikel onder 'Blogartikel'.`}
 
-AANLEIDING / GEVERIFIEERDE CONTEXT
-${item.ai_analysis?.samenvatting||item.summary}
+Gebruik de Go4Jobs-huisstijl en het Blog Playbook v2.0 uit de projectbronnen. Schrijf in natuurlijk Vlaams Nederlands met je/jij, warm en concreet, zonder commerciële clichés. Lever een echte doorlopende blogtekst: duidelijke H1, sterke inleiding, relevante H2's, volledige paragrafen en één passende CTA. Schrijf voor de lezer, niet voor een SEO-checklist; gebruik zoekwoorden natuurlijk.
 
-REDACTIONELE INVALSHOEK
-${item.ai_analysis?.marketingactie||item.impact}
+Bevestig actuele wetgeving, cijfers, datums en links aan de hand van betrouwbare bronnen. Maak geen feiten, citaten, resultaten of links op. Bij onvoldoende toegang tot een bestaand artikel: zeg kort dat een betrouwbare VOLLEDIGE update onmogelijk is, en vraag uitsluitend om de originele artikeltekst; verzin geen vervangende blog. Bij ontbrekende verificatie van andere belangrijke claims: formuleer voorzichtig en vermeld alleen de concrete onzekerheid kort onderaan.
 
-CONTENTKANS
-${item.content_score?item.content_score.score+'/100 – '+item.content_score.motivatie:'Nog niet beoordeeld'}
-
-${sourceText}
-${extra}
-RICHTLIJNEN
-- Volg het Go4Jobs Brandbook en Blog Playbook v2.0 uit onze projectbronnen.
-- Schrijf natuurlijk Vlaams Nederlands, met je/jij, vlot en zonder verkoopclichés.
-- Houd het leesbaar, menselijk en concreet; pas SEO/GEO subtiel toe.
-- Controleer feiten, datums, wetgeving en cijfers bij de originele bron vóór je claims formuleert.
-- Maak duidelijk onderscheid tussen feiten en interpretatie.
-- Verzin geen citaten, resultaten of praktijkvoorbeelden die als echt worden voorgesteld.
-- ${isUpdate?'Behoud waar mogelijk het bestaande verhaal en de URL; geef concreet aan welke passage moet worden gewijzigd en waarom.':'Werk een heldere H1, intro, tussenkoppen, gepaste CTA en interne-linksuggesties uit.'}
-- Lever daarnaast een SEO-titel, meta description, zoekintentie, 2-4 interne linksuggesties en bronnen.
-- Markeer alle zaken die Go4Jobs nog moet nakijken. Niets publiceren zonder expliciete goedkeuring.`}
-function openBriefing(item){document.getElementById('dialog-title').textContent=item.category==='blog'?'Go4Jobs updatebriefing':'Go4Jobs blogbriefing';promptText.value=buildPrompt(item);modal.classList.add('open');document.getElementById('copystatus').textContent='';document.body.style.overflow='hidden';setTimeout(()=>promptText.focus(),30)}
+Voeg NA de volledige blog enkel een compact publicatieblok toe met SEO-titel, meta description en gebruikte bronlinks (en alleen indien nodig: 'Nog te controleren'). Geen uitgebreide SEO-analyses, zoekintentie-overzichten of extra schrijfadviezen. Dit is een concept ter redactionele goedkeuring; publiceer niets automatisch.`;
+}
+function openBriefing(item){document.getElementById('dialog-title').textContent=item.category==='blog'?'Go4Jobs blog bijwerken':'Go4Jobs blogartikel schrijven';promptText.value=buildPrompt(item);modal.classList.add('open');document.getElementById('copystatus').textContent='';document.body.style.overflow='hidden';setTimeout(()=>promptText.focus(),30)}
 document.getElementById('close').onclick=closeModal;modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});function closeModal(){modal.classList.remove('open');document.body.style.overflow=''}
 document.getElementById('copy').addEventListener('click',async()=>{let ok=false;try{await navigator.clipboard.writeText(promptText.value);ok=true}catch(e){promptText.focus();promptText.select();try{ok=document.execCommand('copy')}catch(e){}}document.getElementById('copystatus').textContent=ok?'Gekopieerd. Plak in ChatGPT.':'Selecteer de tekst en kopieer met Ctrl+C.'});
 document.getElementById('ownform').addEventListener('submit',e=>{e.preventDefault();let x=document.getElementById('own-topic').value.trim();if(!x)return;openBriefing({category:'sector',topic:x,audience:'relevante Go4Jobs-doelgroep (bepaal bij uitwerking)',summary:'Onderwerp aangedragen door het Go4Jobs-marketingteam. Controleer eerst de feitelijke basis.',impact:'Kies een concrete, leesbare invalshoek en verbind het onderwerp met de echte vragen van kandidaten of werkgevers.',url:''})});
