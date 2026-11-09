@@ -31,6 +31,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-6-luna
+          # Beperk nieuwe betaalde bronanalyses per uitvoering.
           MAX_AI_PER_RUN: '5'
         run: python scripts/update_radar.py
       - name: Bewaar de nieuwe broncontrole en artikelhistoriek
