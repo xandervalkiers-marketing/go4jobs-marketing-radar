@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:44:00Z",
+  "updated_at": "2026-11-09T12:07:04Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -197,7 +197,14 @@
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
       "article_url": "https://www.vdab.be/nieuws-voor-de-pers/23-minder-werkzoekenden-met-een-uitkeringsaanvraag",
-      "ai_status": "analyse mislukt"
+      "ai_analysis": {
+        "samenvatting": "Eind oktober 2026 telde VDAB 23% minder werkzoekenden met een uitkeringsaanvraag dan een jaar eerder. Het aantal voormalig niet-beroepsactieve werkzoekenden steeg in die periode met 23%.",
+        "betekenis": "De verschuiving tussen deze twee groepen is relevant voor hoe de Vlaamse werkzoekendenpopulatie wordt beschreven. De cijfers tonen niet hoeveel kandidaten beschikbaar zijn voor vacatures bij Go4Jobs.",
+        "marketingactie": "Deel een korte post met beide VDAB-cijfers en verwijs naar Arvastat voor gedetailleerde cijfers per gemeente; suggereer niet dat er daardoor meer kandidaten beschikbaar zijn.",
+        "kanttekening": "Controleer vóór publicatie of de cijfers over oktober 2026 nog actueel zijn. VDAB vermeldt dat einddatums van uitkeringen in Arvastat momentopnames zijn."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     },
     {
       "id": "live-concurrent-af5637bd3e1d6",
@@ -215,7 +222,15 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.randstad.be/carriere/sollicitatietips/snel-werk-vinden-jobs-start-je-meteen/",
+      "ai_analysis": {
+        "samenvatting": "Randstad stelt dat je in onder meer logistiek en productie soms binnen enkele dagen kan starten, ook zonder ervaring of diploma. Voor technische jobs vermelden ze dat bedrijven vaak opleiding op de werkvloer aanbieden.",
+        "betekenis": "De nadruk op snelle opstart en leren op de werkvloer kan helpen om drempels voor kandidaten in productie en logistiek te verlagen. Het artikel zegt niet dat dit voor Go4Jobs-vacatures geldt.",
+        "marketingactie": "Controleer de huidige productie- en logistieke vacatures en maak een post met enkel functies waarvoor de snelle start of opleiding op de werkvloer bevestigd is.",
+        "kanttekening": "Verifieer per vacature de startdatum, vereiste ervaring en beschikbaarheid van opleiding; de claims in het artikel slaan op Randstad-vacatures."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     },
     {
       "id": "live-concurrent-d481cad09d00e",
@@ -233,7 +248,15 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.randstad.be/over-ons/nieuws/86-werkgevers-wereldwijd-breiden-hun-it-team/",
+      "ai_analysis": {
+        "samenvatting": "Volgens een internationale Randstad-studie breidt 86% van de werkgevers hun IT-team uit. De vraag naar AI-vaardigheden is in een jaar meer dan vervijfvoudigd; 63% zet flexibel talent in om tekorten op te vangen.",
+        "betekenis": "De cijfers gaan over IT- en AI-talent wereldwijd. Ze tonen geen directe vraag of beleidswijziging bij Vlaamse productiebedrijven, logistieke werkgevers of kmo’s aan.",
+        "marketingactie": "Geen directe Go4Jobs-actie: het artikel biedt onvoldoende concrete aanknopingspunten voor de focus op productie, logistiek en lokale kmo’s.",
+        "kanttekening": "Controleer de oorspronkelijke studie en of de bevindingen ook gelden voor Vlaamse werkgevers buiten de IT-sector."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     },
     {
       "id": "live-sector-5b668dd6692e7",
@@ -251,7 +274,15 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/succesvolle-job-en-opleidingsbeurs-brengt-honderden",
+      "ai_analysis": {
+        "samenvatting": "De vijfde Job- en Opleidingsbeurs in Oostende bracht 964 bezoekers en 39 werkgevers samen. Bezoekers konden vacatures ontdekken, solliciteren en informatie over opleidingen en begeleiding krijgen.",
+        "betekenis": "De beurs omvatte ook productie en bood werkgevers rechtstreeks contact met werkzoekenden. Volgens het artikel vonden er sollicitatiegesprekken en vervolgafspraken plaats.",
+        "marketingactie": "Neem contact op met VDAB en het Economisch Huis Oostende om te vragen of Go4Jobs met vacatures in productie of logistiek kan deelnemen aan een volgende editie.",
+        "kanttekening": "Controleer of er een volgende editie gepland is en of Go4Jobs er als uitzendbedrijf kan deelnemen."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     },
     {
       "id": "live-concurrent-72cedc63fb526",
@@ -269,7 +300,15 @@
       "priority": "Te beoordelen",
       "verification": "Automatisch gevonden · inhoud nog nakijken",
       "first_seen": "2026-11-09T10:23:11Z",
-      "ai_status": "in wachtrij"
+      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
+      "ai_analysis": {
+        "samenvatting": "Het artikel noemt zes signalen om een jobwissel te overwegen, zoals aanhoudende verveling, gebrek aan waardering en stress die ook buiten het werk speelt. Het raadt aan eerst na te denken over gewenste loopbaanstappen.",
+        "betekenis": "De zes signalen bieden Go4Jobs een concreet vertrekpunt om werknemers te helpen hun jobbehoeften te verwoorden. Het artikel stelt onder meer voor om bij langdurige verveling eerst meer verantwoordelijkheid, uitdagingen of opleiding te bespreken.",
+        "marketingactie": "Maak een korte socialmediacarrousel met de zes signalen uit het artikel en sluit af met een uitnodiging om het Go4Jobs-jobaanbod te bekijken.",
+        "kanttekening": "Controleer vóór publicatie welke vacatures in het Go4Jobs-aanbod passen bij de boodschap; de signalen zijn geen diagnose of bewijs dat iemand van job moet veranderen."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     },
     {
       "id": "live-sector-eb43e36baa60c",
