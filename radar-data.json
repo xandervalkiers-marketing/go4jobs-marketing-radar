@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-09T14:50:19Z",
+  "updated_at": "2026-11-10T07:25:45Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 4,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -791,6 +791,74 @@
         "platform": "linkedin",
         "platformreden": "LinkedIn past bij een beknopt marktinzicht voor werkgevers; benoem dat de cijfers voorlopig zijn en koppel ze aan een vraag over personeelsbehoeften."
       }
+    },
+    {
+      "id": "live-sector-d2595e6f2e2f3",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "05/11/2026",
+      "sort": 20261105,
+      "source": "Statbel",
+      "title": "Arbeidskosten - Statbel",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2tCQndvc1RRSDdfRUp5Q1duV3ZxMzhVUHJtdUUxbDh0cjNsUmJVSWJKelA1a0FVOHFMSldsdjNMcWpmb29YUk1xR0J0c2hobS1vam00bmRrVGl5V0cyRV90Mkx4NjIzWVpSa3ViSDlIUkpMc2N3SnMwN1lJSkZvSUFGYmMwaFprWGw5NldR?oc=5",
+      "topic": "Arbeidskosten - Statbel",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-10T07:25:45Z",
+      "article_url": "https://statbel.fgov.be/nl/themas/werk-opleiding/lonen-en-arbeidskosten/arbeidskosten",
+      "ai_analysis": {
+        "samenvatting": "Statbel meldt een gemiddelde arbeidskost van €48,61 per werkuur in 2024, tegenover €40,50 in 2020. De kosten verschillen volgens sector, bedrijfsgrootte en gewest; de cijfers slaan op ondernemingen met meer dan 10 werknemers.",
+        "betekenis": "Voor lokale kmo’s kunnen de kosten sterk afwijken van het gemiddelde: bedrijven met 10 tot 49 werknemers zitten op €41,80 per uur. Dat cijfer kan helpen om een gesprek over personeelskosten concreet te maken.",
+        "marketingactie": "Maak een korte LinkedIn-post voor lokale kmo’s met het verschil tussen €48,61 gemiddeld en €41,80 bij bedrijven met 10 tot 49 werknemers; vermeld duidelijk de doelgroep en periode.",
+        "kanttekening": "Controleer de publicatieperiode vóór gebruik: de tekst noemt resultaten voor 2024, maar vermeldt ook dat het laatste statistiekjaar 2020 is."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 61,
+        "motivatie": "Concrete cijfers over arbeidskosten zijn relevant voor lokale kmo’s en werkgevers. De vergelijking biedt een bruikbare invalshoek, maar de tegenstrijdige vermelding van het statist",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "LinkedIn past bij een concrete werkgeversinvalshoek voor lokale kmo’s; verifieer eerst welk statistiekjaar bij de cijfers hoort."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-concurrent-fec1f4133d8c8",
+      "category": "concurrent",
+      "kind": "Concurrentiecontent",
+      "date": "04/11/2026",
+      "sort": 20261104,
+      "source": "Start People",
+      "title": "Post | Diversiteit en inclusie op de werkvloer: waar begin je als werkgever? - startpeople.be",
+      "summary": "Nieuw artikel gevonden bij Start People. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2pkQTB0b2ZhLUo0bURvUWk5ZkVHX3hlZ3EwR0VpWW5OSHlXVGxuRnVPNEFhVDlZRkEtb3ZJYWlUcEgtVVlEeGN2UVhIRmJTVGNQZVg0S2Ffc21FNjN6MWF2STl1c3Z2RnFjN2s3NFZFV19YTU1tY0ZfYnpkUnBfekp0azhTSS1Uc0tZbzJieUtZLUtmT0FZeEVmMXlUTkxPVVc5aHdyN214dXR5dUJNdXFENG43ZkxTUG1UZHZWbGxYdG04aEE?oc=5",
+      "topic": "Post | Diversiteit en inclusie op de werkvloer: waar begin je als werkgever? - startpeople.be",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-10T07:25:45Z",
+      "article_url": "https://www.startpeople.be/nl/over-start-people/nieuws/post/diversiteit-en-inclusie-op-de-werkvloer-waar-begin-je-als-werkgever",
+      "ai_analysis": {
+        "samenvatting": "Het artikel geeft vijf stappen voor inclusiever aanwerven, van vacaturevereisten kritisch bekijken tot medewerkers goed onthalen. Het raadt aan essentiële vereisten te onderscheiden van vaardigheden die je via opleiding kunt aanleren.",
+        "betekenis": "Die aanpak kan helpen om kandidaten met een ander parcours niet op voorhand uit te sluiten. Het artikel zegt dat werkgevers zo breder naar talent kunnen kijken.",
+        "marketingactie": "Maak met één klant een vacaturechecklist die per vereiste aangeeft of die essentieel is vanaf dag één of via opleiding kan worden aangeleerd.",
+        "kanttekening": "Controleer met de klant welke vaardigheden en welk taalniveau nodig zijn om de concrete taken goed en veilig uit te voeren."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 78,
+        "motivatie": "Sterke relevantie voor kmo-werkgevers en bruikbare aanpak: een checklist helpt onnodige vacaturevereisten te herkennen. De invalshoek is concreet, al is inclusieve aanwerving op zi",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De vacaturechecklist biedt werkgevers en HR een concrete aanleiding om inclusiever aanwerven te bespreken."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -811,9 +879,11 @@
     "live-sector-c9e1558503291": "2026-11-09T10:23:11Z",
     "live-sector-ee996d5fb2972": "2026-11-09T10:23:11Z",
     "live-sector-2d6628ba076b6": "2026-11-09T10:23:11Z",
-    "live-sector-88b4c5aefb365": "2026-11-09T10:23:11Z"
+    "live-sector-88b4c5aefb365": "2026-11-09T10:23:11Z",
+    "live-sector-d2595e6f2e2f3": "2026-11-10T07:25:45Z",
+    "live-concurrent-fec1f4133d8c8": "2026-11-10T07:25:45Z"
   },
-  "new_count": 0,
+  "new_count": 2,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
