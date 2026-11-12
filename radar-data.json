@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:29:10Z",
+  "updated_at": "2026-11-12T07:33:46Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 5,
   "baseline": {
@@ -944,7 +944,151 @@
         "kanttekening": "Controleer wanneer de volgende beurs plaatsvindt, of externe werkgevers kunnen deelnemen en welke vacatures aansluiten bij het aanbod."
       },
       "ai_version": 2,
-      "ai_status": "geanalyseerd"
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 67,
+        "motivatie": "Sterke lokale aansluiting: bijna 400 buurtbewoners schreven zich in en wijkbeurzen keren meerdere keren per jaar terug. Een Go4Jobs-invalshoek rond lokale vacatures en deelname is ",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Geschikt om lokale werkgevers en HR te bereiken met een concrete kans op wijkgerichte instroom; deelname moet nog worden bevestigd."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-abb469e60311f",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "10/11/2026",
+      "sort": 20261110,
+      "source": "VDAB",
+      "title": "Vacaturebericht oktober 2026",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYXBwQ0cwWFJYMmREaEZzQlFtNW9qblQ4aXNvcXpwLXBtUE5IMmtha3lDNDlBeHRXd3FHYkM0OUoxLUJhdGZzN25MbTh0T2FkNDRoa1Ixb1EtQ2FvY1NXQy1DeUo2QXd3ZUMtYWRFZi1Kb25JTVQ1b25rOW9BV19VVkhodw?oc=5",
+      "topic": "Vacaturebericht oktober 2026",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-12T07:33:46Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/algemeen/vacaturebericht-oktober-2026",
+      "ai_analysis": {
+        "samenvatting": "VDAB kreeg in de twaalf maanden tot oktober 2026 rechtstreeks 234.053 vacatures gemeld binnen NECzU. Dat is 15% minder dan in de twaalf maanden ervoor en lager dan het dieptepunt van februari 2021.",
+        "betekenis": "De daling slaat op rechtstreeks gemelde vacatures binnen NECzU, niet op uitzendopdrachten. Ze zegt dus niet op zichzelf hoe de vraag naar uitzendkrachten evolueerde.",
+        "marketingactie": "Maak een werkgeverspost met de daling van 15% en vermeld duidelijk dat uitzendopdrachten buiten de telling vallen.",
+        "kanttekening": "Controleer de publicatiedatum en raadpleeg VDAB-statistieken per sector of gemeente voor je de trend toepast op lokale klanten."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 42,
+        "motivatie": "De daling van 15% is relevant voor werkgevers, maar geldt alleen voor rechtstreeks gemelde vacatures binnen NECzU en zegt niets op zichzelf over uitzendopdrachten. De titel verwijs",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "LinkedIn past bij een werkgeversgerichte marktduiding; publiceer pas na controle van de datum en de VDAB-cijfers."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-12efc15a81cbe",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "10/11/2026",
+      "sort": 20261110,
+      "source": "VDAB",
+      "title": "Ontmoetingdag brengt maritieme talenten en werkgevers samen op 18 november in Zeebrugge",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX0ZjN1F4WUEwUy03MzZIZVB5XzJ1NC1ERjBMdllXUnhsTm0wLVlDUEQ2M0F1MGk2akh6aFRBVlJNT0ZqdGNzX0JWTVota3pybXgtMl96aHlYNExicndTSV9RUlQwN1EwT0lzbVBPdHZXaUV6MmxnMlRnVEdfQWdTZEpxUUUtYWhXTFBlbXAtQU9uRlM2OEtLaVZfUTJ0R1M3SXgyb0ZJWGJ1WlZCTkNGWm9HSU4ybGlEZVE?oc=5",
+      "topic": "Ontmoetingdag brengt maritieme talenten en werkgevers samen op 18 november in Zeebrugge",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-12T07:33:46Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/ontmoetingdag-brengt-maritieme-talenten-en-werkgevers-samen-op",
+      "ai_analysis": {
+        "samenvatting": "VDAB organiseert op 18 november 2026 in Zeebrugge een gratis ontmoetingsdag voor technisch talent en werkgevers uit de maritieme en offshoresector. Het programma omvat panelgesprekken, speeddates en een kennismaking met nieuwe technologieën.",
+        "betekenis": "Deelnemende werkgevers zijn onder meer Jan De Nul, DEME en Exmar. Dit kan interessant zijn voor Go4Jobs-kandidaten met een technisch profiel die een job in de maritieme sector overwegen.",
+        "marketingactie": "Deel de VDAB-uitnodiging gericht met technisch geprofileerde kandidaten die interesse tonen in maritiem werk, en verwijs naar de inschrijving voor de gratis ontmoetingsdag.",
+        "kanttekening": "Controleer vóór verspreiding of inschrijven nog mogelijk is en of datum, locatie en programma ongewijzigd zijn."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 73,
+        "motivatie": "Een concrete, gratis ontmoetingsdag in Zeebrugge is relevant voor technisch geprofileerde kandidaten die maritiem werk overwegen. De bekende werkgevers en speeddates bieden een dui",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een visuele, gerichte uitnodiging kan technisch geprofileerde kandidaten snel naar de inschrijving voor de gratis ontmoetingsdag leiden."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-b6d66da7d278b",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "29/10/2026",
+      "sort": 20261029,
+      "source": "Statbel",
+      "title": "Waar werken de Belgen eigenlijk? Een nieuwe blik op 1,43 miljoen vestigingen - Statbel",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDV4YndCYUREX1ByN1A4VTItRVFhSjJJS2xES1lGRnJYS09UUnlWZlJsSHJBVnBwbjhfMUhWOTdkdUFKU3lYdzc3b29Pa1ZmZlUyS1k0U1NUd1NCWWRrb1VaX2FTNmlHTGtYMVM1clJUSGJERW14bTRlbnR4U2Zka1ZHNVVWMWlicXgxOWk3ZUZ5ajBFdkRWN1RqdlRpd3YwN1Q1bnhQeWJYSHcy?oc=5",
+      "topic": "Waar werken de Belgen eigenlijk? Een nieuwe blik op 1,43 miljoen vestigingen - Statbel",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-12T07:33:46Z",
+      "article_url": "https://statbel.fgov.be/nl/nieuws/waar-werken-de-belgen-eigenlijk-een-nieuwe-blik-op-143-miljoen-vestigingen",
+      "ai_analysis": {
+        "samenvatting": "Statbel brengt werkgelegenheid in kaart per vestiging, in plaats van per hoofdkantoor. In het vierde kwartaal van 2024 telde België 1,43 miljoen vestigingen; één op de vijf had werknemers in dienst.",
+        "betekenis": "De vestigingsmethode koppelt jobs aan de plek waar ze werkelijk worden uitgevoerd. Dat is relevant voor Go4Jobs: uitzendwerk hoort bij de administratieve en ondersteunende diensten, één van de vier sectoren die samen 64% van de regionale verschuiving verklaren.",
+        "marketingactie": "Maak een korte LinkedIn-post voor lokale kmo’s over waarom de werkelijke vestigingsplaats een beter beeld geeft van waar mensen werken; vermeld Statbels cijfer van 1,43 miljoen vestigingen in 2024.",
+        "kanttekening": "Statbel noemt de cijfers experimenteel; methodes kunnen wijzigen. Gemeentelijke resultaten zijn bovendien per categorie gepubliceerd, niet als exacte cijfers."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 79,
+        "motivatie": "Sterke invalshoek voor lokale kmo’s: werkgelegenheid koppelen aan de plek waar mensen echt werken, met een concreet Statbel-cijfer. De cijfers zijn experimenteel en gemeentelijke r",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een korte post voor lokale kmo’s kan het verschil tussen hoofdkantoor en werkelijke werkplek helder maken, met Statbels cijfer en de nodige nuance."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-concurrent-1c1e6c66d000e",
+      "category": "concurrent",
+      "kind": "Concurrentiecontent",
+      "date": "27/10/2026",
+      "sort": 20261027,
+      "source": "Randstad",
+      "title": "Tijd om een nieuwe job te zoeken: 6 signalen",
+      "summary": "Nieuw artikel gevonden bij Randstad. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxNlR4WkEwMk1FNHA0cFdNNEZkTjNtZGlpQ2dqMHZTakNGLUVodTA0M1lQOXQxOTRsdnctMUJOVkYzTmVNSjFaenRjX1ZQNEIzLWtlMzU5WTFwX2x0ZUFSY3JsNTMwRTA0M1BEaVlnQVVTdUxPNTFGemx3?oc=5",
+      "topic": "Tijd om een nieuwe job te zoeken: 6 signalen",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-12T07:33:46Z",
+      "article_url": "https://www.randstad.be/carriere/carrieretips/het-tijd-een-nieuwe-job/",
+      "ai_analysis": {
+        "samenvatting": "Het artikel noemt zes signalen om een jobwissel te overwegen, zoals aanhoudende verveling, gebrek aan waardering en weinig doorgroeikansen. Bij verveling van 6 tot 12 maanden raadt het eerst een gesprek met de manager aan.",
+        "betekenis": "De genoemde signalen bieden een concreet haakje om werknemers te laten nadenken over hun job. Het artikel zegt niet dat ze meteen moeten vertrekken: bij aanhoudende verveling stelt het eerst een gesprek met de manager voor.",
+        "marketingactie": "Maak een korte post met de zes signalen en nodig lezers uit Go4Jobs-vacatures te bekijken als ze een nieuwe job overwegen.",
+        "kanttekening": "Controleer vóór publicatie of er passende vacatures zijn; het artikel vermeldt geen specifieke sectoren of Go4Jobs-vacatures."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 67,
+        "motivatie": "Herkenbare en concrete invalshoek voor kandidaten, met de nuance dat een gesprek met de manager eerst kan helpen. De signalen zijn bruikbaar maar algemeen en niet tijdsgebonden; co",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Zes herkenbare signalen lenen zich voor een visuele carousel voor kandidaten, met een uitnodiging om passende Go4Jobs-vacatures te bekijken."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -970,9 +1114,13 @@
     "live-concurrent-fec1f4133d8c8": "2026-11-10T07:25:45Z",
     "live-sector-217cce6fde5c3": "2026-11-11T07:29:10Z",
     "live-sector-2dcc8e77fc9cf": "2026-11-11T07:29:10Z",
-    "live-sector-2597d29c67c0b": "2026-11-11T07:29:10Z"
+    "live-sector-2597d29c67c0b": "2026-11-11T07:29:10Z",
+    "live-sector-abb469e60311f": "2026-11-12T07:33:46Z",
+    "live-sector-12efc15a81cbe": "2026-11-12T07:33:46Z",
+    "live-sector-b6d66da7d278b": "2026-11-12T07:33:46Z",
+    "live-concurrent-1c1e6c66d000e": "2026-11-12T07:33:46Z"
   },
-  "new_count": 3,
+  "new_count": 4,
   "content_score_backfill_ran": false,
   "platform_backfill_ran": false
 }
