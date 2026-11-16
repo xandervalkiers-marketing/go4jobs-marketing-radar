@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T07:19:30Z",
+  "updated_at": "2026-11-16T08:58:59Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 0,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -659,74 +659,6 @@
       }
     },
     {
-      "id": "live-sector-ee996d5fb2972",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "13/10/2026",
-      "sort": 20261013,
-      "source": "VDAB",
-      "title": "Arbeidsmarkflits West-Vlaanderen",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPby0tMFlrOG80N0FmWU4tbmRiYi11dDVJV3VfOFk0enNTZm9GUEJ6S3owOFpzcG1pVlF3c2gybTJyZ0VGRWRwUlktaFZ0TXpLSWsyd00xLXg0TEItZDhyd2tLS0gxajJvalpNNFl0REh1T25kUFBHcktHQUtoUXBQeFZPR0pjc1l6ZEFWRVphWGpQdw?oc=5",
-      "topic": "Arbeidsmarkflits West-Vlaanderen",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "Eind september 2026 telde West-Vlaanderen 35.346 werkzoekenden zonder werk, 0,7% minder dan een jaar eerder; het aantal gemelde vacatures daalde met 12,2%. Toch blijft de zoektocht naar personeel moeilijk voor structurele knelpuntberoepen.",
-        "betekenis": "Hoewel de arbeidsmarkt ontspant, heeft 54,1% van de werkzoekenden zonder werk volgens VDAB een grote afstand tot de arbeidsmarkt. De blijvende knelpuntberoepen wijzen op een mogelijke rol voor gerichte bemiddeling.",
-        "marketingactie": "Benader West-Vlaamse werkgevers met structurele knelpuntvacatures voor een intake over hun aanwervingsnoden en mogelijke kandidatenbemiddeling.",
-        "kanttekening": "Het artikel benoemt geen specifieke knelpuntberoepen of werkgevers; controleer lokale vacaturegegevens vóór gerichte communicatie."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/arbeidsmarkflits-west-vlaanderen",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 82,
-        "motivatie": "Sterk relevant voor West-Vlaamse werkgevers en kandidaten: minder vacatures, maar blijvende knelpuntberoepen en grote afstand tot werk bieden een concrete invalshoek rond matching.",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De regionale cijfers en aanwervingsuitdagingen bieden een relevante marktinzichtenpost voor West-Vlaamse werkgevers en HR."
-      }
-    },
-    {
-      "id": "live-sector-2d6628ba076b6",
-      "category": "sector",
-      "kind": "Werk & economie",
-      "date": "13/10/2026",
-      "sort": 20261013,
-      "source": "Statbel",
-      "title": "Productie in de industrie - Statbel",
-      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTlRaYmJha2N1amRKU3FJU1ptY2czYk5rVTM1RFl3Q2NVbXRLT3QxWGFSd1F4bWkxMWJISjEzQ2s5LU5ka2NCak1KdGNQMFRkSHZGdFJfRWlPMkRscnZwZTM5NUdkUTREZ0ZTZmhGRWdRMVQxTkFSQ3VtYm5NNXdpT3RoTkJDLUhWcmYtd1ktb19hUVk?oc=5",
-      "topic": "Productie in de industrie - Statbel",
-      "audience": "werkgevers en kandidaten",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "De seizoensgezuiverde industriële productie-index daalde in augustus 2026 met 5,1% tegenover juli. De cijfers voor augustus zijn voorlopig.",
-        "betekenis": "De index volgt de evolutie van het productievolume, maar zegt op zichzelf niets over de personeelsvraag. De daling is dus geen bewijs van minder of meer vacatures.",
-        "marketingactie": "Publiceer een LinkedIn-post met de voorlopige daling van 5,1% en nodig industriële klanten uit om hun personeelsplannen te bespreken, zonder een verband met vacatures te suggereren.",
-        "kanttekening": "Controleer vóór publicatie of de voorlopige cijfers van augustus 2026 nog actueel zijn."
-      },
-      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/productie-de-industrie",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 56,
-        "motivatie": "Relevant voor industriële werkgevers, maar de voorlopige productiedaling zegt niets over personeelsvraag. De voorzichtige invalshoek is bruikbaar, al is de informatie beperkt en mo",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De industriële marktindicator kan werkgeversgesprekken ondersteunen, mits de post duidelijk maakt dat de index geen vacaturetrend aantoont."
-      }
-    },
-    {
       "id": "live-sector-d2595e6f2e2f3",
       "category": "sector",
       "kind": "Werk & economie",
@@ -1099,6 +1031,74 @@
         "platformreden": "Een lokale Facebook- of Instagram-post kan werkzoekenden uit Diest visueel en rechtstreeks op de beurs wijzen."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-88b4c5aefb365",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "12/11/2026",
+      "sort": 20261112,
+      "source": "Statbel",
+      "title": "Totale productie in de marktgeoriënteerde sectoren - Statbel",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXc1VF9pNzFKMTFrc3dsamNhQncyV2t4TjJVV3haNVNwdU1LVE9ZTTJZenRuRGlCQWtpVHJsb3BqRHZKTjFBRl9rQUdBVzI4Z05uLWk4bDZOYWdsOG1jTFFlTm9DbEVLZWpmQzR3TUlqU2Y3TnppRUF6R1JHUkhGX3Z0dWxpYU1WcXdqZndNRTFRa0x5UjZIc0lhTzh0YTdlQlloR1VNcHBVSC1tVEZ4M3VNQjA?oc=5",
+      "topic": "Totale productie in de marktgeoriënteerde sectoren - Statbel",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-09T10:23:11Z",
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/totale-productie-de-marktgeorienteerde-sectoren",
+      "ai_analysis": {
+        "samenvatting": "In augustus 2026 lag de productie in de industrie 7,1% lager dan een jaar eerder en 5,1% lager dan in juli. De cijfers voor juli en augustus zijn voorlopig.",
+        "betekenis": "De daling in de industrie is relevant voor Go4Jobs’ productieklanten, maar zegt op zichzelf niets over hun personeelsbehoefte.",
+        "marketingactie": "Stuur productieklanten een korte update met de Statbel-daling van 7,1% op jaarbasis en vraag hoe hun personeelsbehoefte evolueert.",
+        "kanttekening": "Controleer of de cijfers intussen definitief zijn en of de daling ook zichtbaar is bij de lokale klanten van Go4Jobs."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 68,
+        "motivatie": "Sterke link met productieklanten en een concreet gesprekshaakje rond personeelsbehoefte. De cijfers zijn voorlopig en tonen niet wat dit betekent voor lokale klanten; eerst verifië",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "Een korte marktupdate met vraag aan werkgevers past bij LinkedIn; vermeld duidelijk dat de cijfers voorlopig zijn."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-e8a12cec4ddc5",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "19/10/2026",
+      "sort": 20261019,
+      "source": "VDAB",
+      "title": "Herent zet samen met VDAB in op werk dicht bij huis",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMGF5dXFHWmtUTEd0MWg5LTYtUDhJV3M4OG5SYTFUci1POGE4YzIxMTJPU0Zfa0I2Wk92ZlE5YjRvMjk5d0lhQWtSNHdmY1hFdlNjQWZ5SFhCeVhmcXY1a0lxVGNqNnRjNTBhUFJJQ3NmR1lJRkFkdXphTEp1TnVKeVZBNzFzdUZEV0ZYcTV4a3NFYkxsUm11cGFIRVVKU1JXQ1ItUVl3?oc=5",
+      "topic": "Herent zet samen met VDAB in op werk dicht bij huis",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-16T08:58:59Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/vlaams-brabant/herent-zet-samen-met-vdab-op-werk-dicht-bij-huis",
+      "ai_analysis": {
+        "samenvatting": "VDAB en Herent organiseren op 22 oktober 2026 een jobbeurs in Winksele met werkgevers uit Herent en omgeving. Er zijn onder meer vacatures in logistiek; bezoekers kunnen rechtstreeks solliciteren en VDAB-begeleiding krijgen.",
+        "betekenis": "De beurs brengt werkzoekenden rechtstreeks in contact met regionale werkgevers en biedt vacatures in logistiek. Dat geeft Go4Jobs een concrete kans om lokale kandidaten voor logistieke functies te ontmoeten.",
+        "marketingactie": "Contacteer VDAB of Herent om na te vragen of Go4Jobs als werkgever kan deelnemen en er logistieke vacatures kan voorstellen.",
+        "kanttekening": "Controleer de datum en locatie bij de organisatoren en vraag na of uitzendbedrijven kunnen deelnemen."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 78,
+        "motivatie": "Sterke lokale match: de beurs brengt kandidaten en regionale werkgevers samen en biedt logistieke vacatures. Een eigen invalshoek is Go4Jobs die lokale kandidaten helpt zich voor t",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een korte, lokale post kan werkzoekenden in Herent en omgeving wijzen op logistieke kansen; bevestig eerst datum en Go4Jobs’ deelname."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1131,9 +1131,10 @@
     "live-concurrent-1c1e6c66d000e": "2026-11-12T07:33:46Z",
     "live-concurrent-24db91d59835c": "2026-11-13T07:30:24Z",
     "live-sector-d98c371755b7a": "2026-11-13T07:30:24Z",
-    "live-sector-e6f3d844f96b9": "2026-11-14T07:17:15Z"
+    "live-sector-e6f3d844f96b9": "2026-11-14T07:17:15Z",
+    "live-sector-e8a12cec4ddc5": "2026-11-16T08:58:59Z"
   },
-  "new_count": 0,
+  "new_count": 1,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
