@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T07:34:13Z",
+  "updated_at": "2026-11-18T07:31:10Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 0,
+  "sources_ok": 3,
   "baseline": {
     "items": [
       {
@@ -625,40 +625,6 @@
       }
     },
     {
-      "id": "live-sector-c9e1558503291",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "15/10/2026",
-      "sort": 20261015,
-      "source": "VDAB",
-      "title": "Arbeidsmarktflits Oost-Vlaanderen",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOTVNRXhaOW8yeTBjOC1xYy1POG9mRFpfLXdONE43RWcxRmNRbG5QbzRrU1lTR2xybjktV1Jya2ZaQnJwa3BMX3hUM3hjMUV5UkFfT0cxTEIwWkx3cWVKMnc3c2U4TWd2TDkwLVFacHJ0N3pkdElWZHFFUUVTNjNQOU9LNmgyVGhrVkhxNk9sZlVMZFpFT3c?oc=5",
-      "topic": "Arbeidsmarktflits Oost-Vlaanderen",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "Eind september 2026 waren er 54.042 werkzoekenden zonder werk in Oost-Vlaanderen, 1,4% meer dan een jaar eerder. Het aantal ontvangen vacatures daalde met 19,9%, al blijven structurele knelpuntberoepen moeilijk in te vullen.",
-        "betekenis": "De arbeidsmarkt verruimt, maar de match blijft lastig: bijna zes op tien werkzoekenden heeft volgens het artikel een lange afstand tot de arbeidsmarkt. Vacatures zijn sterk geconcentreerd rond Gent en de driehoek Deinze-Aalst-Beveren.",
-        "marketingactie": "Benader werkgevers in Gent en de driehoek Deinze-Aalst-Beveren met een gerichte uitnodiging om hun moeilijk invulbare vacatures te bespreken.",
-        "kanttekening": "Controleer vóór publicatie de cijfers en de vacatureconcentratie; het artikel vermeldt geen specifieke knelpuntberoepen of sectoren."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/arbeidsmarktflits-oost-vlaanderen-0",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 76,
-        "motivatie": "Relevante Oost-Vlaamse cijfers bieden een concrete invalshoek voor werkgeverscontent over moeilijk invulbare vacatures. De regionale vacatureconcentratie is bruikbaar, maar specifi",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "Regionale arbeidsmarktinzichten en knelpuntvacatures zijn vooral relevant voor werkgevers en HR in Oost-Vlaanderen."
-      }
-    },
-    {
       "id": "live-sector-d2595e6f2e2f3",
       "category": "sector",
       "kind": "Werk & economie",
@@ -757,40 +723,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "linkedin",
         "platformreden": "Een beknopt marktinzicht voor werkgevers en HR, met de nuance dat het om totale loonmassa en voorlopige cijfers gaat."
-      },
-      "content_score_version": 2
-    },
-    {
-      "id": "live-sector-2dcc8e77fc9cf",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "15/10/2026",
-      "sort": 20261015,
-      "source": "VDAB",
-      "title": "Waalse Werkweek: VDAB en Le Forem blikken tevreden terug op Jobevent Rekkem",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMnNPbmFVdTZTWjR3X0VIVmctMVhnQmF3bnVkR190a05tS3dRdGhZMUN0UWtLazBMeFFsX0NzTF9JVENVanFnTmtEVFJNUGRvT0FKRG10bHJ3SGxmNXhTT0lYU1JMNndVekFfd3AzYnNGZTVnMTNDYWE4WXhWRnh6c2RsUEdsOE0zdG1KSDJmdWZRc2hEUWlyZjdGRlpiRmhuZEg0Nk5LYXc5cUJQa3dNT0piZVM?oc=5",
-      "topic": "Waalse Werkweek: VDAB en Le Forem blikken tevreden terug op Jobevent Rekkem",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-11T07:29:10Z",
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/west-vlaanderen/waalse-werkweek-vdab-en-le-forem-blikken-tevreden-terug-op",
-      "ai_analysis": {
-        "samenvatting": "VDAB en Le Forem brachten vijf West-Vlaamse werkgevers en een vijftigtal Waalse werkzoekenden samen op een jobevent in Rekkem. Er waren vacatures voor onder meer heftruckbestuurders en operatoren; werkgevers voerden veelbelovende gesprekken.",
-        "betekenis": "Het event toont dat werkgevers kandidaten over de taalgrens kunnen ontmoeten en concrete stappen naar aanwerving kunnen zetten. Dat gebeurde hier bij vijf werkgevers en ongeveer vijftig werkzoekenden.",
-        "marketingactie": "Peil bij West-Vlaamse klanten met vacatures voor heftruckbestuurders of operatoren of ze interesse hebben in een meet-and-match met Waalse werkzoekenden.",
-        "kanttekening": "Controleer of het event tot aanwervingen leidde en of VDAB of Le Forem openstaan voor een vervolg."
-      },
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score": {
-        "score": 74,
-        "motivatie": "Sterke regionale link met productie en logistiek, plus concrete cijfers over werkgevers en werkzoekenden. Een invalshoek rond grensoverschrijdende matching is bruikbaar, maar resul",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "Een concrete werkgeversinvalshoek over vacatures invullen over de taalgrens past bij LinkedIn; peil naar interesse en vervolg."
       },
       "content_score_version": 2
     },
@@ -1099,6 +1031,74 @@
         "platformreden": "Een korte, lokale post kan werkzoekenden in Herent en omgeving wijzen op logistieke kansen; bevestig eerst datum en Go4Jobs’ deelname."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-e09bcb249548c",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "16/11/2026",
+      "sort": 20261116,
+      "source": "VDAB",
+      "title": "Gentse bartenderopleiding trekt heel wat kandidaten",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUV9RSUVmdGdoMkJNSjk4Y0dRWUJ3ampLbzZocWx4YnZmRDN4Z2Rxc1REamRjUWp5RlZpZEU5U05jaURMUEJPLW1lWndJWFFRZnZzYU0zQ3dUeks5bloyTjNCczBtaDBLWlJPam9xV0g4T2E1Qmo2dHppZUY2ZTVBUHotRlZzdjVlZTZ2YVpqb3VxcDBzUUJQaXJjaVZ3VzltcVJtNXZwTXdadFE?oc=5",
+      "topic": "Gentse bartenderopleiding trekt heel wat kandidaten",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-18T07:31:10Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/gentse-bartenderopleiding-trekt-heel-wat-kandidaten",
+      "ai_analysis": {
+        "samenvatting": "In Gent startten 10 werkzoekenden met een bartenderopleiding van zes weken, gevolgd door drie weken stage. VDAB meldt 475 vacatures voor horecapersoneel in Gent in de afgelopen 12 maanden.",
+        "betekenis": "De opleiding en het genoemde aantal vacatures wijzen op vraag naar horecapersoneel in Gent. Het artikel gaat niet over productie, logistiek of lokale kmo’s in die sectoren.",
+        "marketingactie": "Geen directe actie: de opleiding en vacatures zijn gericht op horeca, buiten de vermelde focus van Go4Jobs.",
+        "kanttekening": "Controleer of Go4Jobs ook horecarekrutering in Gent aanbiedt voor er een mogelijke link wordt gelegd."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 19,
+        "motivatie": "De opleiding en vacatures bieden concrete lokale informatie, maar gaan uitsluitend over horeca. Dat sluit weinig aan bij Go4Jobs’ genoemde doelgroep in productie, logistiek en loka",
+        "basis": "geanalyseerde brontekst",
+        "platform": "geen",
+        "platformreden": "Geen zinvolle Go4Jobs-invalshoek zonder bevestiging dat Go4Jobs horecarekrutering in Gent aanbiedt."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-63c87d28e1da0",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "13/11/2026",
+      "sort": 20261113,
+      "source": "VDAB",
+      "title": "Faillissement Vynova: VDAB organiseert extra zitdagen voor getroffen werknemers",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN1FRSFUyam5TS28zanZKdWdnTGlXcUMxdUFSZ1UxNnB5T1RuQjkzb0lScnFpNmF1VWJUR2lUR1lUVy1lTEJRbHcxVlNKTmw1MVVURWpFS3ZRNWtsODYwVTV0dUF2VnlQQjFuXzRUTm5vd1d2a1NCQnB5X2p0RWVZaUo1MUpNV1ZRM04xZWQyVHNhTWhQM1dHOHVjdEljMkJtMWRMQ3JlU2drcFAxRE9ZTHdjNUs2UQ?oc=5",
+      "topic": "Faillissement Vynova: VDAB organiseert extra zitdagen voor getroffen werknemers",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-18T07:31:10Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/limburg/faillissement-vynova-vdab-organiseert-extra-zitdagen-voor-getroffen",
+      "ai_analysis": {
+        "samenvatting": "Na het faillissement van Vynova verliezen ongeveer 600 werknemers hun job. VDAB organiseert extra zitdagen in de regio Tessenderlo-Ham om hen te helpen zich als werkzoekende in te schrijven.",
+        "betekenis": "De extra zitdagen tonen hoe belangrijk persoonlijke ondersteuning is voor getroffen werknemers. Volgens het artikel moet de inschrijving binnen 8 kalenderdagen gebeuren.",
+        "marketingactie": "Deel een praktisch bericht voor getroffen Vynova-werknemers met de VDAB-inschrijfmogelijkheden en een link naar het overzicht van de zitdagen.",
+        "kanttekening": "Controleer vóór publicatie de actuele zitdagen en inschrijfinformatie bij VDAB; het artikel vermeldt dat het overzicht dagelijks wordt bijgewerkt."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 88,
+        "motivatie": "Zeer relevant en direct bruikbaar voor getroffen werknemers in de regio. Een praktisch bericht kan hen helpen tijdig de juiste VDAB-inschrijfmogelijkheden te vinden. Controleer wel",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een duidelijke, deelbare post bereikt getroffen werknemers lokaal en maakt de zitdagen en inschrijfinformatie snel vindbaar."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1132,9 +1132,11 @@
     "live-concurrent-24db91d59835c": "2026-11-13T07:30:24Z",
     "live-sector-d98c371755b7a": "2026-11-13T07:30:24Z",
     "live-sector-e6f3d844f96b9": "2026-11-14T07:17:15Z",
-    "live-sector-e8a12cec4ddc5": "2026-11-16T08:58:59Z"
+    "live-sector-e8a12cec4ddc5": "2026-11-16T08:58:59Z",
+    "live-sector-e09bcb249548c": "2026-11-18T07:31:10Z",
+    "live-sector-63c87d28e1da0": "2026-11-18T07:31:10Z"
   },
-  "new_count": 0,
+  "new_count": 2,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
