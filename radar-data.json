@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T07:31:10Z",
+  "updated_at": "2026-11-19T07:33:45Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 3,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -557,74 +557,6 @@
       }
     },
     {
-      "id": "live-sector-345530688d0ae",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "16/10/2026",
-      "sort": 20261016,
-      "source": "VDAB",
-      "title": "Jobbeurs Berlare Hamme Zele slaat de brug tussen lokaal talent en werkgevers",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0NMRFVsWWJOa0E4MkRTRkgwN3A1ei03cElmT3BscWt4YmE2UUFpQlFKR2ZLM040alRyY1hzdFB3VXpweFBKNzdiRDRmWjBTUDFuQ1hFLUYyb282TUQ4QkZPS0RiN2swZU1WVjg1SDJ4ekpYU0NudEZ6M2VwQy1IQ3VqSDJHeWkxNW1pdkJUS3k3MjB3LWFEOTV1NXJWTjJRazk1SFpTUHEzYUhoaHlzZ3ZDczZuTHlwckE?oc=5",
-      "topic": "Jobbeurs Berlare Hamme Zele slaat de brug tussen lokaal talent en werkgevers",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "Op dinsdag 20 oktober 2026 organiseren Berlare, Hamme, Zele, DDS Streekregisseurs en VDAB een jobbeurs in Berlare. Zo’n 30 werkgevers stellen vacatures voor en bezoekers kunnen rechtstreeks met hen spreken.",
-        "betekenis": "De beurs biedt lokaal talent rechtstreeks contact met werkgevers uit de regio. De vermelde vraag naar onder meer een torenkraanbestuurder kan aansluiten bij kandidaten voor technische functies.",
-        "marketingactie": "Deel de beursinfo via Go4Jobs’ lokale kanalen en wijs kandidaten op de kans om rechtstreeks met zo’n 30 werkgevers over vacatures te spreken.",
-        "kanttekening": "Controleer welke werkgevers en vacatures aansluiten bij Go4Jobs’ focus; het artikel noemt geen werkgeversnamen of volledige vacaturelijst."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobbeurs-berlare-hamme-zele-slaat-de-brug-tussen-lokaal-talent",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 78,
-        "motivatie": "Sterke lokale kans voor kandidaten: de beurs biedt rechtstreeks contact met circa 30 werkgevers op 20 oktober 2026. De vacaturelijst ontbreekt, dus aansluiting op Go4Jobs blijft on",
-        "basis": "geanalyseerde brontekst",
-        "platform": "meta",
-        "platformreden": "Een lokale, visuele Facebook- of Instagram-post kan kandidaten praktisch informeren en naar de beurs uitnodigen."
-      }
-    },
-    {
-      "id": "live-sector-bda1fbcf9e7f3",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "15/10/2026",
-      "sort": 20261015,
-      "source": "VDAB",
-      "title": "Jobdate bouw en detentie bij VDAB Hamme: bouwen aan kansen",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOVpSeTJ4VWx3YU9DaUNFT2pXaFdYRFVpVm52bEI3U25VWThsamNrUk9ZOWwxM2xXLXNHN21lbFNqMENOUmlzZ2RSal9RVlU1UnVvYlB1VDZ6dlBORlg1RkNNRHFZS0o1enFuRGRWWkVBWnZ0OXN6bklNWC1aYWkyaFdDOWUza1lUaGkzZ2wxcGxlNmtiR1AyZ3lzbUNYOTVzLWs5SFVaQk9JcVpzQmVTclJNQQ?oc=5",
-      "topic": "Jobdate bouw en detentie bij VDAB Hamme: bouwen aan kansen",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "VDAB en de Kansenfabriek organiseerden in Hamme een jobdate voor bouw- en houtbedrijven, met kandidaten uit detentie en andere werkzoekenden. Zestig werkzoekenden spraken met werkgevers van zo’n 10 regionale bedrijven.",
-        "betekenis": "De jobdate bracht werkgevers en kandidaten rechtstreeks samen en kon deelnemers met een opleidingsnood meteen doorverwijzen naar het aanbod van VDAB Hamme. Dat biedt een concreet voorbeeld van laagdrempelige matching voor lokale werkgevers.",
-        "marketingactie": "Deel op LinkedIn een korte case over de jobdate en nodig lokale kmo-klanten uit om met Go4Jobs te bespreken of een gelijkaardige ontmoetingsdag past bij hun vacatures.",
-        "kanttekening": "Controleer het jaar van de jobdate en of Go4Jobs in de betrokken regio en sectoren partners kan inzetten voor zo’n ontmoetingsdag."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/jobdate-bouw-en-detentie-bij-vdab-hamme-bouwen-aan-kansen",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 76,
-        "motivatie": "Sterke match met lokale kmo’s en werkgevers die moeilijk kandidaten vinden. De concrete jobdate biedt een bruikbare case rond directe matching en opleiding, maar de actualiteit is ",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "Een concrete lokale werkgeverscase kan HR en kmo’s aanspreken; bevestig eerst het jaar en de regionale mogelijkheden van Go4Jobs."
-      }
-    },
-    {
       "id": "live-sector-d2595e6f2e2f3",
       "category": "sector",
       "kind": "Werk & economie",
@@ -1099,6 +1031,74 @@
         "platformreden": "Een duidelijke, deelbare post bereikt getroffen werknemers lokaal en maakt de zitdagen en inschrijfinformatie snel vindbaar."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-ac94cb1413f35",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "18/11/2026",
+      "sort": 20261118,
+      "source": "VDAB",
+      "title": "30 werkgevers zoeken nieuw talent op jobbeurs in Londerzeel, Meise en Kapelle-op-den-Bos",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0dfZDlDa2I2VUtjcHdQQ3AtU2t4VDJqR1kzbTBtaGxSZ05nZERqd1l1R0pzemxIS2ZBaWNtQWlpenZZalVDSWNBeEpoU193TExCa0xteUZFSjdRM2NRNWtIYXFHMmluejc4eGVQMW5QY0h2ZmtiNTJWMkpyZ0x3YXhjVWI5dXlra3ZRa1h4MHE3RHJOVk15MlY5VmtmcG9HOEVPRHpVSTVWNTl4MmVzU3NvTEo0QlBD?oc=5",
+      "topic": "30 werkgevers zoeken nieuw talent op jobbeurs in Londerzeel, Meise en Kapelle-op-den-Bos",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-19T07:33:45Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/vlaams-brabant/30-werkgevers-zoeken-nieuw-talent-op-jobbeurs-londerzeel-meise",
+      "ai_analysis": {
+        "samenvatting": "Op 19 november 2026 brengen VDAB en drie gemeenten 30 werkgevers samen op een gratis jobbeurs in Malderen. Er zijn onder meer vacatures in logistiek en transport, zoals magazijnier, heftruckchauffeur en vrachtwagenchauffeur.",
+        "betekenis": "De beurs biedt werkgevers in de regio rechtstreeks contact met werkzoekenden. De genoemde logistieke vacatures sluiten aan bij Go4Jobs’ focus op logistiek.",
+        "marketingactie": "Contacteer VDAB om te vragen of Go4Jobs als deelnemer logistieke kandidaten kan spreken op de jobbeurs.",
+        "kanttekening": "Controleer bij VDAB of deelname nog mogelijk is en of de beursgegevens actueel zijn."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 61,
+        "motivatie": "De beurs is lokaal relevant voor kandidaten en sluit met logistieke vacatures aan bij Go4Jobs. Een concrete kandidatenpost is mogelijk, maar controleer eerst of de beursgegevens ac",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een visuele post kan lokale kandidaten wijzen op de gratis beurs en de genoemde logistieke vacatures."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-12bacf779ab70",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "17/11/2026",
+      "sort": 20261117,
+      "source": "VDAB",
+      "title": "Acht enthousiaste werkzoekenden kiezen voor het bartenderberoep in Antwerpen",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZENRTUp2MkJRbHdHR2w4NlBHUDFSRWROVXJqOWstUTVRaXZYX21tanVDNUlSWEs5ZkRva0plNkZSeWhLd0pacm9JVmlxM2JHQVV1Y19WYnYyVEc4d01HLVpnSEtmdXdjbDZKR29VRmxGa1V6SGpaaWhhYkwyQ3dOLUxNc1lPVlFxSTdvcGx4MFJkQlBnVnBwejRSVGVWMmxrdDI5aVpabDZpaXBnNERRbk4zTQ?oc=5",
+      "topic": "Acht enthousiaste werkzoekenden kiezen voor het bartenderberoep in Antwerpen",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-19T07:33:45Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/antwerpen/acht-enthousiaste-werkzoekenden-kiezen-voor-het-bartenderberoep",
+      "ai_analysis": {
+        "samenvatting": "Acht werkzoekenden volgden in Antwerpen een zesweekse bartenderopleiding van Learning for Life. Na afloop starten ze drie weken stage in een horecazaak.",
+        "betekenis": "De opleiding combineert vakvaardigheden met klantencontact en werkplekleren. Het artikel gaat over horeca en biedt geen directe aanleiding voor Go4Jobs’ focus op productie, logistiek en lokale kmo’s.",
+        "marketingactie": "Geen directe actie: de opleiding en stages richten zich specifiek op werkzoekenden en werkgevers in de horeca.",
+        "kanttekening": "Het artikel vermeldt geen resultaten na de stage, zoals hoeveel cursisten daarna werk vinden."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 12,
+        "motivatie": "De opleiding biedt concrete informatie over werkplekleren, maar richt zich specifiek op horeca. Er is weinig aansluiting bij Go4Jobs’ doelgroepen en geen informatie over resultaten",
+        "basis": "geanalyseerde brontekst",
+        "platform": "geen",
+        "platformreden": "Geen zinvolle Go4Jobs-invalshoek zonder directe link met productie, logistiek of lokale kmo’s."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1134,7 +1134,9 @@
     "live-sector-e6f3d844f96b9": "2026-11-14T07:17:15Z",
     "live-sector-e8a12cec4ddc5": "2026-11-16T08:58:59Z",
     "live-sector-e09bcb249548c": "2026-11-18T07:31:10Z",
-    "live-sector-63c87d28e1da0": "2026-11-18T07:31:10Z"
+    "live-sector-63c87d28e1da0": "2026-11-18T07:31:10Z",
+    "live-sector-ac94cb1413f35": "2026-11-19T07:33:45Z",
+    "live-sector-12bacf779ab70": "2026-11-19T07:33:45Z"
   },
   "new_count": 2,
   "content_score_backfill_ran": true,
