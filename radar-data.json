@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T07:33:45Z",
+  "updated_at": "2026-11-20T07:31:34Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 5,
+  "sources_ok": 2,
   "baseline": {
     "items": [
       {
@@ -523,40 +523,6 @@
       }
     },
     {
-      "id": "live-sector-38e30305a6920",
-      "category": "sector",
-      "kind": "Werk & economie",
-      "date": "21/10/2026",
-      "sort": 20261021,
-      "source": "Statbel",
-      "title": "Werknemers - Statbel",
-      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tTndkRGhETVVSNGFJS1JqdUh6NU5QdUppVUgzZ2FEbHJWOG9LSDNuU2oyenEtYkI1bEUxalF2azJLamJZN0x6X01vR2Z6QWtTQlBNZmJCY2xsalNVZ05kNHdVZ015S2wtTlBPd3pseWFnQllXNGNNMlVBR3o?oc=5",
-      "topic": "Werknemers - Statbel",
-      "audience": "werkgevers en kandidaten",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "In het tweede kwartaal van 2026 daalde de werknemersindex in de industrie zonder bouw met 1,2% tegenover hetzelfde kwartaal in 2025. De cijfers zijn voorlopig.",
-        "betekenis": "De index wijst op minder werknemers in die industrietak, maar zegt niet rechtstreeks hoeveel vacatures of uitzendkrachten nodig zijn. Dit kan aanleiding zijn om personeelsnoden bij industriële klanten te toetsen.",
-        "marketingactie": "Stuur industriële klanten een korte mail met de Statbel-daling van 1,2% en vraag hoe hun personeelsbehoefte evolueert.",
-        "kanttekening": "Controleer de definitieve cijfers en de precieze sectorafbakening; de werknemersindex is gebaseerd op RSZ-gegevens."
-      },
-      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/werknemers",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 58,
-        "motivatie": "De voorlopige daling van 1,2% is relevant voor industriële werkgevers en kan een concreet gesprek over personeelsnoden openen. De index toont echter niet rechtstreeks de vraag naar",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De sectortrend biedt een bruikbare aanleiding voor gesprek met industriële werkgevers, mits de beperkingen van de voorlopige index duidelijk zijn."
-      }
-    },
-    {
       "id": "live-sector-d2595e6f2e2f3",
       "category": "sector",
       "kind": "Werk & economie",
@@ -931,40 +897,6 @@
       "content_score_version": 2
     },
     {
-      "id": "live-sector-e8a12cec4ddc5",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "19/10/2026",
-      "sort": 20261019,
-      "source": "VDAB",
-      "title": "Herent zet samen met VDAB in op werk dicht bij huis",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMGF5dXFHWmtUTEd0MWg5LTYtUDhJV3M4OG5SYTFUci1POGE4YzIxMTJPU0Zfa0I2Wk92ZlE5YjRvMjk5d0lhQWtSNHdmY1hFdlNjQWZ5SFhCeVhmcXY1a0lxVGNqNnRjNTBhUFJJQ3NmR1lJRkFkdXphTEp1TnVKeVZBNzFzdUZEV0ZYcTV4a3NFYkxsUm11cGFIRVVKU1JXQ1ItUVl3?oc=5",
-      "topic": "Herent zet samen met VDAB in op werk dicht bij huis",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-16T08:58:59Z",
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/vlaams-brabant/herent-zet-samen-met-vdab-op-werk-dicht-bij-huis",
-      "ai_analysis": {
-        "samenvatting": "VDAB en Herent organiseren op 22 oktober 2026 een jobbeurs in Winksele met werkgevers uit Herent en omgeving. Er zijn onder meer vacatures in logistiek; bezoekers kunnen rechtstreeks solliciteren en VDAB-begeleiding krijgen.",
-        "betekenis": "De beurs brengt werkzoekenden rechtstreeks in contact met regionale werkgevers en biedt vacatures in logistiek. Dat geeft Go4Jobs een concrete kans om lokale kandidaten voor logistieke functies te ontmoeten.",
-        "marketingactie": "Contacteer VDAB of Herent om na te vragen of Go4Jobs als werkgever kan deelnemen en er logistieke vacatures kan voorstellen.",
-        "kanttekening": "Controleer de datum en locatie bij de organisatoren en vraag na of uitzendbedrijven kunnen deelnemen."
-      },
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score": {
-        "score": 78,
-        "motivatie": "Sterke lokale match: de beurs brengt kandidaten en regionale werkgevers samen en biedt logistieke vacatures. Een eigen invalshoek is Go4Jobs die lokale kandidaten helpt zich voor t",
-        "basis": "geanalyseerde brontekst",
-        "platform": "meta",
-        "platformreden": "Een korte, lokale post kan werkzoekenden in Herent en omgeving wijzen op logistieke kansen; bevestig eerst datum en Go4Jobs’ deelname."
-      },
-      "content_score_version": 2
-    },
-    {
       "id": "live-sector-e09bcb249548c",
       "category": "sector",
       "kind": "Arbeidsmarkt",
@@ -1099,6 +1031,40 @@
         "platformreden": "Geen zinvolle Go4Jobs-invalshoek zonder directe link met productie, logistiek of lokale kmo’s."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-concurrent-80aab05773fe7",
+      "category": "concurrent",
+      "kind": "Concurrentiecontent",
+      "date": "03/11/2026",
+      "sort": 20261103,
+      "source": "Randstad",
+      "title": "4/5 werken: jouw vragen beantwoord.",
+      "summary": "Nieuw artikel gevonden bij Randstad. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUGV2cDI1UEdXaWk0dGtBMk9heUk1VFN0R2tSb2Jibm14cTJyd0Q3ZHhVRE53dkhjNGdETG1qZTJqUzhvdnlFNHZRMFNkcFU5M2daaFh1UmFaWDE1ZE5wVDJFaFZ1YnZQZ0hUR0ltZFQzWmMyNjZKMThKVVA2RVFBLUxHM0V0amc?oc=5",
+      "topic": "4/5 werken: jouw vragen beantwoord.",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-20T07:31:34Z",
+      "article_url": "https://www.randstad.be/carriere/carrieretips/4-5-werken-jouw-vragen-beantwoord/",
+      "ai_analysis": {
+        "samenvatting": "Het artikel stelt dat ongeveer 1 op 4 loontrekkenden in België deeltijds werkt en dat 4/5 daarbij de populairste vorm is. Het licht onder meer loon, verlof, pensioen en afspraken met de werkgever toe.",
+        "betekenis": "De nadruk dat je niet 100% van de workload in 80% van je tijd hoort te proppen, raakt aan concrete verwachtingen bij een 4/5-job. Dat kan kandidaten helpen om takenpakket en bereikbaarheid vooraf te bespreken.",
+        "marketingactie": "Maak een korte kandidaatgerichte post: 4/5 betekent 80% van een voltijds uurrooster; bespreek vooraf je takenpakket en bereikbaarheid op je vrije dag.",
+        "kanttekening": "Controleer de actuele regels rond deeltijds werk, RVA-stelsels en pensioen vóór je details uit het artikel publiceert."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 74,
+        "motivatie": "Relevant voor kandidaten en biedt een concreet gesprekspunt: stem takenpakket en bereikbaarheid af op 4/5. De uitleg is deels algemeen en regels moeten vóór publicatie worden gecon",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een korte, kandidaatgerichte Facebook- of Instagram-post kan de praktische tip over takenpakket en vrije dag direct overbrengen."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1136,7 +1102,9 @@
     "live-sector-e09bcb249548c": "2026-11-18T07:31:10Z",
     "live-sector-63c87d28e1da0": "2026-11-18T07:31:10Z",
     "live-sector-ac94cb1413f35": "2026-11-19T07:33:45Z",
-    "live-sector-12bacf779ab70": "2026-11-19T07:33:45Z"
+    "live-sector-12bacf779ab70": "2026-11-19T07:33:45Z",
+    "live-concurrent-df1f163ddba90": "2026-11-20T07:31:34Z",
+    "live-concurrent-80aab05773fe7": "2026-11-20T07:31:34Z"
   },
   "new_count": 2,
   "content_score_backfill_ran": true,
