@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T07:31:34Z",
+  "updated_at": "2026-11-21T07:25:13Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 2,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -387,40 +387,6 @@
       }
     },
     {
-      "id": "live-sector-1afd8bb349ac9",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "23/10/2026",
-      "sort": 20261023,
-      "source": "VDAB",
-      "title": "Succesvolle tweede editie van JobStart",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFhkbUp3a0kyMjFfZFFHRVdxZXZBbTUwTHJTSnpxRnFTLVdNeGtOS0wzTzB5aFR6LTFIWWdEbG9ZMEdTeU8xTC16azR1ZnZucXluX0I5SGlTbUFSa3BOb2pNLVRqM29uYnFWNDBuZXp1c3hNZUdHNnRsOUFRY3h2SUlIa3pSamhCS2JNUzBtRzZGZw?oc=5",
-      "topic": "Succesvolle tweede editie van JobStart",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "Stad Antwerpen, VDAB en Atlas organiseerden de tweede JobStart met meer dan 1.500 werkzoekenden en 37 werkgevers. De beurs omvatte onder meer technische jobs in industrie en logistiek en leverde minstens 217 vervolgafspraken op.",
-        "betekenis": "De beurs bracht werkzoekenden rechtstreeks in contact met werkgevers voor technische profielen in industrie en logistiek. Dat sluit aan bij Go4Jobs’ focus op die sectoren.",
-        "marketingactie": "Informeer bij VDAB of er een volgende JobStart komt en onderzoek deelname met concrete vacatures in industrie of logistiek.",
-        "kanttekening": "Het artikel vermeldt geen volgende editie, datum, deelnamevoorwaarden of kosten; controleer die eerst bij VDAB."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/antwerpen/succesvolle-tweede-editie-van-jobstart",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 61,
-        "motivatie": "JobStart sluit goed aan bij Go4Jobs’ focus op industrie en logistiek. De cijfers over 1.500 werkzoekenden, 37 werkgevers en 217 vervolgafspraken bieden een concrete invalshoek. De ",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De werkgeversdeelname en vervolgafspraken bieden een concrete invalshoek voor een LinkedIn-post over rechtstreeks contact tussen werkgevers en kandida"
-      }
-    },
-    {
       "id": "live-sector-5425ec5600947",
       "category": "sector",
       "kind": "Arbeidsmarkt",
@@ -452,40 +418,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "meta",
         "platformreden": "Een visuele post kan kandidaten in Oost-Vlaanderen laagdrempelig wijzen op de instroomroute en VDAB-link."
-      }
-    },
-    {
-      "id": "live-sector-a620172ab25a1",
-      "category": "sector",
-      "kind": "Werk & economie",
-      "date": "23/10/2026",
-      "sort": 20261023,
-      "source": "Statbel",
-      "title": "Gewerkte uren - Statbel",
-      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekFOODZHTFZZckZucnhRSTdUWmNwcTJYQklmeVdiRExLRWwweHUtdUdyXzZ2MncxTUJyNU9Tb1VlV19haFpaQzFRWTg2ZTVwTXlMZzlrYnZYR1FyOEVtWTZhUXI2MUpDM1ZwTXZ0cTAzRHBuZXh6MGNCRGpRTnd2SA?oc=5",
-      "topic": "Gewerkte uren - Statbel",
-      "audience": "werkgevers en kandidaten",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "In het tweede kwartaal van 2026 daalde de index van gewerkte uren in de industrie met 0,9% tegenover een jaar eerder. In de bouw steeg die met 0,8%; de cijfers zijn voorlopig.",
-        "betekenis": "De industriële index kan relevant zijn voor Go4Jobs’ productiepubliek, maar toont geen rechtstreeks beeld van de vraag naar uitzendkrachten. De index omvat ook betaalde uren die niet gewerkt zijn.",
-        "marketingactie": "Deel een korte LinkedIn-post over de daling van 0,9% in de industrie, met de vermelding dat het voorlopige cijfers zijn en dat de index betaalde uren omvat.",
-        "kanttekening": "Controleer de definitieve cijfers en de interpretatie van de index bij Statbel vóór publicatie."
-      },
-      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/gewerkte-uren",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 54,
-        "motivatie": "De industriële urenindex sluit aan bij Go4Jobs’ productiepubliek en biedt een concreet cijfer. De voorlopige daling zegt echter niet rechtstreeks iets over de vraag naar uitzendkra",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De index biedt werkgevers een beperkte marktindicator; benoem de voorlopige status en interpretatiebeperkingen."
       }
     },
     {
@@ -1065,6 +997,87 @@
         "platformreden": "Een korte, kandidaatgerichte Facebook- of Instagram-post kan de praktische tip over takenpakket en vrije dag direct overbrengen."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-e52d8151d40a4",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "05/11/2026",
+      "sort": 20261105,
+      "source": "Statbel",
+      "title": "Arbeidskosten - statbel.fgov.be",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2tCQndvc1RRSDdfRUp5Q1duV3ZxMzhVUHJtdUUxbDh0cjNsUmJVSWJKelA1a0FVOHFMSldsdjNMcWpmb29YUk1xR0J0c2hobS1vam00bmRrVGl5V0cyRV90Mkx4NjIzWVpSa3ViSDlIUkpMc2N3SnMwN1lJSkZvSUFGYmMwaFprWGw5NldR?oc=5",
+      "topic": "Arbeidskosten - statbel.fgov.be",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-21T07:25:13Z",
+      "article_url": "https://statbel.fgov.be/nl/themas/werk-opleiding/lonen-en-arbeidskosten/arbeidskosten",
+      "ai_status": "brontekst niet bereikbaar",
+      "content_score": {
+        "score": 22,
+        "motivatie": "Arbeidskosten zijn relevant voor werkgevers en kmo’s, maar de kop bevat geen cijfers, datum of concrete inzichten om bruikbare eigen content op te baseren.",
+        "basis": "alleen kop",
+        "platform": "linkedin",
+        "platformreden": "Arbeidskosten sluiten aan bij werkgevers en HR; LinkedIn past bij marktinzichten, zodra de Statbel-cijfers beschikbaar zijn."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-328b2f1568a1d",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "04/11/2026",
+      "sort": 20261104,
+      "source": "Statbel",
+      "title": "Loonmassa - statbel.fgov.be",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Ld0k5cHZoT2pCa2dmM25leTJUcEZWZFpTUEFFdGpQSmFtelRJSjM4dlFUVWE5NzdxUk0zTTBKZWhZdGphZkd2NE9FM2NFSlZKdk9vZ2tMZWc1LTNHX25UU0NLTklHSnNQc2Q1Y1N4TXRvNl8xV0NVblhMOA?oc=5",
+      "topic": "Loonmassa - statbel.fgov.be",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-21T07:25:13Z",
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/werk/loonmassa",
+      "ai_status": "brontekst niet bereikbaar",
+      "content_score": {
+        "score": 16,
+        "motivatie": "Loonmassa raakt aan de arbeidsmarkt, maar de kop bevat geen cijfers, periode of bevindingen. Daardoor is de relevantie voor Vlaamse kandidaten en kmo’s lastig te bepalen.",
+        "basis": "alleen kop",
+        "platform": "geen",
+        "platformreden": "Zonder cijfers of concrete bevindingen biedt de kop geen stevige basis voor eigen content."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-c5be5750f634d",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "29/10/2026",
+      "sort": 20261029,
+      "source": "Statbel",
+      "title": "Waar werken de Belgen eigenlijk? Een nieuwe blik op 1,43 miljoen vestigingen - statbel.fgov.be",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDV4YndCYUREX1ByN1A4VTItRVFhSjJJS2xES1lGRnJYS09UUnlWZlJsSHJBVnBwbjhfMUhWOTdkdUFKU3lYdzc3b29Pa1ZmZlUyS1k0U1NUd1NCWWRrb1VaX2FTNmlHTGtYMVM1clJUSGJERW14bTRlbnR4U2Zka1ZHNVVWMWlicXgxOWk3ZUZ5ajBFdkRWN1RqdlRpd3YwN1Q1bnhQeWJYSHcy?oc=5",
+      "topic": "Waar werken de Belgen eigenlijk? Een nieuwe blik op 1,43 miljoen vestigingen - statbel.fgov.be",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-21T07:25:13Z",
+      "article_url": "https://statbel.fgov.be/nl/nieuws/waar-werken-de-belgen-eigenlijk-een-nieuwe-blik-op-143-miljoen-vestigingen",
+      "ai_status": "brontekst niet bereikbaar",
+      "content_score": {
+        "score": 34,
+        "motivatie": "De spreiding van 1,43 miljoen vestigingen kan relevant zijn voor werkgevers en lokale arbeidsmarktinzichten. Zonder artikelinhoud is de bruikbaarheid voorlopig moeilijk te beoordel",
+        "basis": "alleen kop",
+        "platform": "linkedin",
+        "platformreden": "LinkedIn past bij mogelijke arbeidsmarktinzichten voor werkgevers, maar de kop alleen biedt nog geen concrete cijfers of invalshoek."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1104,9 +1117,12 @@
     "live-sector-ac94cb1413f35": "2026-11-19T07:33:45Z",
     "live-sector-12bacf779ab70": "2026-11-19T07:33:45Z",
     "live-concurrent-df1f163ddba90": "2026-11-20T07:31:34Z",
-    "live-concurrent-80aab05773fe7": "2026-11-20T07:31:34Z"
+    "live-concurrent-80aab05773fe7": "2026-11-20T07:31:34Z",
+    "live-sector-e52d8151d40a4": "2026-11-21T07:25:13Z",
+    "live-sector-328b2f1568a1d": "2026-11-21T07:25:13Z",
+    "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z"
   },
-  "new_count": 2,
+  "new_count": 3,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
