@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22T07:26:28Z",
+  "updated_at": "2026-11-23T07:49:46Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 0,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -418,40 +418,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "meta",
         "platformreden": "Een visuele post kan kandidaten in Oost-Vlaanderen laagdrempelig wijzen op de instroomroute en VDAB-link."
-      }
-    },
-    {
-      "id": "live-concurrent-a90ceae1bf3c1",
-      "category": "concurrent",
-      "kind": "Concurrentiecontent",
-      "date": "23/10/2026",
-      "sort": 20261023,
-      "source": "Randstad",
-      "title": "gecorrigeerde loonkloof stijgt naar 2,21%.",
-      "summary": "Nieuw artikel gevonden bij Randstad. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LZTliVHRaT2RIMmd3RC1IYXdld0I2cV81MzVZVE9nMzJENnlKTVcwR2lIeUVPQ2d6MDh0QXd1VXc5UkNBSUZTdWZmQl9vN01PdmozV2N3azlSNi11ZFlJcXV1UDRUZzVWZ1hhVXdTVGFaSGxFbUJYaFdmcw?oc=5",
-      "topic": "gecorrigeerde loonkloof stijgt naar 2,21%.",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "Volgens de aangehaalde Hudson Reward Survey steeg de gecorrigeerde loonkloof bij bedienden van 1,79% naar 2,21%. Het aandeel bedrijven binnen de marge van ±5% daalde van 80% naar 75%; kmo’s met 100 tot 250 werknemers zijn volgens het artikel een aandachtspunt.",
-        "betekenis": "De cijfers wijzen volgens het artikel op grotere loonverschillen binnen dezelfde functie en leeftijd, vooral bij de stap naar management. Dat maakt loontransparantie een concreet gespreksthema voor Go4Jobs’ kmo-klanten.",
-        "marketingactie": "Deel met kmo-klanten een korte post over de stijging van de kloof bij management en stel de vraag hoe zij loon en doorgroei naar leidinggevende functies helder bespreken.",
-        "kanttekening": "Controleer de surveyperiode, de vermelding van 2026 en of de cijfers over kmo’s specifiek slaan op bedrijven met 100 tot 250 werknemers."
-      },
-      "article_url": "https://www.randstad.be/over-ons/nieuws/gecorrigeerde-loonkloof-stijgt/",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 76,
-        "motivatie": "Relevant voor Go4Jobs’ kmo-klanten en HR: de cijfers bieden een concrete aanleiding om loontransparantie en doorgroei naar management te bespreken. De invalshoek is bruikbaar, maar",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "Een gerichte vraag over loontransparantie en doorgroei sluit aan bij kmo-werkgevers en HR-professionals."
       }
     },
     {
@@ -1099,6 +1065,40 @@
         "kanttekening": "Statbel noemt de cijfers experimenteel; methoden kunnen nog wijzigen. Gemeentelijke resultaten zijn categorieën, geen exacte cijfers."
       },
       "ai_version": 2
+    },
+    {
+      "id": "live-sector-bdce29a65ddc8",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "12/11/2026",
+      "sort": 20261112,
+      "source": "Statbel",
+      "title": "Totale productie in de marktgeoriënteerde sectoren - statbel.fgov.be",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXc1VF9pNzFKMTFrc3dsamNhQncyV2t4TjJVV3haNVNwdU1LVE9ZTTJZenRuRGlCQWtpVHJsb3BqRHZKTjFBRl9rQUdBVzI4Z05uLWk4bDZOYWdsOG1jTFFlTm9DbEVLZWpmQzR3TUlqU2Y3TnppRUF6R1JHUkhGX3Z0dWxpYU1WcXdqZndNRTFRa0x5UjZIc0lhTzh0YTdlQlloR1VNcHBVSC1tVEZ4M3VNQjA?oc=5",
+      "topic": "Totale productie in de marktgeoriënteerde sectoren - statbel.fgov.be",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-23T07:49:46Z",
+      "article_url": "https://statbel.fgov.be/nl/themas/conjunctuurindicatoren/productie/totale-productie-de-marktgeorienteerde-sectoren",
+      "ai_analysis": {
+        "samenvatting": "In augustus 2026 steeg de totale productie op jaarbasis met 0,6%, maar daalde de industrie met 7,1%. Tegenover juli daalde de productie in alle sectoren; de cijfers voor juli en augustus zijn voorlopig.",
+        "betekenis": "De daling van 7,1% op jaarbasis in de industrie kan relevant zijn voor Go4Jobs’ industriële klanten. Het artikel zegt niets over hun personeelsbehoefte.",
+        "marketingactie": "Vraag industriële klanten in een korte check-in of de productiedaling van 7,1% hun aanwervingsplannen beïnvloedt.",
+        "kanttekening": "Controleer de definitieve Statbel-cijfers en toets de impact bij klanten; het artikel vermeldt geen lokale cijfers of vacature-evolutie."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 58,
+        "motivatie": "De industriële productiedaling is relevant voor Go4Jobs’ industriële klanten en biedt een concrete aanleiding om hun aanwervingsplannen te bevragen. De cijfers zijn voorlopig en ze",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De productiecijfers bieden een voorzichtig marktinzicht voor werkgevers; toets de mogelijke impact eerst bij industriële klanten."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1141,9 +1141,10 @@
     "live-concurrent-80aab05773fe7": "2026-11-20T07:31:34Z",
     "live-sector-e52d8151d40a4": "2026-11-21T07:25:13Z",
     "live-sector-328b2f1568a1d": "2026-11-21T07:25:13Z",
-    "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z"
+    "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z",
+    "live-sector-bdce29a65ddc8": "2026-11-23T07:49:46Z"
   },
-  "new_count": 0,
+  "new_count": 1,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
