@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T07:36:05Z",
+  "updated_at": "2026-11-25T07:39:42Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 3,
+  "sources_ok": 5,
   "baseline": {
     "items": [
       {
@@ -384,40 +384,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "linkedin",
         "platformreden": "De nationale markttrend is relevant voor werkgevers; deel ze met de kanttekening dat regionale en klantgegevens ontbreken."
-      }
-    },
-    {
-      "id": "live-sector-5425ec5600947",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "23/10/2026",
-      "sort": 20261023,
-      "source": "VDAB",
-      "title": "BioTechBad laat werkzoekenden kennismaken met Oost-Vlaamse biotechbedrijven",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFdyQ1g2b2lrblhSSWdpZ1ZZVkpPUzF0VzZ1a0RpMEhiVHBhNHZQWEFjalBNSUFVeFoxeFdOcWkzdEpIMG91S1lzbDJhTW1SY1o3WXFKazlEcWZpUXdHZW1xOUdKdy1sWHNiR3VmU3FKbHpZcXVnaTB3OTl3dXRzRDVXLTR1aTdRWEo2d1JzUTl2N2U5SUlFaE1pZUV0ckdfVEJudlVPeW5DdHRnY0MzQ05LREE?oc=5",
-      "topic": "BioTechBad laat werkzoekenden kennismaken met Oost-Vlaamse biotechbedrijven",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "BioTechBad bereidt werkzoekenden voor op productiejobs bij Gentse biotechbedrijven; een diploma of voorkennis is niet vereist. Bij de eerste editie nam Legend Biotech 5 van de 7 kandidaten aan.",
-        "betekenis": "Het traject toont een concrete instroomroute naar biotechproductie voor kandidaten zonder technische achtergrond. Dat kan interessant zijn voor Go4Jobs-kandidaten die een nieuwe sector willen verkennen.",
-        "marketingactie": "Deel via Go4Jobs-kanalen de VDAB-link met kandidaten in Oost-Vlaanderen en vermeld dat BioTechBad geen specifiek diploma vereist.",
-        "kanttekening": "Controleer bij VDAB of de edities van november 2026 nog doorgaan en hoe kandidaten zich kunnen aanmelden."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/oost-vlaanderen/biotechbad-laat-werkzoekenden-kennismaken-met-oost-vlaamse",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 78,
-        "motivatie": "Sterke match voor werkzoekenden in Oost-Vlaanderen: een concrete instroomroute naar biotechproductie zonder vereist diploma. De eerste aanwervingsresultaten maken het tastbaar. Act",
-        "basis": "geanalyseerde brontekst",
-        "platform": "meta",
-        "platformreden": "Een visuele post kan kandidaten in Oost-Vlaanderen laagdrempelig wijzen op de instroomroute en VDAB-link."
       }
     },
     {
@@ -1142,9 +1108,10 @@
     "live-sector-e52d8151d40a4": "2026-11-21T07:25:13Z",
     "live-sector-328b2f1568a1d": "2026-11-21T07:25:13Z",
     "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z",
-    "live-sector-bdce29a65ddc8": "2026-11-23T07:49:46Z"
+    "live-sector-bdce29a65ddc8": "2026-11-23T07:49:46Z",
+    "live-concurrent-f699e1758eb25": "2026-11-25T07:39:42Z"
   },
-  "new_count": 0,
+  "new_count": 1,
   "content_score_backfill_ran": true,
   "platform_backfill_ran": true
 }
