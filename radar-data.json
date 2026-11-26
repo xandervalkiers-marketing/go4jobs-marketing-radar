@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T07:39:42Z",
+  "updated_at": "2026-11-26T07:38:31Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
-  "sources_ok": 5,
+  "sources_ok": 4,
   "baseline": {
     "items": [
       {
@@ -316,40 +316,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "meta",
         "platformreden": "Een korte carrousel met herkenbare signalen past bij kandidaten op Facebook en Instagram; koppel de afsluitende vacatureverwijzing aan passend aanbod."
-      }
-    },
-    {
-      "id": "live-sector-eb43e36baa60c",
-      "category": "sector",
-      "kind": "Arbeidsmarkt",
-      "date": "26/10/2026",
-      "sort": 20261026,
-      "source": "VDAB",
-      "title": "Sollicitatietraining voor leefloongerechtigden als voorbereiding op jobbeurs Zuid-Oost Limburg",
-      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY0ZrWWpDTW13T2JEQUhDeTc4cHJ1QVZzMFlib3ZDVHplZ3F2Qk5SVlFsZnZ4c09rUmV4cDBVekEzR2VYMUFfTmFtRTFVam0xT012YXEtd29MS2dXZjFIY2JUN0tmOFVGOWhqTFN3WGEwSUZjU3MzM3NMOS0wMlNmbVpsay14elVXWEFFdmJrQW1wa1UtUzJSeURPaFpkMndjSVdCTFYyWnRyc0JIQVJFR2w5cExDUQ?oc=5",
-      "topic": "Sollicitatietraining voor leefloongerechtigden als voorbereiding op jobbeurs Zuid-Oost Limburg",
-      "audience": "kandidaten en werkgevers",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "VDAB, Travi en vier lokale besturen organiseren op 27 oktober een jobbeurs in Zuid-Oost Limburg met 532 vacatures. Voor 30 inwoners met een leefloon zijn vooraf sollicitatietrainingen georganiseerd.",
-        "betekenis": "De training bereidt leefloongerechtigden concreet voor op contact met werkgevers; bedrijven kregen vooraf informatie over de aanwezige profielen. Dat biedt Go4Jobs een aanknopingspunt om inclusieve matching bij regionale jobbeurzen te ondersteunen.",
-        "marketingactie": "Neem contact op met VDAB of Travi en peil naar deelname aan een volgende jobbeurs, met vacatures en een korte briefing voor recruiters over de aanwezige profielen.",
-        "kanttekening": "Controleer bij VDAB of de beurs op 27 oktober nog moet plaatsvinden en of er een volgende editie of deelnamekans is."
-      },
-      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/limburg/sollicitatietraining-voor-leefloongerechtigden-als-voorbereiding-op",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 64,
-        "motivatie": "Sterke regionale link met kandidaten en inclusieve matching, plus een concreet voorbeeld van voorbereiding op werkgeverscontact. De actualiteitswaarde is onzeker: controleer eerst ",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "Een post over inclusieve matching en voorbereiding van recruiters sluit aan bij lokale werkgevers en HR."
       }
     },
     {
@@ -1065,6 +1031,40 @@
         "platformreden": "De productiecijfers bieden een voorzichtig marktinzicht voor werkgevers; toets de mogelijke impact eerst bij industriële klanten."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-0097bdc3e7b60",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "20/11/2026",
+      "sort": 20261120,
+      "source": "VDAB",
+      "title": "Geslaagde jobbeurs brengt meer dan 400 werkzoekenden en 30 werkgevers samen",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaUlTVUUtT1N5VjJ0UlVMV0tFMmFhVnFjdHZHZDlaWWdMeWozNXcwOXFhUTJHTlZydTNZcHNjRmlJWUNheTVEaG1wMVZNSVRrMTMtUzFHLUxSOHFpSzNRMElyMktTQXI4bHNvU1kzck83RDB6TTB1UW1XMjQ2NkpwdlZHQXBTR3ZnamthOW0yd1g4UTRzM0diODZNbjRzaEpTSmdNZmxNcDEyQlpyNWU0U0xxRQ?oc=5",
+      "topic": "Geslaagde jobbeurs brengt meer dan 400 werkzoekenden en 30 werkgevers samen",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-26T07:38:31Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/vlaams-brabant/geslaagde-jobbeurs-brengt-meer-dan-400-werkzoekenden-en-30",
+      "ai_analysis": {
+        "samenvatting": "VDAB en drie lokale besturen brachten 431 bezoekers en 30 werkgevers samen op een jobbeurs. In de logistiek zochten werkgevers onder meer magazijniers, heftruckchauffeurs en vrachtwagenchauffeurs.",
+        "betekenis": "De beurs toont concrete vraag naar logistieke profielen in de regio Londerzeel, Meise en Kapelle-op-den-Bos. Werkzoekenden konden rechtstreeks met werkgevers spreken en meteen solliciteren.",
+        "marketingactie": "Benader Colruyt Group, Distrilog en NV Gebr. Hermans met een concreet aanbod om hun vacatures voor magazijniers, heftruckchauffeurs en vrachtwagenchauffeurs in te vullen.",
+        "kanttekening": "Controleer of deze werkgevers de genoemde vacatures nog open hebben en of de gegevens en beursdatum in het artikel actueel zijn."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 57,
+        "motivatie": "Sterke regionale match: 431 bezoekers, 30 werkgevers en concrete logistieke profielen bieden bruikbare context. De beursdatum en actuele vacatures zijn niet bevestigd, dus een actu",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Lokale logistieke vacatures en kandidatenbereik passen bij een visuele Facebook- of Instagram-post, zodra vacatures en datum zijn gecontroleerd."
+      },
+      "content_score_version": 2
     }
   ],
   "first_seen_ids": {
@@ -1109,7 +1109,8 @@
     "live-sector-328b2f1568a1d": "2026-11-21T07:25:13Z",
     "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z",
     "live-sector-bdce29a65ddc8": "2026-11-23T07:49:46Z",
-    "live-concurrent-f699e1758eb25": "2026-11-25T07:39:42Z"
+    "live-concurrent-f699e1758eb25": "2026-11-25T07:39:42Z",
+    "live-sector-0097bdc3e7b60": "2026-11-26T07:38:31Z"
   },
   "new_count": 1,
   "content_score_backfill_ran": true,
