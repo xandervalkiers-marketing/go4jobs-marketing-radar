@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T07:37:10Z",
+  "updated_at": "2026-11-28T07:29:50Z",
   "update_mode": "automatische bronontdekking (niet inhoudelijk geverifieerd)",
   "sources_ok": 4,
   "baseline": {
@@ -33,38 +33,6 @@
           "basis": "geanalyseerde brontekst",
           "platform": "linkedin",
           "platformreden": "De cijfers en Arvastat-tip bieden een concreet marktinzicht voor recruiters en werkgevers."
-        },
-        "content_score_version": 2
-      },
-      {
-        "id": "news-federgon-sep",
-        "category": "sector",
-        "kind": "Uitzendmarkt",
-        "date": "26 okt 2026",
-        "sort": 20261026,
-        "source": "Federgon",
-        "title": "Uitzendactiviteit daalt in september met 3,91% op jaarbasis",
-        "summary": "Het aantal gepresteerde uitzenduren daalde met 0,82% tegenover augustus (seizoensgezuiverd). Het arbeiderssegment daalde sterker dan het bediendesegment.",
-        "impact": "Relevante context voor de focus van Go4Jobs op productie en logistiek; combineer deze cijfers met eigen instroom- en plaatsingscijfers.",
-        "url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
-        "topic": "Wat leert de dalende uitzendactiviteit ons over de arbeidsmarkt?",
-        "audience": "bedrijven en kandidaten",
-        "priority": "Hoog",
-        "article_url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
-        "ai_analysis": {
-          "samenvatting": "In september 2026 daalden de gepresteerde uitzenduren met 0,82% tegenover augustus. Op jaarbasis was de daling 3,91%; bij arbeiders bedroeg die 4,83%.",
-          "betekenis": "De sterkere daling bij arbeiders is relevant voor Go4Jobs’ focus op productie en logistiek. Het artikel toont een sectortrend, maar zegt niet hoe die evolueert bij Go4Jobs of lokale kmo’s.",
-          "marketingactie": "Maak een korte LinkedIn-post met de Federgon-cijfers, benadruk de jaar-op-jaardaling van 4,83% bij arbeiders en nodig lokale werkgevers uit om hun personeelsnoden te bespreken.",
-          "kanttekening": "Controleer de cijfers en publicatiedatum bij Federgon vóór publicatie, en toets of de trend aansluit bij Go4Jobs’ eigen klanten."
-        },
-        "ai_version": 2,
-        "ai_status": "geanalyseerd",
-        "content_score": {
-          "score": 72,
-          "motivatie": "De daling bij arbeiders sluit goed aan bij productie en logistiek en biedt concrete sectorcijfers. De cijfers zeggen niets over Go4Jobs of lokale kmo’s, dus toets ze eerst aan eige",
-          "basis": "geanalyseerde brontekst",
-          "platform": "linkedin",
-          "platformreden": "De Federgon-cijfers bieden een concrete marktinsteek voor werkgevers; nodig lokale kmo’s uit om hun personeelsnoden te bespreken."
         },
         "content_score_version": 2
       }
@@ -316,40 +284,6 @@
         "basis": "geanalyseerde brontekst",
         "platform": "meta",
         "platformreden": "Een korte carrousel met herkenbare signalen past bij kandidaten op Facebook en Instagram; koppel de afsluitende vacatureverwijzing aan passend aanbod."
-      }
-    },
-    {
-      "id": "live-sector-f33171d084d8c",
-      "category": "sector",
-      "kind": "Uitzendmarkt",
-      "date": "26/10/2026",
-      "sort": 20261026,
-      "source": "Federgon",
-      "title": "De uitzendactiviteit blijft onder druk staan in september",
-      "summary": "Nieuw artikel gevonden bij Federgon. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
-      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXBXTndRMGUwWG01d2FLRDFmRnZWTVBNVUFaX05FUXhMRWpQbC1JMzQxSmVtMnVSLUpVWk9sUkhwZDN0T1N3TzZ3aEVFNFBCUE5UUjU5ZlY2Y2VoaHc1MjE4TXNSNDV1QUVqYTMxXzdyYlo5MlVKTjRXR0JWcXV6TkpmaFlmWVgtU1B1VFh3Z3EzNWJEeDI4VklWdw?oc=5",
-      "topic": "De uitzendactiviteit blijft onder druk staan in september",
-      "audience": "werkgevers en kandidaten",
-      "priority": "Te beoordelen",
-      "verification": "Automatisch gevonden · inhoud nog nakijken",
-      "first_seen": "2026-11-09T10:23:11Z",
-      "ai_analysis": {
-        "samenvatting": "In september 2026 daalden de gepresteerde uitzenduren met 0,82% tegenover augustus. Het arbeiderssegment kromp 2,09% op maandbasis en 4,83% tegenover september 2025.",
-        "betekenis": "De cijfers tonen een terugval in het arbeiderssegment, maar zeggen niet hoe de vraag evolueert bij Go4Jobs-klanten of in specifieke regio’s.",
-        "marketingactie": "Vraag productie- en logistieke klanten in een korte mail of de terugval in arbeidersuren ook bij hen speelt en welke personeelsnoden ze verwachten.",
-        "kanttekening": "Controleer regionale en sectorspecifieke cijfers en de actuele personeelsnoden bij klanten; het artikel geeft alleen nationale cijfers."
-      },
-      "article_url": "https://federgon.be/nl/nieuws/bericht/de-uitzendactiviteit-blijft-onder-druk-staan-in-september",
-      "ai_version": 2,
-      "ai_status": "geanalyseerd",
-      "content_score_version": 2,
-      "content_score": {
-        "score": 76,
-        "motivatie": "De terugval in arbeidersuren is relevant voor productie en logistiek en biedt een concrete aanleiding om klanten naar hun personeelsnoden te vragen. De cijfers zijn nationaal en to",
-        "basis": "geanalyseerde brontekst",
-        "platform": "linkedin",
-        "platformreden": "De nationale markttrend is relevant voor werkgevers; deel ze met de kanttekening dat regionale en klantgegevens ontbreken."
       }
     },
     {
@@ -1065,6 +999,100 @@
         "platformreden": "Lokale logistieke vacatures en kandidatenbereik passen bij een visuele Facebook- of Instagram-post, zodra vacatures en datum zijn gecontroleerd."
       },
       "content_score_version": 2
+    },
+    {
+      "id": "live-sector-6ea5527f31117",
+      "category": "sector",
+      "kind": "Arbeidsmarkt",
+      "date": "25/11/2026",
+      "sort": 20261125,
+      "source": "VDAB",
+      "title": "Meer dan 500 bezoekers op eerste jobbeurs Arendonk-Ravels",
+      "summary": "Nieuw artikel gevonden bij VDAB. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZmRSUjVmaXpjMlhzM2tTLXZmeVp6aldQWGRoNndyWWE1d1AtV3JwZVJmXy1QZG81Nm5TellQQjJKM1o2TDJlWmg2Nk9xT2xYWmhnNFh5YWNhTTZXX2pTbjNqUEZhcFpXRzczUDN1Y1pBOXRkQ3NObVhHdGNSRzNKdlhiOFF6U1FvalR4el93eHoyNmlFUzFPdXdGMFNhaHJzV1U2UzMyWDVfWU0?oc=5",
+      "topic": "Meer dan 500 bezoekers op eerste jobbeurs Arendonk-Ravels",
+      "audience": "kandidaten en werkgevers",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-28T07:29:50Z",
+      "article_url": "https://www.vdab.be/nieuws-voor-de-pers/antwerpen/meer-dan-500-bezoekers-op-eerste-jobbeurs-arendonk-ravels",
+      "ai_analysis": {
+        "samenvatting": "De eerste jobbeurs Arendonk-Ravels bracht volgens VDAB 520 bezoekers en 47 lokale bedrijven samen. Bezoekers konden solliciteren en advies krijgen over opleidingen en cv’s.",
+        "betekenis": "De opkomst wijst op belangstelling voor persoonlijk contact tussen werkzoekenden en werkgevers in de regio. Ook bedrijven uit productie en logistiek waren aanwezig.",
+        "marketingactie": "Vraag de organisatoren of er een volgende jobbeurs komt en of Go4Jobs er als werkgever of uitzendpartner aan kan deelnemen.",
+        "kanttekening": "Controleer de datum en de bezoekers- en bedrijfsgegevens bij de organisatoren voordat je ze extern gebruikt."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 68,
+        "motivatie": "Sterke lokale link met kandidaten, productie en logistiek; cijfers en persoonlijk contact bieden een bruikbare invalshoek. De actualiteit en een vervolg zijn onzeker, dus eerst ver",
+        "basis": "geanalyseerde brontekst",
+        "platform": "meta",
+        "platformreden": "Een korte, lokale terugblik kan kandidaten aanspreken; verifieer eerst de cijfers en of er een vervolg komt."
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-2aa68eb68cbdb",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "12/11/2026",
+      "sort": 20261112,
+      "source": "Statbel",
+      "title": "Totale productie in de marktgeoriënteerde sectoren - augustus 2026 - Statbel",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFlsU2t1SjZCdWhtd1d2empXcGVwR1c1RFE2RmpPVmZZdnVDdEhtSzRtZkQ3U0ZvS3lxSXphQzM1V2tMTWpnUy1tN1JnOGlGbkMtSVdxVTF6cmRlZjh2ZC1UTWZXcWItNTJkMXVWQkJReksyN3VDckZNZnhzcXU3dVdGNnE5bXhDNkxJdEZOT0lJVk1WVU1DVnZhcw?oc=5",
+      "topic": "Totale productie in de marktgeoriënteerde sectoren - augustus 2026 - Statbel",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-28T07:29:50Z",
+      "article_url": "https://statbel.fgov.be/nl/nieuws/totale-productie-de-marktgeorienteerde-sectoren-augustus-2026",
+      "ai_analysis": {
+        "samenvatting": "In augustus 2026 steeg de totale productie 0,6% tegenover een jaar eerder. In de industrie daalde ze 7,1% op jaarbasis en 5,1% tegenover juli; de cijfers zijn voorlopig.",
+        "betekenis": "De productiedaling in de industrie kan wijzen op veranderende personeelsbehoeften bij productiebedrijven. De cijfers tonen niet aan of de vraag naar uitzendkrachten daalt.",
+        "marketingactie": "Laat accountmanagers productieklanten vragen of de productiedaling van 7,1% hun personeelsplanning beïnvloedt.",
+        "kanttekening": "De cijfers voor juli en augustus 2026 zijn voorlopig; controleer ze bij een latere publicatie opnieuw."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd",
+      "content_score": {
+        "score": 53,
+        "motivatie": "De industriële productiedaling is relevant voor productiebedrijven, maar zegt op zichzelf niets over hun personeels- of uitzendbehoefte. De cijfers zijn bovendien voorlopig en bied",
+        "basis": "geanalyseerde brontekst",
+        "platform": "linkedin",
+        "platformreden": "De cijfers lenen zich voor een voorzichtige marktinzichtenpost voor productieklanten, met aandacht voor wat ze wel en niet zeggen over personeelsplann"
+      },
+      "content_score_version": 2
+    },
+    {
+      "id": "live-sector-1ba5561944b04",
+      "category": "sector",
+      "kind": "Werk & economie",
+      "date": "06/11/2026",
+      "sort": 20261106,
+      "source": "Statbel",
+      "title": "Productiewaarde van de landbouwsector stijgt in 2025 met 2,5% - Statbel",
+      "summary": "Nieuw artikel gevonden bij Statbel. De inhoud is nog niet redactioneel gecontroleerd; open de bron voor details.",
+      "impact": "Inhoudelijke analyse volgt zodra de bron toegankelijk is.",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQkRacUhVSDQ0RlhSWGFiRG9BSnprY1hIZ0lwaXhuZEJkc0NtNTB4T1VHX2dpdUdsRFdkZU1xS0hLVUNHNnV5VVpPUDRldjYyZjllR0ZtaW1Rdnd4NnFyYzdqNHp0RHdpbV9ZczBVMDJNbWhpeC1FcDZJdGxVaWFrT1U5V0hKZUlMWDJvclZPREYybGV3?oc=5",
+      "topic": "Productiewaarde van de landbouwsector stijgt in 2025 met 2,5% - Statbel",
+      "audience": "werkgevers en kandidaten",
+      "priority": "Te beoordelen",
+      "verification": "Automatisch gevonden · inhoud nog nakijken",
+      "first_seen": "2026-11-28T07:29:50Z",
+      "article_url": "https://statbel.fgov.be/nl/nieuws/productiewaarde-van-de-landbouwsector-stijgt-2025-met-25",
+      "ai_analysis": {
+        "samenvatting": "De definitieve landbouweconomische rekeningen tonen voor 2025 een stijging van de productiewaarde met 2,5%. Dierlijke productie groeit met 7,4%, terwijl groenten en tuinbouwproducten met 9,5% dalen.",
+        "betekenis": "De cijfers gaan over productiewaarde, niet over werkgelegenheid of personeelsvraag. Ze tonen dus geen aantoonbare aanleiding voor Go4Jobs om de wervingscommunicatie aan te passen.",
+        "marketingactie": "Geen directe actie op basis van dit artikel.",
+        "kanttekening": "Controleer afzonderlijke arbeidsmarkt- of vacaturegegevens voordat je conclusies trekt over personeelsbehoeften in de landbouw."
+      },
+      "ai_version": 2,
+      "ai_status": "geanalyseerd"
     }
   ],
   "first_seen_ids": {
@@ -1110,9 +1138,12 @@
     "live-sector-c5be5750f634d": "2026-11-21T07:25:13Z",
     "live-sector-bdce29a65ddc8": "2026-11-23T07:49:46Z",
     "live-concurrent-f699e1758eb25": "2026-11-25T07:39:42Z",
-    "live-sector-0097bdc3e7b60": "2026-11-26T07:38:31Z"
+    "live-sector-0097bdc3e7b60": "2026-11-26T07:38:31Z",
+    "live-sector-6ea5527f31117": "2026-11-28T07:29:50Z",
+    "live-sector-2aa68eb68cbdb": "2026-11-28T07:29:50Z",
+    "live-sector-1ba5561944b04": "2026-11-28T07:29:50Z"
   },
-  "new_count": 0,
-  "content_score_backfill_ran": true,
-  "platform_backfill_ran": true
+  "new_count": 3,
+  "content_score_backfill_ran": false,
+  "platform_backfill_ran": false
 }
